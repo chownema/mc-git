@@ -46,8 +46,8 @@ Store item slots:
 - 51
 - 52
 - 53
-Minimum store item tier: 3
-Maximum store item tier: 10
+Minimum store item tier: 15
+Maximum store item tier: 60
 Full inventory message: '&7[EliteMobs] &4Your inventory is full! You can''t buy items
   until you get some free space.'
 Reroll button:
