@@ -1,6 +1,6 @@
 Shop name: '[EM] Custom Item Shop'
 Information button slot: 4
-Buy slot: 11
+Buy slot: 20
 Sell slot: 15
 Information button:
   material: PLAYER_HEAD
