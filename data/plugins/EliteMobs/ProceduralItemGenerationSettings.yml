@@ -1,5 +1,5 @@
 dropProcedurallyGeneratedItems: true
-customEnchantmentsChance: 0.5
+customEnchantmentsChance: 1.0
 nameFormats:
 - $verb $itemType of the $adjective $noun
 - $itemType of the $adjective $noun
@@ -1340,8 +1340,8 @@ validMaterials:
   LEATHER_BOOTS: true
   STONE_SWORD: true
   STONE_AXE: true
-  WOODEN_SWORD: true
-  WOODEN_AXE: true
+  WOODEN_SWORD: false
+  WOODEN_AXE: false
   SHIELD: true
   TURTLE_HELMET: true
   TRIDENT: true
