@@ -16,10 +16,10 @@ BackpackTitleOther: "&b{OwnerName}'s Backpack"
 BackpackTitle: "&bBackpack"
 # Defines if the content of the backpack get dropped on the death of a player.
 # If enabled, it can be disabled for individual players with the "backpack.keepOnDeath" permission.
-DropOnDeath: true
+DropOnDeath:  false
 # If this option is enabled the backpack will not drop if the keepInventory flag for the death event is set.
 # This should add compatibility with plugins protecting the players inventory on death (like SaveRod). But might prevent the backpack form dropping on death with some plugins.
-HonorKeepInventoryOnDeath: false
+HonorKeepInventoryOnDeath: true
 # Defines the max amount of columns for a backpack.
 # The size of the user's backpack will be defined by the permission, permissions for bigger backpacks than this value will be ignored.
 # Can be set to anything > 0. Backpacks with more than 6 columns will have a broken UI! Sizes bigger than 9 may not work with all permission plugins.
@@ -51,7 +51,7 @@ Cooldown:
 # Controls for the auto pickup on full inventory function
 FullInventory:
   # If items should be collected to the backpack if the players inventory is full
-  CollectItems: false
+  CollectItems: true
   # Interval in seconds how often items around the player should be collected, increase it if it lags the server
   CheckInterval: 1
   # Radius in which items get collected, in meter/blocks, allow decimals
