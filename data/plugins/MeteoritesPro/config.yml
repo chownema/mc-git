@@ -125,7 +125,7 @@ core-settings:
   drop-item-when-destroyed: false
 
   enable-explosion: true
-  explosion-power: 6
+  explosion-power: 10
   explosion-breaks-blocks: true
   explosion-sets-fire: true
   enable-lighting-strike: true
