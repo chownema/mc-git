@@ -1,0 +1,36 @@
+noPermission: '&cYou do not have permission to do this!'
+noArguments: '&cMissing required arguments. Use &a/dcmd help &cto see a list of available
+  arguments.'
+syntaxOnce: '&cCorrect usuage: &a/dcmd once <seconds> <command>'
+syntaxRepeat: '&cCorrect usuage: &a/dcmd repeat <amount> <seconds> <command>'
+syntaxInfinite: '&cCorrect usuage: &a/dcmd infinite <seconds> <command>'
+syntaxCancel: '&cCorrect usuage: &a/dcmd cancel <dcmd-id>'
+noNumberSecond: '&cThe second parameter must be a number!'
+noNumberThird: '&cThe third parameter must be a number!'
+noNegativeNumber: '&cDCMD does not support any negative numbers within its commands!'
+noDcmdFound: '&cThe delayed command with ID: &6%id% &ccould not be found!'
+taskSingle: '&aThe command &6/%cmd% &awill run after &6%secs% &aseconds. Use &6/dcmd
+  cancel %id% &ato cancel it.'
+taskRepeat: '&aThe command &6/%cmd% &awill run &6%amount% &atimes on a &6%secs% &aseconds
+  interval. Use &6/dcmd cancel %id% &ato cancel it.'
+taskInfinite: '&aThe command &6/%cmd% &awill run untill canceled on a &6%secs% &aseconds
+  interval. Use &6/dcmd cancel %id% &ato cancel it.'
+taskCancel: '&aThe command with id &6%id% &ahas been canceled.'
+taskCancelAll: '&aAll running commands have been canceled.'
+maxTasksRunning: '&cDCMD cannot run more than 540 commands at the same time!'
+tooManyTasksDB: '&c[DCMD] Too many tasks saved in the database! Please remove any
+  of the currently 54 running commands and restart your server untill you have 54
+  or less commands saved in your database.'
+cmdType: '&a[DCMD] - Command type: &6%type%'
+cmdRepeat: '&a[DCMD] - Command repeats &6%repeat% &amore time(s).'
+cmdTimer: '&a[DCMD] - Command repeats every &6%secs% &asecond(s).'
+cmdCommand: '&a[DCMD] - Command: &6/%cmd%'
+cmdOwner: '&a[DCMD] - Command set by: &6%owner%'
+cmdCancel: '&a[DCMD] - Use &6/dcmd cancel %id% &ato cancel this command.'
+helpHelp: '&6/dcmd help &a- Lists all DelayedCommand''s commands available to you.'
+helpOnce: '&6/dcmd once <seconds> <command>'
+helpRepeat: '&6/dcmd repeat <how many times> <seconds> <command>'
+helpInfinite: '&6/dcmd infinite <seconds> <command>'
+helpCancel: '&6/dcmd cancel <id>'
+helpMenu: '&6/dcmd help - Display a menu listing all delayed commands currently running.'
+noMenuCLI: DCMD - The menu cannot be opened from the command line / command block.

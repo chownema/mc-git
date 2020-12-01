@@ -1,0 +1,33 @@
+Shop name: '[EM] Procedural Item Shop'
+tierTranslation: Tier
+itemFilterTranslation: Filter by items of this rank.
+Info button:
+  material: PLAYER_HEAD
+  name: '&4&lEliteMobs &r&cby &4&lMagmaGuy'
+  lore:
+  - '&8Support the plugins you enjoy!'
+  owner: magmaguy
+Left button:
+  material: PLAYER_HEAD
+  name: Previous Item Ranks
+  lore:
+  - ''
+  owner: MHF_ArrowLeft
+Right button:
+  material: PLAYER_HEAD
+  name: Next Item Ranks
+  lore:
+  - ''
+  owner: MHF_ArrowRight
+previousLoot:
+  material: PLAYER_HEAD
+  name: Previous Loot Page
+  lore:
+  - ''
+  owner: MHF_ArrowLeft
+nextLoot:
+  material: PLAYER_HEAD
+  name: Next Loot Page
+  lore:
+  - ''
+  owner: MHF_ArrowRight

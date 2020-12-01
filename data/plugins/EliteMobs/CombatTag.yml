@@ -1,0 +1,4 @@
+Enable combat tag: true
+Combat tag message: '&c[EliteMobs] Combat tag activated!'
+Enable adventurers guild teleport timer: true
+Teleport timer duration: 5

@@ -1,0 +1,12 @@
+Valid worlds:
+  world: true
+  world_nether: true
+  world_the_end: true
+Zone-based elitemob spawning worlds:
+  world: false
+  world_nether: false
+  world_the_end: false
+Nightmare mode worlds:
+  world: false
+  world_nether: false
+  world_the_end: false

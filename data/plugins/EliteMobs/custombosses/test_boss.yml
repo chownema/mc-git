@@ -1,0 +1,38 @@
+isEnabled: true
+entityType: ZOMBIE
+name: '&eTest boss'
+level: dynamic
+timeout: 10
+isPersistent: false
+healthMultiplier: 2.0
+damageMultiplier: 0.5
+helmet: GOLDEN_HELMET
+chestplate: IRON_CHESTPLATE
+leggings: LEATHER_LEGGINGS
+boots: CHAINMAIL_BOOTS
+mainHand: GOLDEN_AXE
+offHand: SHIELD
+isBaby: false
+powers:
+- invulnerability_knockback.yml
+spawnMessage: A test boss has been spawned!
+deathMessage: A test boss has been slain by $players!
+escapeMessage: A test boss entity has escaped!
+locationMessage: 'Test entity: $distance'
+uniqueLootList:
+- magmaguys_toothpick.yml:1
+dropsEliteMobsLoot: true
+dropsVanillaLoot: true
+trails:
+- BARRIER
+onDamageMessages:
+- I've hit you!
+onDamagedMessages:
+- I've been hit!
+spawnChance: 0.0
+isRegionalBoss: false
+spawnCooldown: 0
+leashRadius: 0.0
+onDeathCommands:
+- broadcast $players has killed $name! That was level $level!
+announcementPriority: 1

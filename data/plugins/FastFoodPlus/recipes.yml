@@ -1,0 +1,25 @@
+Hamburger:
+  shaped: true
+  result:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1957
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: Hamburger
+      internal: H4sIAAAAAAAAAD2OzU6DQBhFP01MkPgYbkmG35aFCxMrhZQZS4Fh2BUYAnSmmhYU+kw+pLNyde5dnJurA+jwdDhNQnxcPttecA3uwwaeudVWLVqZxrq1HMOxnNqouOsZ3sqyq8ZHa94gHXQlffHL2PPrI2gjn8fpwq86ANxp8JAfxcThl9uJ4NvErGV+I+cxPSBBFFX/8ULZoWb76u0WH5WFykUk6sUdj9QVzI668ryfKpmj3f9G9s3S/RxT3OM06RjdzGWKT2zITExjm7zlEsvQxjQSMY0kCTKLBOGiaDKrHHAqBkI3Dr4xh6SJxMP7UAbxjJfIbwv0op7DH6y7atwUAQAA
+  meta-items: ''
+  ingredients:
+    '2':
+      ==: org.bukkit.inventory.ItemStack
+      v: 1957
+      type: BREAD
+    '5':
+      ==: org.bukkit.inventory.ItemStack
+      v: 1957
+      type: COOKED_BEEF
+    '8':
+      ==: org.bukkit.inventory.ItemStack
+      v: 1957
+      type: BREAD

@@ -1,0 +1,6 @@
+isEnabled: true
+name: Critical Strikes
+maxLevel: 2
+value: 13.0
+criticalHitColor: '&5'
+criticalHitPopup: '&5Critical Hit!'

@@ -1,0 +1,140 @@
+# Format:
+# Food Name: Healing Amount
+# OR
+# Food Name:
+#   amount: Healing Amount
+#   consumable: true/false
+#   saturation: https://minecraft.gamepedia.com/Hunger#Food_level_and_saturation_level_restoration
+#   effects:
+#   - Effect, Duration, Potency
+#   - POISON, 300, 2
+
+# Food Name
+# Make sure you're using the latest material names in the list.
+# Use these names in the list: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+# However there is a special pattern that'll still recognize foods if you don't exactly follow the list above.
+# Note that some 1.14 materials might not work.
+# You can also add the recipe name you created in recipes.yml and edit it here.
+
+# Healing Amount
+# This is where you define how many hearts each food can give to the player.
+# Default values are the same default amount of hunger given to player when eating them.
+# Note: Each full heart has 2 half hearts => apple: 4 -> 2 full hearts = 4 half hearts
+# Note: Negative numbers do work.
+# https://minecraft.gamepedia.com/Food
+
+# Consumable
+# Basically it doesn't use the food instantly but consumes it normally but with the
+# specified heal value and the effects.
+
+# Potion Effects
+# Effects given to players for each food.
+# https://minecraft.gamepedia.com/Status_effect
+# List of Potion Effect Types: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/potion/PotionEffectType.html
+# Duration: Potion effect time (In seconds)
+# Potency: Potion effect level
+
+version: 31
+
+
+# Basics
+apple: 4
+bread: 5
+carrot: 3
+potato: 1
+baked-potato: 5
+melon-slice: 2
+cookie: 2
+pumpkin-pie: 8
+chorus-fruit: 4
+# Will only work with placed cakes. For each slice only.
+cake: 2
+sweet-berries: 2
+
+# Meat
+beef: 3
+chicken: 2
+mutton: 2
+porkchop: 3
+rabbit: 3
+
+# Cooked Meat
+# steak
+cooked-beef: 8
+cooked-chicken: 6
+cooked-mutton: 6
+cooked-porkchop: 8
+cooked-rabbit: 5
+
+# Fish
+# raw
+cod: 2
+salmon: 2
+# clownfish
+tropical-fish: 1
+pufferfish:
+  amount: 1
+  saturation: 0.2
+  effects:
+    - CONFUSION, 15, 2
+    - POISON, 70, 4
+dried-kelp: 1
+
+# Cooked Fish
+# raw
+cooked-cod: 5
+cooked-salmon: 6
+
+# Soups
+mushroom-stew: 6
+rabbit-stew: 10
+beetroot-soup: 6
+suspicious-stew:
+  amount: 6
+  effects:
+    - REGENERATION, 6, 1
+    - SPEED, 8, 1
+    - WITHER, 3, 1
+
+# Harmful
+poisonous-potato:
+  amount: 2
+  effects:
+    - POISON, 4, 1
+rotten-flesh:
+  amount: 4
+  effects:
+    - POISON, 5, 1
+spider-eye:
+  amount: 2
+  effects:
+    - POISON, 4, 1
+
+# Golden
+golden-carrot: 6
+# These healing values and effects are absolute and accurate taken from the wiki page.
+golden-apple:
+  amount: 4
+  consumable: false
+  effects:
+    - REGENERATION, 5, 2
+    - ABSORPTION, 120, 1
+enchanted-golden-apple:
+  amount: 4
+  consumable: true
+  effects:
+    - REGENERATION, 20, 2
+    - ABSORPTION, 120, 4
+    - DAMAGE_RESISTANCE, 300, 1
+    - FIRE_RESISTANCE, 300, 1
+
+# Custom foods can't be consumable
+# Custom foods need to start with "custom-" prefix.
+# Note that changing the name after "custom-" will stop the foods from working.
+# You can change them if you didn't give anyone this item.
+custom-Hamburger:
+  amount: 10
+  effects:
+    - SLOW, 3, 1
+    - REGENERATION, 5, 1
+    - INCREASE_DAMAGE, 5, 1

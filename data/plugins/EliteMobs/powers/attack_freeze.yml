@@ -1,0 +1,4 @@
+isEnabled: true
+name: Cryomancer
+effect: PACKED_ICE
+freezeMessage: '&8[EM] &9You''ve been frozen!'

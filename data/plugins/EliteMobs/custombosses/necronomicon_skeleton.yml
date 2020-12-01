@@ -1,0 +1,15 @@
+isEnabled: true
+entityType: SKELETON
+name: '&7Summoned Skeleton'
+level: dynamic
+timeout: 0
+isPersistent: false
+healthMultiplier: 0.3
+damageMultiplier: 0.1
+isBaby: false
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+spawnChance: 0.0
+isRegionalBoss: false
+spawnCooldown: 0
+leashRadius: 0.0

@@ -1,0 +1,77 @@
+locale: en
+hardship: 0.0
+mana: 0
+days-since-hardship-depreciation: 0
+tutorial-index: 0
+tutorial-path: default
+tutorial-progress: 0
+use-announcements: true
+kills: 1
+kill-streak: 0
+deaths: 1
+highest-kill-streak: 1
+points: 0.10000000000000009
+karma: 28
+classes:
+- 0
+last-karma-depreciation: 1606705173008
+skills:
+  exploration:
+    PLAINS: 1
+    RIVER: 1
+    FOREST: 1
+    WOODED_HILLS: 1
+  food:
+    BAKED_POTATO: 7
+    BREAD: 7
+    CARROT: 7
+  crafting:
+    BIRCH_PLANKS: 4
+    CRAFTING_TABLE: 2
+    STICK: 5
+    SPRUCE_PLANKS: 4
+    WOODEN_PICKAXE: 1
+    STONE_PICKAXE: 3
+    STONE_SWORD: 2
+    IRON_INGOT: 5
+    IRON_SWORD: 5
+    COAL: 5
+    TORCH: 5
+    OAK_DOOR: 3
+    BREAD: 4
+    CHEST: 1
+    STONE_HOE: 1
+  armor:
+    IRON_BOOTS: 24
+    CHAINMAIL_HELMET: 30
+    LEATHER_CHESTPLATE: 30
+    DIAMOND_BOOTS: 30
+    DIAMOND_LEGGINGS: 30
+    IRON_CHESTPLATE: 30
+    TURTLE_HELMET: 2
+    GOLDEN_LEGGINGS: 2
+    GOLDEN_CHESTPLATE: 2
+    LEATHER_BOOTS: 2
+  sword:
+    ZOMBIE: 7
+    SKELETON: 3
+    CREEPER: 1
+  axe:
+    ZOMBIE: 3
+    SKELETON: 1
+    PLAYER: 1
+  bow:
+    ZOMBIE: 2
+    SKELETON: 1
+    CREEPER: 7
+    BAT: 2
+    STRIDER: 1
+    PLAYER: 2
+    CHICKEN: 1
+    LLAMA: 1
+  shield:
+    DAMAGE: 6
+items:
+  default: 1
+  shelter: 1
+  archer: 1

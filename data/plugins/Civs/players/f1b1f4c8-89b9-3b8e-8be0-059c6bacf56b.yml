@@ -1,0 +1,42 @@
+locale: en
+hardship: 0.0
+mana: 0
+days-since-hardship-depreciation: 0
+tutorial-index: 0
+tutorial-path: default
+tutorial-progress: 0
+use-announcements: true
+kills: 0
+kill-streak: 0
+deaths: 0
+highest-kill-streak: 0
+points: 0.0
+karma: 0
+classes: []
+last-karma-depreciation: 0
+skills:
+  exploration:
+    PLAINS: 1
+    FOREST: 1
+    RIVER: 1
+    WOODED_HILLS: 1
+  crafting:
+    BIRCH_PLANKS: 4
+    CRAFTING_TABLE: 5
+    STICK: 5
+    STONE_SWORD: 5
+    STONE_PICKAXE: 3
+    OAK_PLANKS: 5
+    WOODEN_PICKAXE: 1
+    WOODEN_AXE: 2
+    STONE_AXE: 2
+    WOODEN_SWORD: 1
+  sword:
+    ZOMBIE: 2
+  armor:
+    CHAINMAIL_BOOTS: 10
+    LEATHER_CHESTPLATE: 3
+items:
+  default: 1
+  shelter: 1
+  archer: 1

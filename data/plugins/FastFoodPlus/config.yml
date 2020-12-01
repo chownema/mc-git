@@ -1,0 +1,264 @@
+#|-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-|#
+#|                                                                |#
+#|             FastFoodsPlus - Hex_26 - Crypto Morin             |#
+#|                                                              |#
+#|-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-|#
+
+# Plugin Prefix
+prefix: "&6-=(&4FastFoodPlus&6)=- &2"
+
+# Configuration Version
+# Please do not change this unless you're sure what you're doing.
+version: 33
+
+# Check if the plugin has a new update from SpigotMC.
+# The message will be announced to Console when starting the plugin
+# and players who have the permission when they join.
+check-updates: true
+
+# It works for some specific functions only.
+debug: false
+# Write a log file in the plugin's folder.
+# Can be used even if debug is false.
+write-loggers: false
+
+# Not recommended to change.
+# block: When a player right-clicks on a block.
+# air: When a player right-clicks air.
+event-rightclick-block: true
+event-rightclick-air: true
+
+# If both hands are holding food and offhand support is enabled, this will be the hand
+# which the food will be used first until the stack is used and it starts using the food from the other hand.
+# MainHand - OffHand
+hand-priority: MainHand
+
+# Ban offhand from using foods.
+# The swapping options are for the keyboard key. Default key for swapping items between hands is "F".
+# Other than swapping, players can still open their inventory and put the food in their offhand slot that'll
+# be disabled with "offhand-disable-swap" too.
+offhand-disable: false
+offhand-disable-swap: false
+offhand-disalbe-swap-creative: false
+
+# Only works if one of the "swap" options above is set to true.
+# Turns the item back which was put in the player's offhand inventory slot, back to an empty slot in the player's inventory.
+offhand-deny-force-add-inventory: false
+
+# If the player's inventory is already full or the option above is set to false, the option below will be used instead.
+# Drop the item if the player tried to put food in their offhand slot from their inventory.
+# Stop the player from putting the item in the slot.
+# Note: The drop option will definitely not work if the player is in creative mode, it'll be removed instead.
+# drop - stop
+# default: stop - even if the option chosen is wrong "stop" will be used.
+offhand-deny-final-action: stop
+
+offhand-deny: "&8-=<&4!&8>=- &cYou're not allowed to eat food using your offhand! &8-=<&4!&8>=-"
+creative-deny: "&8-=<&4!&8>=- &cYou're not allowed to use foods in creative mode &8-=<&4!&8>=-"
+offhand-deny-swap: "&8-=<&4!&8>=- &cYou're not allowed to swap foods with your offhand &8-=<&4!&8>=-"
+offhand-deny-swap-creative: "&8-=<&4!&8>=- &cYou're not allowed to swap foods with your offhand in creative mode &8-=<&4!&8>=-"
+offhand-deny-free-slot: "&8-=<&4!&8>=- &cYou don't have any free slots in your inventory to put the food back &8-=<&4!&8>=-"
+
+# The sound that plays after getting denied.
+# Format:
+# SoundType, Volume, Pitch
+# 1.13+: BLOCK_NOTE_BLOCK_BASS
+# 1.9+: BLOCK_NOTE_BASS
+# -1.8: NOTE_BASS
+deny-sound: BLOCK_NOTE_BLOCK_BASS, 1.0, 1.0
+deny-creative-sound: BLOCK_NOTE_BLOCK_BASS, 1.0, 1.0
+# The delay for denied messages. In milliseconds.
+# Note: 1000ms = 1sec
+deny-delay: 1000
+
+# Disable Natural Rengeneration
+disable-regeneration: false
+
+# Disable Hunger
+disable-hunger: true
+
+# Only works if disable-hunger is false.
+# Intantly fills the hunger bar of the player (using the same amount set in foods.yml)
+# instead of healing them.
+use-hunger: false
+
+# Only works if disable-hunger is true.
+# It basically stops the "shaking hunger bar" animation.
+# Gives players more saturation when their hunger bar is about to drop.
+
+# This option is disabled by default, because some people don't know how the plugin works
+# and use the plugin anyway, and when they enable hunger the saturation will stay.
+# Because the players already have 1000 saturation because this option is enabled.
+# It basically stops the shaking hunger bar animation.
+# Gives players more (1000) saturation when their hunger bar is about to drop.
+keep-saturation: false
+
+# Only works if disable-hunger is true.
+# Freezes the hunger bar at a certain level.
+hold-hunger: 20
+
+# This option only works if disable-hunger is false.
+# Options: none, mode1, mode2, mode3, mode4
+
+# mode1:
+# You will not be able to instantly heal if you have hunger.
+
+# mode2:
+# If the food's healing amount is higher than the missing hunger amount,
+# food will be consumed instantly instead of being eaten, otherwise it'll be consumed normally.
+
+# mode3:
+# Same as mode2, but if your health is lower than the specified health value below
+# the food will be consumed instead of being eaten.
+
+# mode4
+# Instantly consume if health is lower than hunger, otherwise eat.
+
+# none: Plugin will not do anything about this.
+better-hunger:
+  mode: none
+  # The saturation given to the player after instanty healing with food. Set to 0 to only use the hunger saturation.
+  mode2-3-saturation: 0.2
+  mode3-health: 10
+
+# Keep the remaining empty bowl when the player use soups.
+# Mushroom Stew - Rabbit Stew - Beetroot Soup - Suspicious Soup
+keep-bowl: true
+
+# Automatically drops the bowl when the player uses them.
+# Note: This option will not work if "keep-bowl" is false.
+autodrop-bowl: true
+
+# Disables the teleportation and only heals the player.
+disable-chorus-fruit-teleportation: true
+# Allow chorus fruit teleportation only if the player's health is full.
+# Works only if the option above is true.
+chorus-fruit-teleportation-full-health: true
+
+# This will prevent the player from eating food while right-clicking on certain blocks.
+# Any blocks that are not added in this list will first consume the food until the player's health is full,
+# then allows them to right-click on those blocks.
+
+# You can use both 1.14 and 1.12 material names.
+# You can see a list of updated material names here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+
+# You can also use "CONTAINS:<name>" prefix to add every block that contains the specific name in its material name.
+# E.g. CONTAINS:ANVIL -> ANVIL, CHIPPED_ANVIL, DAMAGED_ANVIL
+# You can also use RegEx by doing "REGEX:<expression>"
+restricted-blocks:
+  # 1.12 SOIL = 1.13 FARMLAND
+  - BARREL
+  - BEACON
+  - BREWING_STAND
+  - CAMPFIRE
+  - CHEST
+  - COMPOSTER
+  - DISPENSER
+  - DROPPER
+  - ENCHANTING_TABLE
+  - ENDER_CHEST
+  - FARMLAND
+  - GRINDSTONE
+  - HOPPER
+  - LECTERN
+  - LEVER
+  - LOOM
+  - SMOKER
+  - STONECUTTER
+  - TRAPPED_CHEST
+  - CONTAINS:ANVIL
+  - CONTAINS:BOAT
+  - CONTAINS:DOOR
+  - CONTAINS:FURNACE
+  - CONTAINS:GATE
+  - CONTAINS:SIGN
+  - CRAFTING_TABLE
+
+# The food system will absolutely have no effect in these worlds.
+disabled-worlds: []
+
+#|-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-|#
+#|++++++++++++++++++++++++++++++++++++++++++++++++++++++|#
+#|                       Foods                         |#
+#|++++++++++++++++++++++++++++++++++++++++++++++++++++|#
+#|-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-|#
+
+# Food Consume Sound
+# 1.13+: ENTITY_PLAYER_BURP OR ENTITY_GENERIC_EAT
+# Older: BURP OR EAT
+# Don't use 1.8 sound names.
+eating-sound: ENTITY_GENERIC_EAT, 1.0, 1.0
+
+# The delay for using foods in milliseconds.
+# Some people might think this is a lot, but it's actually a good
+# technique to learn not to waste your food.
+eating-delay: 100
+
+# This will play the health animation.
+# If you have a huge server and healing is delayed for some reasons,
+# you can disable this.
+realistic-eating: true
+
+# Go to foods.yml for more options.
+
+#|-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-|#
+#|++++++++++++++++++++++++++++++++++++++++++++++++++++++|#
+#|                       Reload                        |#
+#|++++++++++++++++++++++++++++++++++++++++++++++++++++|#
+#|-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-|#
+
+# Player
+reload: "&9Successfuly reloaded."
+reload-send: "&9Successfuly reloaded by &a%player%&9."
+reload-send-console: "&9Successfuly reloaded by &a%player%&9."
+
+# Console Sender
+reload-console: "&9Successfuly reloaded."
+reload-console-send: "&9Successfuly reloaded by &aConsole&9."
+
+# Permission
+reload-permission: "&8-=<&4!&8>=- &cYou don't have permission to do that. &8-=<&4!&8>=-"
+reload-permission-notify: "&e%player% &ctried to reload the plugin."
+reload-permission-console-notify: "&e%player% &ctried to reload the plugin."
+
+#|-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-|#
+#|++++++++++++++++++++++++++++++++++++++++++++++++++++++|#
+#|                     Messages                        |#
+#|++++++++++++++++++++++++++++++++++++++++++++++++++++|#
+#|-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-|#
+
+usage: "&8-=<&4!&8>=- &cInvalid Usage! &8-=<&4!&8>=-"
+updates-command-permission: "&8-=<&4!&8>=- &cYou don't have permission to do that. &8-=<&4!&8>=-"
+
+messages:
+  updater:
+    # Denied message to player
+    command-permission: true
+    startup: true
+    playerjoin:
+      found: true
+      uptodate: false
+  # /ffp
+  usages:
+    help: true
+  # Eating foods in creative
+  creative: true
+  offhand:
+    deny: true
+    deny-swap: false
+    deny-swap-creative: false
+    free-slot: true
+
+  # Reload
+  reload:
+    player:
+      self: true
+      players: true
+      console: true
+    console:
+      self: true
+      players: true
+    permissions:
+      self: true
+      players: true
+      console: true

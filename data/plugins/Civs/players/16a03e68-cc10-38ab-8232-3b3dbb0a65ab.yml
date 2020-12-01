@@ -1,0 +1,63 @@
+locale: en
+hardship: 0.0
+mana: 0
+days-since-hardship-depreciation: 0
+tutorial-index: 0
+tutorial-path: default
+tutorial-progress: 0
+use-announcements: true
+kills: 1
+kill-streak: 1
+deaths: 1
+highest-kill-streak: 1
+points: 0.10000000000000009
+karma: -28
+classes: []
+last-karma-depreciation: 1606718174023
+skills:
+  exploration:
+    WOODED_HILLS: 1
+    FOREST: 1
+    RIVER: 1
+    SUNFLOWER_PLAINS: 1
+    PLAINS: 1
+  food:
+    CARROT: 7
+    COOKED_MUTTON: 1
+    BAKED_POTATO: 3
+  shield:
+    BLOCKED: 22
+    DAMAGE: 50
+  armor:
+    DIAMOND_HELMET: 30
+    IRON_LEGGINGS: 30
+    CHAINMAIL_BOOTS: 30
+    DIAMOND_CHESTPLATE: 30
+    DIAMOND_BOOTS: 30
+    TURTLE_HELMET: 1
+    GOLDEN_BOOTS: 19
+    LEATHER_HELMET: 5
+    CHAINMAIL_LEGGINGS: 4
+  axe:
+    SKELETON: 4
+    ZOMBIE: 9
+    CHICKEN: 1
+    SHEEP: 1
+    SPIDER: 3
+    GHAST: 1
+    CREEPER: 4
+    BAT: 2
+  sword:
+    SPIDER: 2
+    ZOMBIE: 6
+    PLAYER: 1
+    BAT: 1
+    HUSK: 1
+    SKELETON: 1
+  crafting:
+    CRIMSON_PLANKS: 5
+    IRON_INGOT: 5
+items:
+  default: 1
+  shelter: 1
+  archer: 1

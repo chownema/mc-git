@@ -1,0 +1,361 @@
+essence-drop-chances:
+   common-essence:
+      "20"
+   uncommon-essence:
+      "40"
+   rare-essence:
+      "75"
+   epic-essence:
+      "120"
+   legendary-essence:
+      "200"
+   mythic-essence:   
+      "500"
+   ascended-essence:
+      "10000"
+   entity-common-essence:
+      "2"
+   entity-uncommon-essence:
+      "6"
+   entity-rare-essence:
+      "12"
+   entity-epic-essence:
+      "26"
+   entity-legendary-essence:
+      "50"
+   entity-mythic-essence:   
+      "200"
+   entity-ascended-essence:
+      "1000"
+      
+max-item-enchant: "100"
+
+glow:
+   name:
+      "Glow"
+   description: 
+      "Entity will glow for a short period"  
+   level-cost:
+      "4"
+   essence-cost:
+      "12"
+      
+obliterate:
+   name:
+      "Obliterate"
+   description: 
+      "Chance to deal extreme knockback"  
+   level-cost:
+      "3"
+   essence-cost:
+      "14"
+      
+confusion:
+   name:
+      "Confusion"
+   description: 
+      "Small chance to deal your opponent nausea"  
+   level-cost:
+      "5"
+   essence-cost:
+      "12"
+      
+experience:
+   name:
+      "Experience"
+   description: 
+      "A chance to get experience while mining"  
+   level-cost:
+      "3"
+   essence-cost:
+      "10"
+   
+haste:
+   name:
+      "Haste"
+   description: 
+      "Permanent haste boost while mining"  
+   level-cost:
+      "6"
+   essence-cost:
+      "14"
+      
+heavy:
+   name:
+      "Heavy"
+   description: 
+      "More protection less movement speed"  
+   level-cost:
+      "4"
+   essence-cost:
+      "20"
+      
+hardened:
+   name:
+      "Hardened"
+   description: 
+      "Increases obsidian mine speed"  
+   level-cost:
+      "2"
+   essence-cost:
+      "8"
+            
+abate:
+   name:
+      "Abate"
+   description: 
+      "Chance to reduce enemy speed"  
+   level-cost:
+      "6"
+   essence-cost:
+      "8"
+      
+damage-control:
+   name:
+      "Damagecontrol"
+   description: 
+      "Small chance to mitigate all damage"  
+   level-cost:
+      "8"
+   essence-cost:
+      "14"
+      
+counter:
+   name:
+      "Counter"
+   description: 
+      "Chance to block enemy attack and heal"  
+   level-cost:
+      "14"
+   essence-cost:
+      "22"
+      
+wrath:
+   name:
+      "Wrath"
+   description: 
+      "Deal more damage on lower health"  
+   level-cost:
+      "6"
+   essence-cost:
+      "16"
+      
+luck:
+   name:
+      "Luck"
+   description: 
+      "Chance to recieve any ore while mining"  
+   level-cost:
+      "6"
+   essence-cost:
+      "16"
+      
+lumbering:
+   name:
+      "Lumbering"
+   description: 
+      "Chance to recieve extra log"  
+   level-cost:
+      "8"
+   essence-cost:
+      "14"
+      
+harmful:
+   name:
+      "harmful"
+   description: 
+      "Chance to deal more damage, sacrificing hp"  
+   level-cost:
+      "8"
+   essence-cost:
+      "12"
+      
+bunny:
+   name:
+      "Bunny"
+   description: 
+      "Jump higher"  
+   level-cost:
+      "12"
+   essence-cost:
+      "8"
+      
+whirlwind:
+   name:
+      "Whirlwind"
+   description: 
+      "Chance to summon whirlwind"  
+   level-cost:
+      "6"
+   essence-cost:
+      "16"
+      
+chipping:
+   name:
+      "Chipping"
+   description: 
+      "Chance to cut, dealing damage over time"  
+   level-cost:
+      "14"
+   essence-cost:
+      "20"
+      
+paralysis:
+   name:
+      "Paralysis"
+   description: 
+      "Chance to paralyse opponents"  
+   level-cost:
+      "16"
+   essence-cost:
+      "8"
+      
+smelting:
+   name:
+      "Smelting"
+   description: 
+      "Smelts ores when mining, lvl 2 & 3 add fortune"  
+   level-cost:
+      "18"
+   essence-cost:
+      "10"
+      
+timber:
+   name:
+      "Timber"
+   description: 
+      "Break entire trees when mining bottom log"  
+   level-cost:
+      "16"
+   essence-cost:
+      "12"
+      
+leech:
+   name:
+      "Leech"
+   description: 
+      "Chance to steal opponents hp"  
+   level-cost:
+      "14"
+   essence-cost:
+      "8"
+      
+saturation:
+   name:
+      "Saturation"
+   description: 
+      "Chance to recover food when fighting"  
+   level-cost:
+      "10"
+   essence-cost:
+      "8"
+      
+immunity:
+   name:
+      "Immunity"
+   description: 
+      "Chance to become immune when hp is less than 2"  
+   level-cost:
+      "22"
+   essence-cost:
+      "6"
+      
+lightweight:
+   name:
+      "Lightweight"
+   description: 
+      "Speed while carrying the weapon"  
+   level-cost:
+      "16"
+   essence-cost:
+      "6"
+      
+bleeding:
+   name:
+      "Bleeding"
+   description: 
+      "Chance to make an entity bleed"  
+   level-cost:
+      "20"
+   essence-cost:
+      "8"
+      
+explosion:
+   name:
+      "Explosion"
+   description: 
+      "Explosive arrows"  
+   level-cost:
+      "20"
+   essence-cost:
+      "8"
+      
+beheading:
+   name:
+      "Beheading"
+   description: 
+      "Small chance to insta kill entity"  
+   level-cost:
+      "24"
+   essence-cost:
+      "12"
+      
+regeneration:
+   name:
+      "Regeneration"
+   description: 
+      "Permanent regeneration effect"  
+   level-cost:
+      "42"
+   essence-cost:
+      "8"
+         
+storm:
+   name:
+      "Storm"
+   description: 
+      "Summon lighting on arrow impact"  
+   level-cost:
+      "32"
+   essence-cost:
+      "4"
+              
+lastgasp:
+   name:
+      "Lastgasp"
+   description: 
+      "Come back to life for 10 seconds after dying"  
+   level-cost:
+      "40"
+   essence-cost:
+      "6"
+      
+teleportation:
+   name:
+      "Teleportation"
+   description: 
+      "Teleport when shooting"  
+   level-cost:
+      "60"
+   essence-cost:
+      "2"   
+      
+strength:
+   name:
+      "Strength"
+   description: 
+      "Small chance to get strength when fighting"  
+   level-cost:
+      "40"
+   essence-cost:
+      "4" 
+      
+glide:
+   name:
+      "Glide"
+   description: 
+      "Elytra flight on chestplates"  
+   level-cost:
+      "80"
+   essence-cost:
+      "3"   

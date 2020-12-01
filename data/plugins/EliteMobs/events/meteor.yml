@@ -1,0 +1,4 @@
+isEnabled: true
+weight: 20.0
+dropsBlocks: true
+eventAnnouncementMessage: '&7[EM] &6A weird meteorite has been sighted at $location!'

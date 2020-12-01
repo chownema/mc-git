@@ -1,0 +1,4 @@
+language: en
+poop:
+  min: 1
+  max: 5

@@ -1,0 +1,44 @@
+# groups:
+#   Default:
+#     default: true
+#     permissions:
+#       - elitemobs.user
+#       - elitemobs.currency.user
+#       - elitemobs.shop
+#       - elitemobs.shop.command
+#       - elitemobs.guild
+#       - elitemobs.guild.command
+#       - elitemobs.customshop
+#       - elitemobs.currency.pay
+#       - elitemobs.currency.add
+#       - elitemobs.currency.subtract
+#       - elitemobs.currency.set
+#       - elitemobs.currency.check
+#       - elitemobs.currency.wallet
+#       - elitemobs.currency.cointop
+#       - elitemobs.guild.menu
+# 
+
+server.basics:
+    description: Basic permissions for My Cool Server.
+    default: true
+    children:
+       elitemobs.user: true
+       elitemobs.currency.user: true
+       elitemobs.shop: true
+       elitemobs.shop.command: true
+       elitemobs.guild: true
+       elitemobs.guild.command: true
+       elitemobs.customshop: true
+       elitemobs.currency.pay: true
+       elitemobs.currency.add: true
+       elitemobs.currency.subtract: true
+       elitemobs.currency.set: true
+       elitemobs.currency.check: true
+       elitemobs.currency.wallet: true
+       elitemobs.currency.cointop: true
+       elitemobs.guild.menu: true
+       backpack.use: true
+       backpack.fullpickup: true
+       backpack.size.6: true
+       backpack.noCooldown: true

@@ -1,0 +1,88 @@
+locale: en
+hardship: -500.0
+mana: 0
+days-since-hardship-depreciation: 0
+tutorial-index: 0
+tutorial-path: default
+tutorial-progress: 0
+use-announcements: true
+kills: 1
+kill-streak: 1
+deaths: 0
+highest-kill-streak: 1
+points: 1.1
+karma: -27
+classes:
+- 0
+last-karma-depreciation: 1606718174021
+skills:
+  exploration:
+    PLAINS: 1
+    FOREST: 1
+    WOODED_HILLS: 1
+    RIVER: 1
+    TAIGA: 1
+    SUNFLOWER_PLAINS: 1
+    BASALT_DELTAS: 1
+    BEACH: 1
+    OCEAN: 1
+    DEEP_OCEAN: 1
+  food:
+    BREAD: 7
+    COOKED_MUTTON: 3
+    ROTTEN_FLESH: 7
+    SALMON: 5
+    CARROT: 7
+    BAKED_POTATO: 7
+    COOKED_BEEF: 7
+    SWEET_BERRIES: 7
+    APPLE: 1
+  armor:
+    TURTLE_HELMET: 30
+    IRON_CHESTPLATE: 30
+    GOLDEN_BOOTS: 27
+    DIAMOND_LEGGINGS: 27
+    CHAINMAIL_BOOTS: 13
+    LEATHER_BOOTS: 14
+    DIAMOND_BOOTS: 10
+    GOLDEN_HELMET: 2
+    CHAINMAIL_LEGGINGS: 8
+  shield:
+    BLOCKED: 21
+    DAMAGE: 53
+  sword:
+    SKELETON: 3
+    ZOMBIE: 6
+    COW: 1
+  crafting:
+    STONE_SHOVEL: 4
+    COAL: 5
+    OAK_PLANKS: 5
+    STICK: 5
+    TORCH: 5
+    SUGAR: 3
+    WHEAT: 5
+    STONE_PICKAXE: 1
+    BREAD: 1
+    BUCKET: 1
+    OAK_SIGN: 3
+  axe:
+    SKELETON: 1
+    ZOMBIE: 4
+    SPIDER: 1
+    ZOMBIE_VILLAGER: 1
+    COW: 1
+  mining:
+    COAL_ORE: 60
+    IRON_ORE: 25
+  bow:
+    SKELETON: 4
+    ZOMBIE: 8
+    SPIDER: 4
+    CREEPER: 5
+    ZOMBIE_VILLAGER: 1
+    PLAYER: 3
+items:
+  default: 1
+  shelter: 1
+  archer: 1
