@@ -2,15 +2,15 @@ general:
   username: mightychoco
   firstLogin: '"29-11-2020 20:09:37"'
   lastLogin: 1606680577
-  lastLogout: 1606792595
-  playTime: 40
+  lastLogout: 1607033148
+  playTime: 397
   language: enUs
 globalStats:
-  totalLevel: 493
+  totalLevel: 1273
   globalTokens: 0
   skill_1a: 0
   skill_1b: 0
-  skill_1c: 0
+  skill_1c: 1
   skill_2a: 0
   skill_2b: 0
   skill_2c: 0
@@ -35,15 +35,15 @@ globalStats:
   leafBlowerToggle: 1
   holyAxeToggle: 1
   numberOfCooldownBars: 1
-  totalExperience: 1152243
+  totalExperience: 3490115
 digging:
-  level: 24
-  experience: 45366
-  passiveTokens: 7
+  level: 43
+  experience: 83186
+  passiveTokens: 26
   skillTokens: 0
-  passive1: 37
-  passive2: 28
-  passive3: 24
+  passive1: 56
+  passive2: 47
+  passive3: 43
   skill_1a: 0
   skill_1b: 0
   skill_2a: 0
@@ -54,13 +54,13 @@ digging:
   triggerAbilityToggle: 1
   showEXPBarToggle: 1
 woodcutting:
-  level: 1
-  experience: 3365
+  level: 3
+  experience: 5490
   passiveTokens: 1
   skillTokens: 0
-  passive1: 1
-  passive2: 1
-  passive3: 1
+  passive1: 3
+  passive2: 5
+  passive3: 3
   skill_1a: 0
   skill_1b: 0
   skill_2a: 0
@@ -71,13 +71,13 @@ woodcutting:
   triggerAbilityToggle: 1
   showEXPBarToggle: 1
 mining:
-  level: 8
-  experience: 15995
-  passiveTokens: 0
+  level: 13
+  experience: 24795
+  passiveTokens: 5
   skillTokens: 0
-  passive1: 16
-  passive2: 8
-  passive3: 8
+  passive1: 21
+  passive2: 13
+  passive3: 13
   skill_1a: 0
   skill_1b: 0
   skill_2a: 0
@@ -88,13 +88,13 @@ mining:
   triggerAbilityToggle: 1
   showEXPBarToggle: 1
 farming:
-  level: 1
-  experience: 3342
-  passiveTokens: 1
+  level: 2
+  experience: 4951
+  passiveTokens: 2
   skillTokens: 0
-  passive1: 1
-  passive2: 1
-  passive3: 1
+  passive1: 2
+  passive2: 2
+  passive3: 2
   skill_1a: 0
   skill_1b: 0
   skill_2a: 0
@@ -122,13 +122,13 @@ fishing:
   triggerAbilityToggle: 1
   showEXPBarToggle: 1
 archery:
-  level: 0
-  experience: 1000
-  passiveTokens: 0
+  level: 45
+  experience: 86294
+  passiveTokens: 44
   skillTokens: 0
-  passive1: 0
-  passive2: 0
-  passive3: 0
+  passive1: 45
+  passive2: 46
+  passive3: 45
   skill_1a: 0
   skill_1b: 0
   skill_2a: 0
@@ -156,13 +156,13 @@ beastMastery:
   triggerAbilityToggle: 1
   showEXPBarToggle: 1
 swordsmanship:
-  level: 63
-  experience: 125240
-  passiveTokens: 37
-  skillTokens: 0
-  passive1: 68
-  passive2: 84
-  passive3: 63
+  level: 299
+  experience: 841188
+  passiveTokens: 108
+  skillTokens: 2
+  passive1: 304
+  passive2: 485
+  passive3: 299
   skill_1a: 0
   skill_1b: 0
   skill_2a: 0
@@ -173,13 +173,13 @@ swordsmanship:
   triggerAbilityToggle: 1
   showEXPBarToggle: 1
 defense:
-  level: 72
-  experience: 144607
-  passiveTokens: 59
-  skillTokens: 0
-  passive1: 72
-  passive2: 85
-  passive3: 72
+  level: 214
+  experience: 525092
+  passiveTokens: 39
+  skillTokens: 2
+  passive1: 214
+  passive2: 389
+  passive3: 214
   skill_1a: 0
   skill_1b: 0
   skill_2a: 0
@@ -190,13 +190,13 @@ defense:
   triggerAbilityToggle: 1
   showEXPBarToggle: 1
 axeMastery:
-  level: 0
-  experience: 1356
+  level: 2
+  experience: 4568
   passiveTokens: 0
   skillTokens: 0
-  passive1: 0
-  passive2: 0
-  passive3: 0
+  passive1: 2
+  passive2: 4
+  passive3: 2
   skill_1a: 0
   skill_1b: 0
   skill_2a: 0
@@ -224,13 +224,13 @@ repair:
   triggerAbilityToggle: 1
   showEXPBarToggle: 1
 agility:
-  level: 260
-  experience: 686623
+  level: 350
+  experience: 1069852
   passiveTokens: 0
-  skillTokens: 2
-  passive1: 260
-  passive2: 260
-  passive3: 260
+  skillTokens: 3
+  passive1: 350
+  passive2: 350
+  passive3: 350
   skill_1a: 0
   skill_1b: 0
   skill_2a: 0
@@ -259,7 +259,7 @@ alchemy:
   showEXPBarToggle: 1
 smelting:
   level: 4
-  experience: 7190
+  experience: 8540
   passiveTokens: 0
   skillTokens: 0
   passive1: 4
@@ -275,13 +275,13 @@ smelting:
   triggerAbilityToggle: 1
   showEXPBarToggle: 1
 enchanting:
-  level: 60
-  experience: 118159
+  level: 298
+  experience: 836159
   passiveTokens: 0
-  skillTokens: 0
-  passive1: 60
-  passive2: 60
-  passive3: 60
+  skillTokens: 2
+  passive1: 298
+  passive2: 298
+  passive3: 298
   skill_1a: 0
   skill_1b: 0
   skill_2a: 0

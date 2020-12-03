@@ -1,12 +1,12 @@
 lastAccountName: mightychoco
 timestamps:
-  login: 1606792555789
-  logout: 1606792595282
+  login: 1607032751821
+  logout: 1607033148659
 ipAddress: 122.57.83.45
 logoutlocation:
   world: world
-  x: -81.67158078014454
+  x: -89.58834504791912
   y: 63.0
-  z: 697.5322413884758
-  yaw: -313.9518
-  pitch: 10.5003805
+  z: 682.0535315645263
+  yaw: -18.078247
+  pitch: 19.650244

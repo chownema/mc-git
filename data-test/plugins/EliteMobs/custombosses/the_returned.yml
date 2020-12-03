@@ -1,0 +1,15 @@
+isEnabled: true
+entityType: HUSK
+name: '&6The Returned'
+level: dynamic
+timeout: 0
+isPersistent: false
+healthMultiplier: 0.5
+damageMultiplier: 0.5
+isBaby: false
+dropsEliteMobsLoot: false
+dropsVanillaLoot: true
+spawnChance: 0.0
+isRegionalBoss: false
+spawnCooldown: 0
+leashRadius: 0.0

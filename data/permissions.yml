@@ -42,3 +42,4 @@ server.basics:
        backpack.fullpickup: true
        backpack.size.6: true
        backpack.noCooldown: true
+       doublejump.jump: true

@@ -1,0 +1,29 @@
+doNaturalEliteMobSpawning: true
+doSpawnersSpawnEliteMobs: false
+eliteMobsSpawnPercentage: 10
+mobTierLevelIncrease: 1.5
+superMobStackRange: 15
+naturalEliteMobsLevelCap: 250
+eliteCreeperExplosionsMultiplier: 2.0
+doElitesWearArmor: true
+doElitesWearHelmets: false
+doNaturalEliteMobVisualEffects: true
+doSpawnerEliteMobVisualEffects: false
+doPowerBuildupVisualEffects: true
+doCustomEliteMobsDeathMessages: true
+doDisplayMobHealthOnHit: true
+doDisplayMobDamageOnHit: true
+doEliteMobHealthDisplayOnly: true
+doEliteMobDamageDisplayOnly: true
+doIncreaseEliteMobLevelBasedOnSpawnDistance: true
+distanceBetweenIncrements: 100.0
+levelIncreaseAtIncrements: 1.0
+hideEliteMobPowersUntilAggro: false
+damageToEliteMobMultiplier: 2
+damageToPlayerMultiplier: 0.3
+showCustomBossLocation: true
+bossLocationMessage: '&7[EM] &2[Click to track!]'
+commandsOnEliteMobDeath: []
+bossKillParticipationMessage: '&eYour damage: &2$playerDamage'
+regenerateCustomBossHealthOnCombatEnd: true
+defaultOtherWorldBossLocationMessage: '$name: In different world!'

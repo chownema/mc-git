@@ -1,0 +1,11 @@
+alwaysShowEliteMobNameTags: true
+superMobStackAmount: 35
+preventEliteCreeperDamageToPassiveMobs: true
+useTitlesForMissingPermissionMessages: true
+preventEliteMobConversionOfNamedMobs: true
+enableHighCompatibilityMode: false
+nightmareWorldSpawnBonus: 2.0
+emLeadsToStatusMenu: true
+otherCommandsLeadToEMStatusMenu: true
+Use permissions: true
+setupDone: true

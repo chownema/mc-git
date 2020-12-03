@@ -1,0 +1,37 @@
+isEnabled: true
+entityType: BLAZE
+name: '&6Blayyze'
+level: dynamic
+timeout: 30
+isPersistent: true
+healthMultiplier: 4.0
+damageMultiplier: 0.5
+isBaby: false
+powers:
+- meteor_shower.yml
+- summon_embers.yml
+- bullet_hell.yml
+- spirit_walk.yml
+spawnMessage: '&cSomething came out of the meteorite''s crater...'
+deathMessage: '&6$players completed first contact.'
+deathMessages:
+- '&e&l---------------------------------------------'
+- '&6The Blayyze has been repelled!'
+- '&c&l    1st Damager: $damager1name &cwith $damager1damage damage!'
+- '&6&l    2nd Damager: $damager2name &6with $damager2damage damage!'
+- '&e&l    3rd Damager: $damager3name &ewith $damager3damage damage!'
+- '&aSlayers: $players'
+- '&e&l---------------------------------------------'
+escapeMessage: '&6The ayyliens have been taken to area 51!'
+locationMessage: '&6????: $distance blocks away'
+uniqueLootList:
+- meteor_shower_scroll.yml:1
+dropsEliteMobsLoot: true
+dropsVanillaLoot: true
+trails:
+- FIRE_CHARGE
+spawnChance: 0.0
+isRegionalBoss: false
+spawnCooldown: 0
+leashRadius: 0.0
+announcementPriority: 2

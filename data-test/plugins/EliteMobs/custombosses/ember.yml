@@ -1,0 +1,19 @@
+isEnabled: true
+entityType: BLAZE
+name: '&cEmber'
+level: dynamic
+timeout: 0
+isPersistent: false
+healthMultiplier: 0.3
+damageMultiplier: 0.3
+isBaby: false
+powers: []
+uniqueLootList: []
+dropsEliteMobsLoot: false
+dropsVanillaLoot: true
+trails:
+- SPELL_WITCH
+spawnChance: 0.0
+isRegionalBoss: false
+spawnCooldown: 0
+leashRadius: 0.0

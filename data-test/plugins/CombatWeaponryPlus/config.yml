@@ -1,0 +1,81 @@
+# MESSAGE: This config file isn't completely finished yat, I will add more features to this.
+# Additionally, do /reload to make these changes happen in you server.
+# Once a newer version of this plugin is released, you may need to delete the old config file so a newer version can be generated.
+#
+# ENABLE OR DISABLE THE RESOURCE PACK==================================================================================
+# PUT TRUE OR FALSE
+ResourcePack: true
+#
+# ENABLE OR DISABLE RECIPES============================================================================================
+# PUT TRUE OR FALSE
+# Armor
+Chainmail: true
+PlatedChainmail: true
+Emerald: true
+# Emerald Sword/Tools/Weapons
+EmeraldGear: true
+# Miscellaneous Items
+ChorusBlade: true
+SwordBow: true
+HeavySwordBow: true
+ObsidianPickaxe: true
+FeatherCharm: true
+BlazeCharm: true
+EmeraldCharm: true
+# Weapons
+Knives: true
+Rapiers: true
+Katanas: true
+Scythes: true
+Longswords: true
+Spears: true
+# DISABLE ALL PRISMARINE ARMOR/WEAPON RECIPES
+Prismarine: true
+#
+#
+# ENCHANTS=============================================================================================================
+# At the moment, you are unable to change which enchants are on the items, but you can change the level of enchants.
+EnchantmentsOnEmeraldArmor: true
+EmeraldArmorEnchantLevels:
+  Unbreaking: 10
+  Mending: 1
+#
+EnchantsOnEmeraldGear: true
+# THIS INCLUDES ALL EMERALD WEAPONS AND TOOLS
+EmeraldGearEnchantLevels:
+  Unbreaking: 10
+  Mending: 1
+#
+EnchantsChorusBlade: true
+ChorusEnchantLevels:
+  Unbreaking: 5
+  Knockback: 2
+#
+EnchantsSwordBow: true
+SbowEnchantLevels:
+  Smite: 5
+  Unbreaking: 5
+  Mending: 1
+  Infinity: 1
+#
+EnchantsHeavySwordBow: true
+HSbowEnchantLevels:
+  Smite: 5
+  Power: 6
+  Unbreaking: 10
+  Mending: 1
+#
+EnchantsPlatedChainmail: true
+PChainEnchantLevels:
+  Unbreaking: 5
+#
+EnchantsObsidianPick: true
+OPickEnchantLevels:
+  Unbreaking: 10
+#
+# MAKE NETHERITE WEAPONS REQUIRE INGOTS INSTEAD OF SCRAP TO CRAFT=======================================================
+# PUT TRUE OR FALSE
+NetheriteIngots: true
+#
+# In a later update, I will try to add customizing lore and customizing weapon attributes and bonuses.
+# BE SURE TO LET ME KNOW IF ANYTHING ISN'T WORKING RIGHT

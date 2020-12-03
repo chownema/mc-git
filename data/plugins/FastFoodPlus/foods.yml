@@ -38,10 +38,10 @@ version: 31
 
 
 # Basics
-apple: 9
-bread: 9
-carrot: 7
-potato: 7
+apple: 8
+bread: 7
+carrot: 4
+potato: 4
 baked-potato: 10
 melon-slice: 2
 cookie: 4
@@ -82,11 +82,14 @@ dried-kelp: 3
 
 # Cooked Fish
 # raw
-cooked-cod: 5
-cooked-salmon: 6
+cooked-cod: 10
+cooked-salmon: 10
 
 # Soups
-mushroom-stew: 12
+mushroom-stew:
+  amount: 6
+  effects:
+    - SPEED, 120, 1
 rabbit-stew: 10
 beetroot-soup: 6
 suspicious-stew:
@@ -142,7 +145,7 @@ enchanted-golden-apple:
 # Note that changing the name after "custom-" will stop the foods from working.
 # You can change them if you didn't give anyone this item.
 custom-Hamburger:
-  amount: 10
+  amount: 15
   effects:
     - SLOW, 3, 1
     - REGENERATION, 5, 1

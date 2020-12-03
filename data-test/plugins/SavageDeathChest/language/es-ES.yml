@@ -1,0 +1,165 @@
+##############
+# Time strings
+##############
+TIME_STRING:
+  DAY: 'día'
+  DAYS: 'días'
+  HOUR: 'hora'
+  HOUR_PLURAL: 'horas'
+  MINUTE: 'minuto'
+  MINUTE_PLURAL: 'minutos'
+  SECOND: 'segundo'
+  SECOND_PLURAL: 'segundos'
+  UNLIMITED: 'tiempo ilimitado'
+  LESS_THAN_ONE: 'menos de un'
+
+
+##################
+# Custom sign text
+##################
+# Variable substitutions:
+# %PLAYER_NAME%	Player's name
+# %WORLD_NAME%	World name
+# %DATE%		Death date
+SIGN_TEXT:
+  - '&lR.I.P.&r'
+  - '%PLAYER_NAME%'
+  - ''
+  - 'D: %DATE%'
+
+# Date format documentation:
+# https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html
+DATE_FORMAT: "MMM d, yyyy"
+
+
+#################
+# Custom Messages
+#################
+# Variable substitutions:
+# %PLAYER_NAME%          Player name
+# %PLAYER_NICKNAME%      Player nickname
+# %PLAYER_DISPLAYNAME%   Player display name, including prefix/suffix
+# %EXPIRE_TIME%			 Remaining time at chest deployment
+# %WORLD_NAME%           World name of chest (or player if no chest)
+# %LOC_X%                Chest coordinates (or player if no chest)
+# %LOC_Y%                Chest coordinates (or player if no chest)
+# %LOC_Z%                Chest coordinates (or player if no chest)
+
+# %PAGE%                 List page number (only available in LIST_HEADER and LIST_FOOTER messages)
+# %PAGE_COUNT%           List page count (only available in LIST_HEADER and LIST_FOOTER messages)
+# %ITEM_NUMBER%          List item number (only available in list item messages)
+
+MESSAGES:
+  CHEST_SUCCESS:
+    enabled: true
+    string: '&cCofre de la muerte se ha desplegado con éxito. Usted tiene %EXPIRE_TIME% para recuperar tu artículos.'
+
+  DOUBLECHEST_PARTIAL_SUCCESS:
+    enabled: true
+    string: '&cSólo se podía colocar un solo cofre del punto muerte.'
+
+  CHEST_DENIED_PLUGIN:
+    enabled: true
+    string: '&cEl despliegue del cofre de la muerte fue prevenido por %PLUGIN%.'
+
+  CHEST_DENIED_BLOCK:
+    enabled: true
+    string: '&cNo se pudo colocar el cofre de la muerte.'
+
+  CHEST_DENIED_PERMISSION:
+    enabled: false
+    string: '&cNo tienes permiso para cofres de la muerte.'
+
+  CHEST_DENIED_ADJACENT:
+    enabled: true
+    string: '&cEl despliegue del cofre de la muerte fue prevenido por un cofre adyacente existente.'
+
+  CHEST_DENIED_SPAWN_RADIUS:
+    enabled: true
+    string: '&cEl despliegue del cofre de la muerte fue prevenido por protección de origen mundial.'
+
+  INVENTORY_EMPTY:
+    enabled: true
+    string: '&cNo tenías ningún inventario para poner en un cofre de la muerte.'
+
+  INVENTORY_FULL:
+    enabled: true
+    string: '&cAlgunos artículos no se pudieron transferir porque su inventario está lleno.'
+
+  NO_CHEST_IN_INVENTORY:
+    enabled: true
+    string: '&cNo tenías ningún cofres en su inventario.'
+
+  NOT_OWNER:
+    enabled: true
+    string: '&cEse el cofre de muerte no pertenece a usted.'
+
+  CHEST_EXPIRED:
+    enabled: true
+    string: '&cSu el cofre de muerte ha expirado.'
+
+  CREATIVE_MODE:
+    enabled: true
+    string: '&cInventario de modo creativo no se guarda en cofres de muerte.'
+
+  NO_CREATIVE_ACCESS:
+    enabled: true
+    string: '&cEl acceso a los cofres de la muerte en el modo creativo no está permitido.'
+
+  CHEST_CURRENTLY_OPEN:
+    enabled: true
+    string: '&cPecho Muerte está accediendo por otro jugador.'
+
+
+  COMMAND_FAIL_ARGS_COUNT_OVER:
+    enabled: true
+    string: '&c¡Demasiados parámetros!'
+
+  COMMAND_FAIL_HELP_PERMISSION:
+    enabled: true
+    string: '&c¡No tienes permiso para mostrar la ayuda de DeathChest!'
+
+  COMMAND_FAIL_LIST_PERMISSION:
+    enabled: true
+    string: '&c¡No tienes permiso para listar DeathChests!'
+
+  COMMAND_FAIL_LIST_OTHER_PERMISSION:
+    enabled: true
+    string: '&c¡No tienes permiso para enumerar los DeathChests de otros jugadores!'
+
+  COMMAND_FAIL_RELOAD_PERMISSION:
+    enabled: true
+    string: '&c¡No tienes permiso para recargar la configuración de DeathChest!'
+
+  COMMAND_FAIL_STATUS_PERMISSION:
+    enabled: true
+    string: '&c¡No tienes permiso para ver la configuración de DeathChest!'
+
+  COMMAND_SUCCESS_RELOAD:
+    enabled: true
+    string: '&7Configuración del DeathChest recargada.'
+
+
+  LIST_HEADER:
+    enabled: true
+    string: '&3Page &b%PAGE%&3 of &b%PAGE_COUNT%'
+
+  LIST_FOOTER:
+    enabled: false
+    string: '&3Page &b%PAGE%&3 of &b%PAGE_COUNT%'
+
+  LIST_ITEM:
+    enabled: true
+    string: "%ITEM_NUMBER%) &aLocation:&b %WORLD_NAME% < %LOC_X%, %LOC_Y%, %LOC_Z% > \n &aRemaining time:&b %REMAINING_TIME% &aKiller:&b %KILLER_NAME%"
+
+  LIST_ITEM_ALL:
+    enabled: true
+    string: "%ITEM_NUMBER%) &aOwner:&b %OWNER_NAME% &aKiller:&b %KILLER_NAME% \n &aLocation:&b %WORLD_NAME% < %LOC_X%, %LOC_Y%, %LOC_Z% > \n &aRemaining time:&b %REMAINING_TIME%"
+
+  LIST_EMPTY:
+    enabled: true
+    string: '&bThere are no DeathChests to list!'
+
+  LIST_PLAYER_NOT_FOUND:
+    enabled: true
+    string: '&3That player could not be found!'

@@ -1,0 +1,33 @@
+doEliteMobsLoot: true
+doMMORPGColorsForItems: true
+preventCustomItemPlacement: true
+itemLoreStructure:
+- $enchantments
+- $potionEffect
+- §m----------------------
+- $customLore
+- $itemSource
+- $loreResaleValue
+- Elite Mobs drop
+- §m----------------------
+- 'Tier $tier '
+shopSourceItemLore: Purchased from a store
+mobSourceItemLore: Looted from $mob
+loreWorth: Worth $worth $currencyName
+loreResaleValue: Sells for $resale $currencyName
+flatDropRate: 0.25
+tierIncreaseDropRate: 0.05
+proceduralItemDropWeight: 90.0
+weighedItemDropWeight: 1.0
+fixedItemDropWeight: 10.0
+limitedItemDropWeight: 3.0
+scalableItemDropWeight: 6.0
+defaultLootMultiplier: 0.0
+levelCapForDefaultLootMultiplier: 200
+defaultExperienceMultiplier: 1.0
+maximumLootTier: 100
+useEliteEnchantments: true
+doRareDropsEffect: true
+eliteEnchantmentLoreString: '&6Elite'
+useHoesAsWeapons: true
+enableRareItemParticleEffects: true
