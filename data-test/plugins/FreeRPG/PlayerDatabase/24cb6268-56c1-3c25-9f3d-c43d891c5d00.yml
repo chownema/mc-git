@@ -2,11 +2,11 @@ general:
   username: stackdocker2
   firstLogin: '"29-11-2020 20:11:16"'
   lastLogin: 1606680676
-  lastLogout: 1606970733
-  playTime: 1026
+  lastLogout: 1607061384
+  playTime: 2316
   language: enUs
 globalStats:
-  totalLevel: 780
+  totalLevel: 781
   globalTokens: 0
   skill_1a: 0
   skill_1b: 0
@@ -35,7 +35,7 @@ globalStats:
   leafBlowerToggle: 1
   holyAxeToggle: 1
   numberOfCooldownBars: 1
-  totalExperience: 1814694
+  totalExperience: 1815711
 digging:
   level: 9
   experience: 17020
@@ -173,13 +173,13 @@ swordsmanship:
   triggerAbilityToggle: 1
   showEXPBarToggle: 1
 defense:
-  level: 94
-  experience: 194162
-  passiveTokens: 21
+  level: 95
+  experience: 194918
+  passiveTokens: 22
   skillTokens: 0
-  passive1: 94
-  passive2: 167
-  passive3: 94
+  passive1: 95
+  passive2: 168
+  passive3: 95
   skill_1a: 0
   skill_1b: 0
   skill_2a: 0
@@ -225,7 +225,7 @@ repair:
   showEXPBarToggle: 1
 agility:
   level: 225
-  experience: 564118
+  experience: 564379
   passiveTokens: 0
   skillTokens: 1
   passive1: 225

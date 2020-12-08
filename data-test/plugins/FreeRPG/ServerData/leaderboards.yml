@@ -1,17 +1,86 @@
-swordsmanship: {}
-repair: {}
-enchanting: {}
-axeMastery: {}
-fishing: {}
-global: {}
-digging: {}
-alchemy: {}
-mining: {}
-woodcutting: {}
-defense: {}
-farming: {}
-playTime: {}
-agility: {}
-archery: {}
-beastMastery: {}
-smelting: {}
+swordsmanship:
+  '0':
+    UUID: 24cb6268-56c1-3c25-9f3d-c43d891c5d00
+    playerName: stackdocker2
+    experience: 363202
+repair:
+  '0':
+    UUID: 24cb6268-56c1-3c25-9f3d-c43d891c5d00
+    playerName: stackdocker2
+    experience: 0
+enchanting:
+  '0':
+    UUID: 24cb6268-56c1-3c25-9f3d-c43d891c5d00
+    playerName: stackdocker2
+    experience: 521250
+axeMastery:
+  '0':
+    UUID: 24cb6268-56c1-3c25-9f3d-c43d891c5d00
+    playerName: stackdocker2
+    experience: 57682
+fishing:
+  '0':
+    UUID: 24cb6268-56c1-3c25-9f3d-c43d891c5d00
+    playerName: stackdocker2
+    experience: 0
+global:
+  '0':
+    UUID: 24cb6268-56c1-3c25-9f3d-c43d891c5d00
+    playerName: stackdocker2
+    level: 781
+    totalExperience: 1815711
+digging:
+  '0':
+    UUID: 24cb6268-56c1-3c25-9f3d-c43d891c5d00
+    playerName: stackdocker2
+    experience: 17020
+alchemy:
+  '0':
+    UUID: 24cb6268-56c1-3c25-9f3d-c43d891c5d00
+    playerName: stackdocker2
+    experience: 0
+mining:
+  '0':
+    UUID: 24cb6268-56c1-3c25-9f3d-c43d891c5d00
+    playerName: stackdocker2
+    experience: 76610
+woodcutting:
+  '0':
+    UUID: 24cb6268-56c1-3c25-9f3d-c43d891c5d00
+    playerName: stackdocker2
+    experience: 4175
+defense:
+  '0':
+    UUID: 24cb6268-56c1-3c25-9f3d-c43d891c5d00
+    playerName: stackdocker2
+    experience: 194918
+farming:
+  '0':
+    UUID: 24cb6268-56c1-3c25-9f3d-c43d891c5d00
+    playerName: stackdocker2
+    experience: 5928
+playTime:
+  '0':
+    UUID: 24cb6268-56c1-3c25-9f3d-c43d891c5d00
+    playerName: stackdocker2
+    totalPlayTime: 233
+agility:
+  '0':
+    UUID: 24cb6268-56c1-3c25-9f3d-c43d891c5d00
+    playerName: stackdocker2
+    experience: 564379
+archery:
+  '0':
+    UUID: 24cb6268-56c1-3c25-9f3d-c43d891c5d00
+    playerName: stackdocker2
+    experience: 7442
+beastMastery:
+  '0':
+    UUID: 24cb6268-56c1-3c25-9f3d-c43d891c5d00
+    playerName: stackdocker2
+    experience: 0
+smelting:
+  '0':
+    UUID: 24cb6268-56c1-3c25-9f3d-c43d891c5d00
+    playerName: stackdocker2
+    experience: 3105

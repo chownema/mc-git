@@ -1,405 +1,62 @@
-[07:53:18] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[07:53:18] [main/INFO]: Reloading ResourceManager: Default, bukkit
-[07:53:18] [Worker-Main-4/INFO]: Loaded 7 recipes
-[07:53:19] [Server thread/INFO]: Starting minecraft server version 1.16.4
-[07:53:19] [Server thread/INFO]: Loading properties
-[07:53:19] [Server thread/INFO]: This server is running Paper version git-Paper-300 (MC: 1.16.4) (Implementing API version 1.16.4-R0.1-SNAPSHOT)
-[07:53:19] [Server thread/INFO]: Using 4 threads for Netty based IO
-[07:53:19] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[07:53:19] [Server thread/INFO]: Debug logging is disabled
-[07:53:19] [Server thread/INFO]: Default game type: SURVIVAL
-[07:53:19] [Server thread/INFO]: Generating keypair
-[07:53:19] [Server thread/INFO]: Starting Minecraft server on *:25565
-[07:53:19] [Server thread/INFO]: Using epoll channel type
-[07:53:20] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[07:53:24] [Server thread/WARN]: Legacy plugin SetHome v5.1.2 does not specify an api-version.
-[07:53:24] [Server thread/ERROR]: Could not load 'plugins/HoloInfo.jar' in folder 'plugins'
-org.bukkit.plugin.UnknownDependencyException: Unknown dependency HolographicDisplays. Please download and install HolographicDisplays to run this plugin.
-	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:272) ~[patched_1.16.4.jar:git-Paper-300]
-	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.loadPlugins(CraftServer.java:389) ~[patched_1.16.4.jar:git-Paper-300]
-	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:206) ~[patched_1.16.4.jar:git-Paper-300]
-	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:935) ~[patched_1.16.4.jar:git-Paper-300]
-	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:177) ~[patched_1.16.4.jar:git-Paper-300]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[07:53:24] [Server thread/WARN]: Legacy plugin RPGRegen v2.1.1 does not specify an api-version.
-[07:53:24] [Server thread/WARN]: Legacy plugin Doublejump v1.0-SNAPSHOT does not specify an api-version.
-[07:53:24] [Server thread/ERROR]: Could not load 'plugins/civs-1.7.5.jar' in folder 'plugins'
-org.bukkit.plugin.UnknownDependencyException: Unknown dependency Vault. Please download and install Vault to run this plugin.
-	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:272) ~[patched_1.16.4.jar:git-Paper-300]
-	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.loadPlugins(CraftServer.java:389) ~[patched_1.16.4.jar:git-Paper-300]
-	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:206) ~[patched_1.16.4.jar:git-Paper-300]
-	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:935) ~[patched_1.16.4.jar:git-Paper-300]
-	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:177) ~[patched_1.16.4.jar:git-Paper-300]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[07:53:24] [Server thread/WARN]: Legacy plugin PhatLoots v4.1.0 does not specify an api-version.
-[07:53:24] [Server thread/WARN]: Legacy plugin XP-Deposit v4.3.1 does not specify an api-version.
-[07:53:24] [Server thread/INFO]: [InfernalMobs] Loading InfernalMobs v6.3
-[07:53:24] [Server thread/INFO]: [SetHome] Loading SetHome v5.1.2
-[07:53:24] [Server thread/INFO]: [AureliumSkills] Loading AureliumSkills vAlpha 1.5.1
-[07:53:24] [Server thread/INFO]: [EliteMobs] Loading EliteMobs v7.2.0
-[07:53:24] [Server thread/WARN]: [EliteMobs] Error loading WorldGuard. EliteMob-specific flags will not work. Except if you just reloaded the plugin, in which case they will totally work.
-[07:53:24] [Server thread/INFO]: [NetherView] Loading NetherView v3.0.0
-[07:53:24] [Server thread/INFO]: [NoIFrames] Loading NoIFrames v1.0
-[07:53:24] [Server thread/INFO]: [FastFoodPlus] Loading FastFoodPlus v6.7.5
-[07:53:24] [Server thread/INFO]: [FreeRPG] Loading FreeRPG v1.4.22
-[07:53:24] [Server thread/INFO]: [SavageDeathChest] Loading SavageDeathChest v1.13.3
-[07:53:24] [Server thread/INFO]: [Tamablefoxes] Loading Tamablefoxes v1.8-SNAPSHOT
-[07:53:24] [Server thread/WARN]: [Tamablefoxes] Could not save language.yml to plugins/Tamablefoxes/language.yml because language.yml already exists.
-[07:53:24] [Server thread/WARN]: [Tamablefoxes] Could not save language.yml to plugins/Tamablefoxes/language.yml because language.yml already exists.
-[07:53:24] [Server thread/INFO]: [Tamable Foxes] Registering entity for MC Version v1_16_R3...
-[07:53:24] [Server thread/INFO]: [Tamable Foxes] Replaced tamable fox entity!
-[07:53:24] [Server thread/INFO]: [Essentials] Loading Essentials v2.18.2.0
-[07:53:24] [Server thread/INFO]: [CombatWeaponryPlus] Loading CombatWeaponryPlus v1.2.5
-[07:53:24] [Server thread/INFO]: [ArmorStandTools] Loading ArmorStandTools v3.7.1
-[07:53:24] [Server thread/INFO]: [DefensiveTurrets] Loading DefensiveTurrets v3.14.4
-[07:53:24] [Server thread/INFO]: [Ships] Loading Ships v6.0.0.0
-[07:53:24] [Server thread/INFO]: [DelayedCommand] Loading DelayedCommand v1.2.1
-[07:53:24] [Server thread/INFO]: [RPGRegen] Loading RPGRegen v2.1.1
-[07:53:24] [Server thread/INFO]: [Doublejump] Loading Doublejump v1.0-SNAPSHOT
-[07:53:24] [Server thread/INFO]: [PickupArrows] Loading PickupArrows v6.2.3
-[07:53:24] [Server thread/INFO]: [EnchantGUI] Loading EnchantGUI v1.5.11
-[07:53:24] [Server thread/INFO]: [MendingEnchant] Loading MendingEnchant v1.4
-[07:53:24] [Server thread/INFO]: [Poop] Loading Poop v2.1.0
-[07:53:24] [Server thread/INFO]: [Minepacks] Loading Minepacks v2.3.21-Release
-[07:53:24] [Server thread/INFO]: [Minepacks] PCGF-PluginLib not installed. Switching to standalone mode!
-[07:53:24] [Server thread/INFO]: [DangerousCaves] Loading DangerousCaves v2.2.11;22
-[07:53:24] [Server thread/INFO]: [PhatLoots] Loading PhatLoots v4.1.0
-[07:53:24] [Server thread/INFO]: [GSit] Loading GSit v[4.7.1.2]
-[07:53:24] [Server thread/INFO]: [MeteoritesPro] Loading MeteoritesPro v1.5.3
-[07:53:24] [Server thread/INFO]: [BloodMoon] Loading BloodMoon v0.8
-[07:53:24] [Server thread/INFO]: [Better-Enchantments] Loading Better-Enchantments v2.0
-[07:53:24] [Server thread/INFO]: [XP-Deposit] Loading XP-Deposit v4.3.1
-[07:53:24] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[07:53:24] [Server thread/INFO]: [Tamablefoxes] Enabling Tamablefoxes v1.8-SNAPSHOT
-[07:53:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[07:53:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[07:53:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[07:53:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[07:53:24] [Server thread/INFO]: Preparing level "world"
-[07:53:25] [Server thread/INFO]: -------- World Settings For [world] --------
-[07:53:25] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[07:53:25] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[07:53:25] [Server thread/INFO]: View Distance: 10
-[07:53:25] [Server thread/INFO]: Item Merge Radius: 2.5
-[07:53:25] [Server thread/INFO]: Item Despawn Rate: 6000
-[07:53:25] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: Cane Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: Melon Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: Potato Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: Vine Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[07:53:25] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[07:53:25] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[07:53:25] [Server thread/INFO]: Max TNT Explosions: 100
-[07:53:25] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[07:53:25] [Server thread/INFO]: Experience Merge Radius: 3.0
-[07:53:25] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[07:53:25] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[07:53:25] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[07:53:25] [Server thread/INFO]: Mob Spawn Range: 8
-[07:53:25] [Server thread/ERROR]: Error loading saved data: raids
-java.lang.ArrayIndexOutOfBoundsException: null
-	at java.io.PushbackInputStream.unread(PushbackInputStream.java:235) ~[?:1.8.0_212]
-	at net.minecraft.server.v1_16_R3.WorldPersistentData.a(WorldPersistentData.java:181) ~[patched_1.16.4.jar:git-Paper-300]
-	at net.minecraft.server.v1_16_R3.WorldPersistentData.a(WorldPersistentData.java:97) ~[patched_1.16.4.jar:git-Paper-300]
-	at net.minecraft.server.v1_16_R3.WorldPersistentData.c(WorldPersistentData.java:67) ~[patched_1.16.4.jar:git-Paper-300]
-	at net.minecraft.server.v1_16_R3.WorldPersistentData.b(WorldPersistentData.java:53) ~[patched_1.16.4.jar:git-Paper-300]
-	at net.minecraft.server.v1_16_R3.WorldPersistentData.a(WorldPersistentData.java:36) ~[patched_1.16.4.jar:git-Paper-300]
-	at net.minecraft.server.v1_16_R3.WorldServer.<init>(WorldServer.java:250) ~[patched_1.16.4.jar:git-Paper-300]
-	at net.minecraft.server.v1_16_R3.MinecraftServer.loadWorld(MinecraftServer.java:427) ~[patched_1.16.4.jar:git-Paper-300]
-	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:239) ~[patched_1.16.4.jar:git-Paper-300]
-	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:935) ~[patched_1.16.4.jar:git-Paper-300]
-	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:177) ~[patched_1.16.4.jar:git-Paper-300]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[07:53:25] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[07:53:25] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[07:53:25] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[07:53:25] [Server thread/INFO]: View Distance: 10
-[07:53:25] [Server thread/INFO]: Item Merge Radius: 2.5
-[07:53:25] [Server thread/INFO]: Item Despawn Rate: 6000
-[07:53:25] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: Cane Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: Melon Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: Potato Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: Vine Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[07:53:25] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[07:53:25] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[07:53:25] [Server thread/INFO]: Max TNT Explosions: 100
-[07:53:25] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[07:53:25] [Server thread/INFO]: Experience Merge Radius: 3.0
-[07:53:25] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[07:53:25] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[07:53:25] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[07:53:25] [Server thread/INFO]: Mob Spawn Range: 8
-[07:53:25] [Server thread/ERROR]: Error loading saved data: raids
-java.lang.ArrayIndexOutOfBoundsException: null
-	at java.io.PushbackInputStream.unread(PushbackInputStream.java:235) ~[?:1.8.0_212]
-	at net.minecraft.server.v1_16_R3.WorldPersistentData.a(WorldPersistentData.java:181) ~[patched_1.16.4.jar:git-Paper-300]
-	at net.minecraft.server.v1_16_R3.WorldPersistentData.a(WorldPersistentData.java:97) ~[patched_1.16.4.jar:git-Paper-300]
-	at net.minecraft.server.v1_16_R3.WorldPersistentData.c(WorldPersistentData.java:67) ~[patched_1.16.4.jar:git-Paper-300]
-	at net.minecraft.server.v1_16_R3.WorldPersistentData.b(WorldPersistentData.java:53) ~[patched_1.16.4.jar:git-Paper-300]
-	at net.minecraft.server.v1_16_R3.WorldPersistentData.a(WorldPersistentData.java:36) ~[patched_1.16.4.jar:git-Paper-300]
-	at net.minecraft.server.v1_16_R3.WorldServer.<init>(WorldServer.java:250) ~[patched_1.16.4.jar:git-Paper-300]
-	at net.minecraft.server.v1_16_R3.MinecraftServer.loadWorld(MinecraftServer.java:434) ~[patched_1.16.4.jar:git-Paper-300]
-	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:239) ~[patched_1.16.4.jar:git-Paper-300]
-	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:935) ~[patched_1.16.4.jar:git-Paper-300]
-	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:177) ~[patched_1.16.4.jar:git-Paper-300]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[07:53:25] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[07:53:25] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[07:53:25] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[07:53:25] [Server thread/INFO]: View Distance: 10
-[07:53:25] [Server thread/INFO]: Item Merge Radius: 2.5
-[07:53:25] [Server thread/INFO]: Item Despawn Rate: 6000
-[07:53:25] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: Cane Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: Melon Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: Potato Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: Vine Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[07:53:25] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[07:53:25] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[07:53:25] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[07:53:25] [Server thread/INFO]: Max TNT Explosions: 100
-[07:53:25] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[07:53:25] [Server thread/INFO]: Experience Merge Radius: 3.0
-[07:53:25] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[07:53:25] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[07:53:25] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[07:53:25] [Server thread/INFO]: Mob Spawn Range: 8
-[07:53:25] [Server thread/ERROR]: Error loading saved data: raids_end
-java.lang.ArrayIndexOutOfBoundsException: null
-	at java.io.PushbackInputStream.unread(PushbackInputStream.java:235) ~[?:1.8.0_212]
-	at net.minecraft.server.v1_16_R3.WorldPersistentData.a(WorldPersistentData.java:181) ~[patched_1.16.4.jar:git-Paper-300]
-	at net.minecraft.server.v1_16_R3.WorldPersistentData.a(WorldPersistentData.java:97) ~[patched_1.16.4.jar:git-Paper-300]
-	at net.minecraft.server.v1_16_R3.WorldPersistentData.c(WorldPersistentData.java:67) ~[patched_1.16.4.jar:git-Paper-300]
-	at net.minecraft.server.v1_16_R3.WorldPersistentData.b(WorldPersistentData.java:53) ~[patched_1.16.4.jar:git-Paper-300]
-	at net.minecraft.server.v1_16_R3.WorldPersistentData.a(WorldPersistentData.java:36) ~[patched_1.16.4.jar:git-Paper-300]
-	at net.minecraft.server.v1_16_R3.WorldServer.<init>(WorldServer.java:250) ~[patched_1.16.4.jar:git-Paper-300]
-	at net.minecraft.server.v1_16_R3.MinecraftServer.loadWorld(MinecraftServer.java:434) ~[patched_1.16.4.jar:git-Paper-300]
-	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:239) ~[patched_1.16.4.jar:git-Paper-300]
-	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:935) ~[patched_1.16.4.jar:git-Paper-300]
-	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:177) ~[patched_1.16.4.jar:git-Paper-300]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[07:53:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[07:53:25] [Server thread/INFO]: Loaded 0 spawn chunks for world world
-[07:53:25] [Server thread/INFO]: Preparing spawn area: 0%
-[07:53:25] [Server thread/INFO]: Preparing spawn area: 0%
-[07:53:25] [Server thread/INFO]: Time elapsed: 617 ms
-[07:53:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[07:53:25] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
-[07:53:26] [Server thread/INFO]: Preparing spawn area: 0%
-[07:53:26] [Server thread/INFO]: Preparing spawn area: 0%
-[07:53:26] [Server thread/INFO]: Time elapsed: 789 ms
-[07:53:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[07:53:26] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
-[07:53:26] [Server thread/INFO]: Time elapsed: 58 ms
-[07:53:26] [Server thread/INFO]: [InfernalMobs] Enabling InfernalMobs v6.3
-[07:53:26] [Server thread/INFO]: [InfernalMobs] Registered Events.
-[07:53:26] [Server thread/INFO]: [SetHome] Enabling SetHome v5.1.2*
-[07:53:26] [Server thread/INFO]: [AureliumSkills] Enabling AureliumSkills vAlpha 1.5.1
-[07:53:26] [Server thread/INFO]: [AureliumSkills] Loading config...
-[07:53:26] [Server thread/INFO]: [AureliumSkills] Loaded 258 config options in 0 ms
-[07:53:27] [Server thread/INFO]: [AureliumSkills] [ACF] Enabled Asynchronous Tab Completion Support!
-[07:53:27] [Server thread/INFO]: [AureliumSkills] Loading languages...
-[07:53:27] [Server thread/INFO]: [AureliumSkills] Loaded 5 languages in 125ms
-[07:53:27] [Server thread/INFO]: [AureliumSkills] Loaded 3 menus, 9 items, and 5 templates in 133 ms
-[07:53:27] [Server thread/INFO]: [AureliumSkills] Disabled 0 Abilities
-[07:53:27] [Server thread/INFO]: [AureliumSkills] Loaded 52 Ability Options in 10ms
-[07:53:27] [Server thread/INFO]: [AureliumSkills] Loading Skill Data...
-[07:53:27] [Server thread/INFO]: [AureliumSkills] Loaded 0 Player Skill Data in 0ms
-[07:53:27] [Server thread/INFO]: [AureliumSkills] Loaded 8 items and 0 commands in 4 loot tables.
-[07:53:27] [Server thread/INFO]: [AureliumSkills] Loaded 3 blocked worlds.
-[07:53:27] [Server thread/INFO]: [AureliumSkills] Aurelium Skills has been enabled
-[07:53:27] [Server thread/INFO]: [EliteMobs] Enabling EliteMobs v7.2.0
-[07:53:27] [Server thread/INFO]:  _____ _     _____ _____ ________  ______________  _____
-[07:53:27] [Server thread/INFO]: |  ___| |   |_   _|_   _|  ___|  \/  |  _  | ___ \/  ___|
-[07:53:27] [Server thread/INFO]: | |__ | |     | |   | | | |__ | .  . | | | | |_/ /\ `--.
-[07:53:27] [Server thread/INFO]: |  __|| |     | |   | | |  __|| |\/| | | | | ___ \ `--. \
-[07:53:27] [Server thread/INFO]: | |___| |_____| |_  | | | |___| |  | \ \_/ / |_/ //\__/ /
-[07:53:27] [Server thread/INFO]: \____/\_____/\___/  \_/ \____/\_|  |_/\___/\____/ \____/
-[07:53:27] [Server thread/INFO]: By MagmaGuy
-[07:53:28] [Server thread/INFO]: [EliteMobs] Custom Treasure Chest in file test_custom_treasure_config.ymldoes not have a defined location! It will not spawn.
-[07:53:28] [Server thread/WARN]: [EliteMobs] WorldGuard compatibility is not enabled!
-[07:53:28] [Server thread/INFO]: Opened database successfully
-[07:53:28] [Server thread/WARN]: [EliteMobs] NPC special_blacksmith.yml tried to spawn in an invalid location. This may be due to region protection preventing it from spawning correctly. If not, delete the location in its configuration file and try setting it up again.
-[07:53:28] [Server thread/WARN]: [EliteMobs] NPC blacksmith.yml tried to spawn in an invalid location. This may be due to region protection preventing it from spawning correctly. If not, delete the location in its configuration file and try setting it up again.
-[07:53:28] [Server thread/WARN]: [EliteMobs] NPC guild_attendant.yml tried to spawn in an invalid location. This may be due to region protection preventing it from spawning correctly. If not, delete the location in its configuration file and try setting it up again.
-[07:53:28] [Server thread/WARN]: [EliteMobs] NPC barkeep.yml tried to spawn in an invalid location. This may be due to region protection preventing it from spawning correctly. If not, delete the location in its configuration file and try setting it up again.
-[07:53:28] [Server thread/WARN]: [EliteMobs] NPC combat_instructor.yml tried to spawn in an invalid location. This may be due to region protection preventing it from spawning correctly. If not, delete the location in its configuration file and try setting it up again.
-[07:53:28] [Server thread/WARN]: [EliteMobs] NPC quest_giver.yml tried to spawn in an invalid location. This may be due to region protection preventing it from spawning correctly. If not, delete the location in its configuration file and try setting it up again.
-[07:53:28] [Server thread/INFO]: [NetherView] Enabling NetherView v3.0.0
-[07:53:28] [Server thread/INFO]: Nether View disabled itself because of missing dependency ProtocolLib.
-[07:53:28] [Server thread/ERROR]: [NetherView] ====================================================
-[07:53:28] [Server thread/ERROR]: [NetherView] Error: You must have ProtocolLib installed to use
-[07:53:28] [Server thread/ERROR]: [NetherView] Nether View! Please download ProtocolLib and then
-[07:53:28] [Server thread/ERROR]: [NetherView] restart your server:
-[07:53:28] [Server thread/ERROR]: [NetherView] https://www.spigotmc.org/resources/protocollib.1997/
-[07:53:28] [Server thread/ERROR]: [NetherView] ====================================================
-[07:53:28] [Server thread/INFO]: [NetherView] Disabling NetherView v3.0.0
-[07:53:28] [Server thread/INFO]: [NoIFrames] Enabling NoIFrames v1.0
-[07:53:28] [Server thread/INFO]: [NoIFrames] plugin loaded
-[07:53:28] [Server thread/INFO]: [FastFoodPlus] Enabling FastFoodPlus v6.7.5
-[07:53:28] [Server thread/INFO]: -=(FastFoodPlus)=- config.yml has been loaded.
-[07:53:28] [Server thread/INFO]: -=(FastFoodPlus)=- foods.yml has been loaded.
-[07:53:28] [Server thread/INFO]: -=(FastFoodPlus)=- recipes.yml has been loaded.
-[07:53:28] [Server thread/INFO]: -=(FastFoodPlus)=- Configuration file is up to date. - (v33)
-[07:53:28] [Server thread/INFO]: [FreeRPG] Enabling FreeRPG v1.4.22
-[07:53:28] [Server thread/WARN]: [FreeRPG] Could not save languages.yml to plugins/FreeRPG/languages.yml because languages.yml already exists.
-[07:53:28] [Server thread/WARN]: [FreeRPG] Could not save advancedConfig.yml to plugins/FreeRPG/advancedConfig.yml because advancedConfig.yml already exists.
-[07:53:29] [ForkJoinPool.commonPool-worker-1/INFO]: -=(FastFoodPlus)=- Checking for updates...
-[07:53:29] [Server thread/INFO]: [SavageDeathChest] Enabling SavageDeathChest v1.13.3
-[07:53:29] [Server thread/INFO]: [SavageDeathChest] Language file en-US.yml successfully loaded.
-[07:53:29] [Server thread/INFO]: [SavageDeathChest] Sound file sounds.yml successfully loaded.
-[07:53:29] [Server thread/INFO]: [SavageDeathChest] SQLite datastore initialized.
-[07:53:29] [Server thread/INFO]: [Essentials] Enabling Essentials v2.18.2.0
-[07:53:29] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[07:53:29] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[07:53:29] [Server thread/INFO]: [Essentials] Loaded 25599 items from items.json.
-[07:53:29] [Server thread/INFO]: [Essentials] Using locale en_US
-[07:53:29] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[07:53:29] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[07:53:29] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[07:53:29] [Server thread/INFO]: [CombatWeaponryPlus] Enabling CombatWeaponryPlus v1.2.5
-[07:53:29] [Server thread/INFO]: [ArmorStandTools] Enabling ArmorStandTools v3.7.1
-[07:53:29] [Server thread/INFO]: [ArmorStandTools] Loading support for v1_16_R3
-[07:53:29] [Server thread/INFO]: [ArmorStandTools] PlotSquared plugin not found. Continuing without PlotSquared support.
-[07:53:29] [Server thread/INFO]: [ArmorStandTools] WorldGuard plugin not found. Continuing without WorldGuard support.
-[07:53:29] [Server thread/INFO]: [DefensiveTurrets] Enabling DefensiveTurrets v3.14.4
-[07:53:29] [Server thread/INFO]: [DefensiveTurrets] Has been enabled! Version: 3.14.4
-[07:53:29] [Server thread/INFO]: [DefensiveTurrets] Thanks for using my plugin!  ~Ajneb97
-[07:53:30] [Server thread/INFO]: [Ships] Enabling Ships v6.0.0.0
-[07:53:30] [Server thread/INFO]: [DelayedCommand] Enabling DelayedCommand v1.2.1
-[07:53:30] [Server thread/INFO]: [RPGRegen] Enabling RPGRegen v2.1.1*
-[07:53:30] [Server thread/INFO]: [RPG Regen] Enabled
-[07:53:30] [Server thread/INFO]: [RPG Regen] |x|-===SkillAPI not detected===-|x|
-[07:53:30] [Server thread/INFO]: [Doublejump] Enabling Doublejump v1.0-SNAPSHOT*
-[07:53:30] [Server thread/INFO]: ========[DoubleJump]========
-  Successfully booted
-============================
-[07:53:30] [Server thread/INFO]: [PickupArrows] Enabling PickupArrows v6.2.3
-[07:53:30] [Server thread/INFO]: [EnchantGUI] Enabling EnchantGUI v1.5.11
-[07:53:30] [Server thread/ERROR]: [EnchantGUI] could not find vault
-[07:53:30] [Server thread/ERROR]: [EnchantGUI] Disabled due to no Vault dependency found!
-[07:53:30] [Server thread/INFO]: [EnchantGUI] Disabling EnchantGUI v1.5.11
-[07:53:30] [Server thread/INFO]: [EnchantGUI] EnchantGUI 1.5.11 disabled!
-[07:53:30] [Server thread/INFO]: [MendingEnchant] Enabling MendingEnchant v1.4
-[07:53:30] [Server thread/INFO]: [MendingEnchant] is enabled !
-[07:53:30] [Server thread/INFO]: [Poop] Enabling Poop v2.1.0
-[07:53:30] [Server thread/INFO]: [POOP] Loading language en ...
-[07:53:30] [Server thread/INFO]: [POOP] Language set to en.yml!
-[07:53:30] [Server thread/INFO]: [POOP] Plugin started!
-[07:53:30] [Server thread/INFO]: [Minepacks] Enabling Minepacks v2.3.21-Release
-[07:53:30] [Server thread/INFO]: [Minepacks] Starting Minepacks in standalone mode!
-[07:53:30] [Server thread/INFO]: [Minepacks] [32mConfig file successfully loaded.[0m
-[07:53:30] [Server thread/INFO]: [Minepacks] [32mLanguage file successfully loaded. Language: english  Author: GeorgH93[0m
-[07:53:30] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Starting...
-[07:53:30] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Start completed.
-[07:53:30] [Server thread/INFO]: [Minepacks] [32mItem name language file successfully loaded. Language: english  Author: GeorgH93[0m
-[07:53:30] [Server thread/INFO]: [Minepacks] Loading item translations ...
-[07:53:30] [Server thread/INFO]: [Minepacks] Finished loading item translations for 829 items.
-[07:53:30] [Server thread/INFO]: [Minepacks] [32m Minepacks has been enabled! [33m :) [0m
-[07:53:30] [Server thread/INFO]: [DangerousCaves] Enabling DangerousCaves v2.2.11;22
-[07:53:31] [Server thread/INFO]: [PhatLoots] Enabling PhatLoots v4.1.0*
-[07:53:31] [Server thread/INFO]: [PhatLoots] Listening for Dispensers
-[07:53:31] [Server thread/INFO]: [PhatLoots] Listening for Mob deaths w/ MultiWorld support
-[07:53:31] [Server thread/INFO]: [PhatLoots] Listening for Mob spawns w/ MultiWorld support
-[07:53:31] [Server thread/INFO]: [PhatLoots] Listening for Players fishing
-[07:53:31] [Server thread/INFO]: [PhatLoots] PhatLoots 4.1.0 (Build 1,905) is enabled!
-[07:53:31] [Server thread/INFO]: [GSit] Enabling GSit v[4.7.1.2]
-[07:53:31] [Server thread/INFO]: [GSit] The Plugin was successfully enabled.
-[07:53:31] [Server thread/INFO]: [GSit] This Plugin has a new Version: [4.7.3.0]!
-[GSit] You use the outdated Version: [4.7.1.2]!
-[GSit] Download the latest Version:
-[GSit] https://www.spigotmc.org/resources/62325
-[07:53:31] [Server thread/INFO]: [MeteoritesPro] Enabling MeteoritesPro v1.5.3
-[07:53:31] [Server thread/INFO]:          __
-[07:53:31] [Server thread/INFO]:    |\/| |__)   MeteoritesPro v1.5.3
-[07:53:31] [Server thread/INFO]:    |  | |        by OliPulse
-[07:53:31] [Server thread/INFO]:  
-[07:53:31] [Server thread/INFO]: [BloodMoon] Enabling BloodMoon v0.8
-[07:53:31] [Server thread/INFO]: [BloodMoon] This plugin is still in its infancy. If you encounter a bug, please report it to https://www.spigotmc.org/threads/bloodmoon.412741/
-[07:53:31] [Server thread/INFO]: [Better-Enchantments] Enabling Better-Enchantments v2.0
-[07:53:31] [Server thread/INFO]: [XP-Deposit] Enabling XP-Deposit v4.3.1*
-[07:53:31] [Server thread/INFO]: Starting remote control listener
-[07:53:31] [Server thread/INFO]: Thread RCON Listener started
-[07:53:31] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[07:53:31] [Server thread/INFO]: Running delayed init tasks
-[07:53:31] [Craft Scheduler Thread - 4/INFO]: -=(FastFoodPlus)=- No updates found - (v6.7.5)
-[07:53:31] [Craft Scheduler Thread - 2/INFO]: [AureliumSkills] Updating leaderboards...
-[07:53:31] [Craft Scheduler Thread - 2/INFO]: [AureliumSkills] Leaderboards updated in 21.842108 ms
-[07:53:31] [Craft Scheduler Thread - 0/INFO]: [EliteMobs] Latest public release is 7.2.0
-[07:53:31] [Craft Scheduler Thread - 0/INFO]: [EliteMobs] Your version is 7.2.0
-[07:53:31] [Server thread/INFO]: ------[Ships Loaded Information][Start]------
-[07:53:31] [Server thread/INFO]: Found BlockFinders: 3
-[07:53:31] [Server thread/INFO]: 	- ships:blockfinder_ships_six_async	
-[07:53:31] [Server thread/INFO]: 	- ships:blockfinder_ships_five	
-[07:53:31] [Server thread/INFO]: 	- ships:blockfinder_ships_six	
-[07:53:31] [Server thread/INFO]: Found MovementMethods: 2
-[07:53:31] [Server thread/INFO]: 	- ships:movement_ships_five	
-[07:53:31] [Server thread/INFO]: 	- ships:movement_ships_six	
-[07:53:31] [Server thread/INFO]: Found BlockPriorities: 4
-[07:53:31] [Server thread/INFO]: 	- ships:normal		100
-[07:53:31] [Server thread/INFO]: 	- ships:attached	5
-[07:53:31] [Server thread/INFO]: 	- ships:air		200
-[07:53:31] [Server thread/INFO]: 	- ships:directional	10
-[07:53:31] [Server thread/INFO]: Found Signs: 5
-[07:53:31] [Server thread/INFO]: 	- ships:eot_sign	
-[07:53:31] [Server thread/INFO]: 	- ships:licence_sign	
-[07:53:31] [Server thread/INFO]: 	- ships:move_sign	
-[07:53:31] [Server thread/INFO]: 	- ships:altitude_sign	
-[07:53:31] [Server thread/INFO]: 	- ships:wheel_sign	
-[07:53:31] [Server thread/INFO]: Found ShipTypes: 6
-[07:53:31] [Server thread/INFO]: 	- ships:submarine	Submarine	plugins/Ships/Configuration/ShipType/Submarine.yml
-[07:53:31] [Server thread/INFO]: 	- ships:marsship	Marsship	plugins/Ships/Configuration/ShipType/MarsShip.yml
-[07:53:31] [Server thread/INFO]: 	- ships:opship		OPShip		plugins/Ships/Configuration/ShipType/OPShip.yml
-[07:53:31] [Server thread/INFO]: 	- ships:watership	Ship		plugins/Ships/Configuration/ShipType/Watership.yml
-[07:53:31] [Server thread/INFO]: 	- ships:plane		Plane		plugins/Ships/Configuration/ShipType/Plane.yml
-[07:53:31] [Server thread/INFO]: 	- ships:airship		Airship		plugins/Ships/Configuration/ShipType/Airship.yml
-[07:53:31] [Server thread/INFO]: Vessels: 0
-[07:53:31] [Server thread/INFO]: ------[Ships Loaded Information][End]------
-[07:53:31] [Craft Scheduler Thread - 0/INFO]: [EliteMobs] You are running the latest version!
-[07:53:31] [Craft Scheduler Thread - 1/INFO]: [AureliumSkills] New update available! You are on version Alpha 1.5.1, latest version is Alpha 1.5.4
-[07:53:31] [Craft Scheduler Thread - 1/INFO]: [AureliumSkills] Download it on Spigot:
-[07:53:31] [Craft Scheduler Thread - 1/INFO]: [AureliumSkills] http://spigotmc.org/resources/81069
-[07:53:32] [Server thread/INFO]: -----[Ships Update Information][Start]-----
-[07:53:32] [Server thread/INFO]: Current Version: Ships -b 6.0.0.0 R2 Beta 9.2
-[07:53:32] [Server thread/INFO]: Latest version: Ships -b 6.0.0.0 R2 
-[07:53:32] [Server thread/INFO]: -----[Ships Update Information][End]-----
-[07:53:32] [Server thread/INFO]: Done (12.936s)! For help, type "help"
-[07:53:32] [Server thread/INFO]: Timings Reset
-[08:23:31] [Server thread/INFO]: [MeteoritesPro] An Icy Meteorite has been sighted near X:-301 Z:-374 !
-[08:53:31] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:342 Z:-11 !
+[00:20:56] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:-491 Z:-336 !
+[00:36:58] [Server thread/INFO]: The difficulty has been set to Peaceful
+[00:36:58] [Server thread/INFO]: The command /difficulty hard  will run after 5 seconds. Use /dcmd cancel 538908 to cancel it.
+[00:37:03] [Server thread/INFO]: The difficulty has been set to Hard
+[00:50:56] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:449 Z:51 !
+[01:20:56] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:266 Z:180 !
+[01:50:56] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:-165 Z:-319 !
+[02:20:56] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:-367 Z:332 !
+[02:50:56] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:-295 Z:123 !
+[02:56:58] [Server thread/INFO]: The difficulty has been set to Peaceful
+[02:56:58] [Server thread/INFO]: The command /difficulty hard  will run after 5 seconds. Use /dcmd cancel 555288 to cancel it.
+[02:57:03] [Server thread/INFO]: The difficulty has been set to Hard
+[03:20:56] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:161 Z:-32 !
+[03:50:56] [Server thread/INFO]: [MeteoritesPro] An Icy Meteorite has been sighted near X:-462 Z:-421 !
+[04:20:56] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:432 Z:257 !
+[04:50:56] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:33 Z:387 !
+[05:16:58] [Server thread/INFO]: The difficulty has been set to Peaceful
+[05:16:58] [Server thread/INFO]: The command /difficulty hard  will run after 5 seconds. Use /dcmd cancel 571398 to cancel it.
+[05:17:03] [Server thread/INFO]: The difficulty has been set to Hard
+[05:20:56] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:-345 Z:79 !
+[05:50:56] [Server thread/INFO]: [MeteoritesPro] An Icy Meteorite has been sighted near X:-152 Z:-46 !
+[06:20:56] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:251 Z:210 !
+[06:50:56] [Server thread/INFO]: [MeteoritesPro] An Icy Meteorite has been sighted near X:13 Z:482 !
+[07:20:56] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:90 Z:477 !
+[07:36:58] [Server thread/INFO]: The difficulty has been set to Peaceful
+[07:36:58] [Server thread/INFO]: The command /difficulty hard  will run after 5 seconds. Use /dcmd cancel 588097 to cancel it.
+[07:37:03] [Server thread/INFO]: The difficulty has been set to Hard
+[07:50:56] [Server thread/INFO]: [MeteoritesPro] An Icy Meteorite has been sighted near X:177 Z:42 !
+[08:20:56] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:-310 Z:-380 !
+[08:50:56] [Server thread/INFO]: [MeteoritesPro] An Icy Meteorite has been sighted near X:-382 Z:489 !
+[09:20:56] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:276 Z:386 !
+[09:50:56] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:113 Z:-276 !
+[09:56:58] [Server thread/INFO]: The difficulty has been set to Peaceful
+[09:56:58] [Server thread/INFO]: The command /difficulty hard  will run after 5 seconds. Use /dcmd cancel 604768 to cancel it.
+[09:57:03] [Server thread/INFO]: The difficulty has been set to Hard
+[10:20:56] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:-382 Z:275 !
+[10:50:56] [Server thread/INFO]: [MeteoritesPro] An Icy Meteorite has been sighted near X:-479 Z:91 !
+[11:20:56] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:130 Z:341 !
+[11:50:56] [Server thread/INFO]: [MeteoritesPro] An Icy Meteorite has been sighted near X:-94 Z:-382 !
+[12:16:58] [Server thread/INFO]: The difficulty has been set to Peaceful
+[12:16:58] [Server thread/INFO]: The command /difficulty hard  will run after 5 seconds. Use /dcmd cancel 620993 to cancel it.
+[12:17:03] [Server thread/INFO]: The difficulty has been set to Hard
+[12:20:56] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:-444 Z:114 !
+[12:50:56] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:240 Z:482 !
+[13:20:56] [Server thread/INFO]: [MeteoritesPro] An Icy Meteorite has been sighted near X:-341 Z:-121 !
+[13:50:56] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:250 Z:485 !
+[14:20:56] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:309 Z:231 !
+[14:36:58] [Server thread/INFO]: The difficulty has been set to Peaceful
+[14:36:58] [Server thread/INFO]: The command /difficulty hard  will run after 5 seconds. Use /dcmd cancel 637518 to cancel it.
+[14:37:03] [Server thread/INFO]: The difficulty has been set to Hard
+[14:50:56] [Server thread/INFO]: [MeteoritesPro] An Icy Meteorite has been sighted near X:-146 Z:-323 !
+[15:20:56] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:188 Z:-128 !
+[15:50:56] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:-124 Z:150 !
+[16:20:56] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:48 Z:1 !
+[16:50:56] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:-88 Z:14 !
+[16:56:58] [Server thread/INFO]: The difficulty has been set to Peaceful
+[16:56:58] [Server thread/INFO]: The command /difficulty hard  will run after 5 seconds. Use /dcmd cancel 654055 to cancel it.
+[16:57:03] [Server thread/INFO]: The difficulty has been set to Hard
+[17:20:56] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:273 Z:305 !
+[17:50:56] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:209 Z:-350 !
+[18:20:56] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:33 Z:38 !
+[18:50:56] [Server thread/INFO]: [MeteoritesPro] An Icy Meteorite has been sighted near X:68 Z:-367 !

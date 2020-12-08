@@ -1,12 +1,12 @@
 lastAccountName: Max Carnage
 timestamps:
-  login: 1607024895621
-  logout: 1607025534996
+  login: 1607324346750
+  logout: 1607327000925
 ipAddress: 101.98.102.130
 logoutlocation:
   world: world
-  x: -103.9419460888965
-  y: 76.0
-  z: 673.1483377628091
-  yaw: 186.30212
-  pitch: 36.299984
+  x: -97.10504943025335
+  y: 63.0
+  z: 734.6999999880791
+  yaw: 269.24976
+  pitch: 9.850005

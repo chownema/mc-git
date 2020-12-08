@@ -2,12 +2,12 @@ general:
   username: stackdocker2
   firstLogin: '"29-11-2020 20:11:16"'
   lastLogin: 1606680676
-  lastLogout: 1607020933
-  playTime: 1167
+  lastLogout: 1607415372
+  playTime: 99
   language: enUs
 globalStats:
-  totalLevel: 934
-  globalTokens: 0
+  totalLevel: 1348
+  globalTokens: 1
   skill_1a: 0
   skill_1b: 0
   skill_1c: 0
@@ -35,10 +35,10 @@ globalStats:
   leafBlowerToggle: 1
   holyAxeToggle: 1
   numberOfCooldownBars: 1
-  totalExperience: 2232130
+  totalExperience: 3524893
 digging:
   level: 9
-  experience: 17140
+  experience: 17680
   passiveTokens: 0
   skillTokens: 0
   passive1: 9
@@ -55,7 +55,7 @@ digging:
   showEXPBarToggle: 1
 woodcutting:
   level: 2
-  experience: 4201
+  experience: 4701
   passiveTokens: 0
   skillTokens: 0
   passive1: 2
@@ -71,13 +71,13 @@ woodcutting:
   triggerAbilityToggle: 1
   showEXPBarToggle: 1
 mining:
-  level: 45
-  experience: 86595
-  passiveTokens: 5
+  level: 82
+  experience: 166376
+  passiveTokens: 42
   skillTokens: 0
-  passive1: 45
-  passive2: 85
-  passive3: 45
+  passive1: 82
+  passive2: 122
+  passive3: 82
   skill_1a: 0
   skill_1b: 0
   skill_2a: 0
@@ -88,13 +88,13 @@ mining:
   triggerAbilityToggle: 1
   showEXPBarToggle: 1
 farming:
-  level: 3
-  experience: 6313
-  passiveTokens: 2
+  level: 12
+  experience: 21998
+  passiveTokens: 11
   skillTokens: 0
-  passive1: 3
-  passive2: 4
-  passive3: 3
+  passive1: 12
+  passive2: 13
+  passive3: 12
   skill_1a: 0
   skill_1b: 0
   skill_2a: 0
@@ -122,13 +122,13 @@ fishing:
   triggerAbilityToggle: 1
   showEXPBarToggle: 1
 archery:
-  level: 57
-  experience: 112356
-  passiveTokens: 54
-  skillTokens: 0
-  passive1: 57
-  passive2: 60
-  passive3: 57
+  level: 153
+  experience: 344057
+  passiveTokens: 150
+  skillTokens: 1
+  passive1: 153
+  passive2: 156
+  passive3: 153
   skill_1a: 0
   skill_1b: 0
   skill_2a: 0
@@ -156,13 +156,13 @@ beastMastery:
   triggerAbilityToggle: 1
   showEXPBarToggle: 1
 swordsmanship:
-  level: 175
-  experience: 406165
-  passiveTokens: 36
-  skillTokens: 0
-  passive1: 175
-  passive2: 314
-  passive3: 175
+  level: 224
+  experience: 559666
+  passiveTokens: 38
+  skillTokens: 1
+  passive1: 224
+  passive2: 410
+  passive3: 224
   skill_1a: 1
   skill_1b: 0
   skill_2a: 0
@@ -173,13 +173,13 @@ swordsmanship:
   triggerAbilityToggle: 1
   showEXPBarToggle: 1
 defense:
-  level: 109
-  experience: 229878
-  passiveTokens: 36
+  level: 148
+  experience: 330079
+  passiveTokens: 75
   skillTokens: 1
-  passive1: 109
-  passive2: 182
-  passive3: 109
+  passive1: 148
+  passive2: 221
+  passive3: 148
   skill_1a: 0
   skill_1b: 0
   skill_2a: 0
@@ -190,13 +190,13 @@ defense:
   triggerAbilityToggle: 1
   showEXPBarToggle: 1
 axeMastery:
-  level: 31
-  experience: 58295
-  passiveTokens: 26
+  level: 47
+  experience: 91538
+  passiveTokens: 42
   skillTokens: 0
-  passive1: 31
-  passive2: 36
-  passive3: 31
+  passive1: 47
+  passive2: 52
+  passive3: 47
   skill_1a: 0
   skill_1b: 0
   skill_2a: 0
@@ -224,13 +224,13 @@ repair:
   triggerAbilityToggle: 1
   showEXPBarToggle: 1
 agility:
-  level: 262
-  experience: 694182
+  level: 336
+  experience: 1002818
   passiveTokens: 0
-  skillTokens: 1
-  passive1: 262
-  passive2: 262
-  passive3: 262
+  skillTokens: 2
+  passive1: 336
+  passive2: 336
+  passive3: 336
   skill_1a: 1
   skill_1b: 0
   skill_2a: 0
@@ -258,13 +258,13 @@ alchemy:
   triggerAbilityToggle: 1
   showEXPBarToggle: 1
 smelting:
-  level: 1
-  experience: 3105
+  level: 4
+  experience: 7505
   passiveTokens: 0
   skillTokens: 0
-  passive1: 1
-  passive2: 1
-  passive3: 1
+  passive1: 4
+  passive2: 4
+  passive3: 4
   skill_1a: 0
   skill_1b: 0
   skill_2a: 0
@@ -275,13 +275,13 @@ smelting:
   triggerAbilityToggle: 1
   showEXPBarToggle: 1
 enchanting:
-  level: 240
-  experience: 613900
+  level: 331
+  experience: 978475
   passiveTokens: 0
-  skillTokens: 2
-  passive1: 240
-  passive2: 240
-  passive3: 240
+  skillTokens: 3
+  passive1: 331
+  passive2: 331
+  passive3: 331
   skill_1a: 0
   skill_1b: 0
   skill_2a: 0

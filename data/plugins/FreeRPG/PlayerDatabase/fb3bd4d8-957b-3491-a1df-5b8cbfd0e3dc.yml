@@ -2,12 +2,12 @@ general:
   username: ssedoc
   firstLogin: '"29-11-2020 22:14:01"'
   lastLogin: 1606688041
-  lastLogout: 1606994402
-  playTime: 6621
+  lastLogout: 1607417887
+  playTime: 2423
   language: enUs
 globalStats:
-  totalLevel: 569
-  globalTokens: 0
+  totalLevel: 1739
+  globalTokens: 1
   skill_1a: 0
   skill_1b: 0
   skill_1c: 0
@@ -35,15 +35,15 @@ globalStats:
   leafBlowerToggle: 1
   holyAxeToggle: 1
   numberOfCooldownBars: 1
-  totalExperience: 1311869
+  totalExperience: 4877860
 digging:
-  level: 0
-  experience: 1242
-  passiveTokens: 0
+  level: 90
+  experience: 183842
+  passiveTokens: 90
   skillTokens: 0
-  passive1: 0
-  passive2: 0
-  passive3: 0
+  passive1: 90
+  passive2: 90
+  passive3: 90
   skill_1a: 0
   skill_1b: 0
   skill_2a: 0
@@ -54,13 +54,13 @@ digging:
   triggerAbilityToggle: 1
   showEXPBarToggle: 1
 woodcutting:
-  level: 5
-  experience: 10673
-  passiveTokens: 5
+  level: 27
+  experience: 50996
+  passiveTokens: 27
   skillTokens: 0
-  passive1: 5
-  passive2: 5
-  passive3: 5
+  passive1: 27
+  passive2: 27
+  passive3: 27
   skill_1a: 0
   skill_1b: 0
   skill_2a: 0
@@ -71,13 +71,13 @@ woodcutting:
   triggerAbilityToggle: 1
   showEXPBarToggle: 1
 mining:
-  level: 3
-  experience: 6188
-  passiveTokens: 3
+  level: 39
+  experience: 74921
+  passiveTokens: 39
   skillTokens: 0
-  passive1: 3
-  passive2: 3
-  passive3: 3
+  passive1: 39
+  passive2: 39
+  passive3: 39
   skill_1a: 0
   skill_1b: 0
   skill_2a: 0
@@ -88,13 +88,13 @@ mining:
   triggerAbilityToggle: 1
   showEXPBarToggle: 1
 farming:
-  level: 9
-  experience: 18056
-  passiveTokens: 9
+  level: 46
+  experience: 88404
+  passiveTokens: 46
   skillTokens: 0
-  passive1: 9
-  passive2: 9
-  passive3: 9
+  passive1: 46
+  passive2: 46
+  passive3: 46
   skill_1a: 0
   skill_1b: 0
   skill_2a: 0
@@ -122,13 +122,13 @@ fishing:
   triggerAbilityToggle: 1
   showEXPBarToggle: 1
 archery:
-  level: 23
-  experience: 44176
-  passiveTokens: 23
-  skillTokens: 0
-  passive1: 23
-  passive2: 23
-  passive3: 23
+  level: 341
+  experience: 1023697
+  passiveTokens: 341
+  skillTokens: 3
+  passive1: 341
+  passive2: 341
+  passive3: 341
   skill_1a: 0
   skill_1b: 0
   skill_2a: 0
@@ -139,13 +139,13 @@ archery:
   triggerAbilityToggle: 1
   showEXPBarToggle: 1
 beastMastery:
-  level: 5
-  experience: 9000
-  passiveTokens: 5
+  level: 29
+  experience: 54000
+  passiveTokens: 29
   skillTokens: 0
-  passive1: 5
-  passive2: 5
-  passive3: 5
+  passive1: 29
+  passive2: 29
+  passive3: 29
   skill_1a: 0
   skill_1b: 0
   skill_2a: 0
@@ -156,13 +156,13 @@ beastMastery:
   triggerAbilityToggle: 1
   showEXPBarToggle: 1
 swordsmanship:
-  level: 58
-  experience: 114177
-  passiveTokens: 58
-  skillTokens: 0
-  passive1: 58
-  passive2: 58
-  passive3: 58
+  level: 154
+  experience: 345196
+  passiveTokens: 154
+  skillTokens: 1
+  passive1: 154
+  passive2: 154
+  passive3: 154
   skill_1a: 0
   skill_1b: 0
   skill_2a: 0
@@ -173,13 +173,13 @@ swordsmanship:
   triggerAbilityToggle: 1
   showEXPBarToggle: 1
 defense:
-  level: 109
-  experience: 230197
-  passiveTokens: 109
-  skillTokens: 1
-  passive1: 109
-  passive2: 109
-  passive3: 109
+  level: 205
+  experience: 497934
+  passiveTokens: 205
+  skillTokens: 2
+  passive1: 205
+  passive2: 205
+  passive3: 205
   skill_1a: 0
   skill_1b: 0
   skill_2a: 0
@@ -190,13 +190,13 @@ defense:
   triggerAbilityToggle: 1
   showEXPBarToggle: 1
 axeMastery:
-  level: 4
-  experience: 8987
-  passiveTokens: 4
+  level: 15
+  experience: 28987
+  passiveTokens: 15
   skillTokens: 0
-  passive1: 4
-  passive2: 4
-  passive3: 4
+  passive1: 15
+  passive2: 15
+  passive3: 15
   skill_1a: 0
   skill_1b: 0
   skill_2a: 0
@@ -224,13 +224,13 @@ repair:
   triggerAbilityToggle: 1
   showEXPBarToggle: 1
 agility:
-  level: 253
-  experience: 662511
+  level: 446
+  experience: 1595346
   passiveTokens: 0
-  skillTokens: 2
-  passive1: 253
-  passive2: 253
-  passive3: 253
+  skillTokens: 4
+  passive1: 446
+  passive2: 446
+  passive3: 446
   skill_1a: 0
   skill_1b: 0
   skill_2a: 0
@@ -258,13 +258,13 @@ alchemy:
   triggerAbilityToggle: 1
   showEXPBarToggle: 1
 smelting:
-  level: 2
-  experience: 4076
+  level: 48
+  experience: 92326
   passiveTokens: 0
   skillTokens: 0
-  passive1: 2
-  passive2: 2
-  passive3: 2
+  passive1: 48
+  passive2: 48
+  passive3: 48
   skill_1a: 0
   skill_1b: 0
   skill_2a: 0
@@ -275,13 +275,13 @@ smelting:
   triggerAbilityToggle: 1
   showEXPBarToggle: 1
 enchanting:
-  level: 98
-  experience: 202586
+  level: 299
+  experience: 842211
   passiveTokens: 0
-  skillTokens: 0
-  passive1: 98
-  passive2: 98
-  passive3: 98
+  skillTokens: 2
+  passive1: 299
+  passive2: 299
+  passive3: 299
   skill_1a: 0
   skill_1b: 0
   skill_2a: 0

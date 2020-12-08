@@ -1,24 +1,3 @@
-# groups:
-#   Default:
-#     default: true
-#     permissions:
-#       - elitemobs.user
-#       - elitemobs.currency.user
-#       - elitemobs.shop
-#       - elitemobs.shop.command
-#       - elitemobs.guild
-#       - elitemobs.guild.command
-#       - elitemobs.customshop
-#       - elitemobs.currency.pay
-#       - elitemobs.currency.add
-#       - elitemobs.currency.subtract
-#       - elitemobs.currency.set
-#       - elitemobs.currency.check
-#       - elitemobs.currency.wallet
-#       - elitemobs.currency.cointop
-#       - elitemobs.guild.menu
-# 
-
 server.basics:
     description: Basic permissions for My Cool Server.
     default: true
@@ -43,3 +22,5 @@ server.basics:
        backpack.size.6: true
        backpack.noCooldown: true
        doublejump.jump: true
+       maxrepaircost.limit.300: true
+
