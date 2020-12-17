@@ -1,0 +1,20 @@
+name: Pain
+type: settlement
+location: 189b93c1-966e-4ee4-ab26-4d385eb9628d~-87.5~63.5~678.5
+devolved-today: false
+last-active: 1607659839070
+child-locations: []
+housing: 3
+population: 3
+villagers: 0
+last-disable: -1
+power: 561
+max-power: 3800
+gov-type: COMMUNISM
+taxes: 0.0
+bank: 0.0
+last-vote: 1607595772707
+people:
+  0c7e77a7-5432-300c-9d7c-659d34abf14c: owner
+  fb3bd4d8-957b-3491-a1df-5b8cbfd0e3dc: owner
+  99c8a206-8cca-34da-95d2-a19788c670d4: owner

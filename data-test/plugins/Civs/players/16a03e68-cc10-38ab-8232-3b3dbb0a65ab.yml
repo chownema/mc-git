@@ -6,14 +6,14 @@ tutorial-index: 0
 tutorial-path: default
 tutorial-progress: 0
 use-announcements: true
-kills: 1
+kills: 3
 kill-streak: 1
-deaths: 1
+deaths: 3
 highest-kill-streak: 1
-points: 0.10000000000000009
-karma: -28
+points: 0.5000000000000002
+karma: -1
 classes: []
-last-karma-depreciation: 1606718174023
+last-karma-depreciation: 1607550822450
 skills:
   exploration:
     WOODED_HILLS: 1
@@ -21,6 +21,15 @@ skills:
     RIVER: 1
     SUNFLOWER_PLAINS: 1
     PLAINS: 1
+    TAIGA: 1
+    BEACH: 1
+    OCEAN: 1
+    DEEP_OCEAN: 1
+    FLOWER_FOREST: 1
+    LUKEWARM_OCEAN: 1
+    WARM_OCEAN: 1
+    MUSHROOM_FIELDS: 1
+    MUSHROOM_FIELD_SHORE: 1
   food:
     CARROT: 7
     COOKED_MUTTON: 1
@@ -48,15 +57,27 @@ skills:
     CREEPER: 4
     BAT: 2
   sword:
-    SPIDER: 2
-    ZOMBIE: 6
+    SPIDER: 3
+    ZOMBIE: 9
     PLAYER: 1
     BAT: 1
     HUSK: 1
-    SKELETON: 1
+    SKELETON: 6
+    CREEPER: 3
+    PIG: 3
+    COW: 1
+    VILLAGER: 1
+    HORSE: 1
   crafting:
     CRIMSON_PLANKS: 5
     IRON_INGOT: 5
+    HEAVY_WEIGHTED_PRESSURE_PLATE: 3
+    OAK_PLANKS: 4
+  bow:
+    PLAYER: 4
+    SPIDER: 1
+    SKELETON: 3
+    HORSE: 1
 items:
   default: 1
   shelter: 1

@@ -2,11 +2,11 @@ general:
   username: MemeCraft10098
   firstLogin: '"29-11-2020 19:41:36"'
   lastLogin: 1606678896
-  lastLogout: 1607404757
-  playTime: 1672
+  lastLogout: 1607576902
+  playTime: 1218
   language: enUs
 globalStats:
-  totalLevel: 461
+  totalLevel: 517
   globalTokens: 0
   skill_1a: 0
   skill_1b: 0
@@ -35,10 +35,10 @@ globalStats:
   leafBlowerToggle: 1
   holyAxeToggle: 1
   numberOfCooldownBars: 1
-  totalExperience: 973852
+  totalExperience: 1095062
 digging:
   level: 0
-  experience: 340
+  experience: 360
   passiveTokens: 0
   skillTokens: 0
   passive1: 0
@@ -55,7 +55,7 @@ digging:
   showEXPBarToggle: 1
 woodcutting:
   level: 0
-  experience: 978
+  experience: 1078
   passiveTokens: 0
   skillTokens: 0
   passive1: 0
@@ -122,13 +122,13 @@ fishing:
   triggerAbilityToggle: 1
   showEXPBarToggle: 1
 archery:
-  level: 23
-  experience: 42623
-  passiveTokens: 23
+  level: 51
+  experience: 98398
+  passiveTokens: 51
   skillTokens: 0
-  passive1: 23
-  passive2: 23
-  passive3: 23
+  passive1: 51
+  passive2: 51
+  passive3: 51
   skill_1a: 0
   skill_1b: 0
   skill_2a: 0
@@ -190,13 +190,13 @@ defense:
   triggerAbilityToggle: 1
   showEXPBarToggle: 1
 axeMastery:
-  level: 102
-  experience: 212253
-  passiveTokens: 102
+  level: 111
+  experience: 233868
+  passiveTokens: 111
   skillTokens: 1
-  passive1: 102
-  passive2: 102
-  passive3: 102
+  passive1: 111
+  passive2: 111
+  passive3: 111
   skill_1a: 0
   skill_1b: 0
   skill_2a: 0
@@ -275,13 +275,13 @@ smelting:
   triggerAbilityToggle: 1
   showEXPBarToggle: 1
 enchanting:
-  level: 81
-  experience: 163325
+  level: 100
+  experience: 207025
   passiveTokens: 0
-  skillTokens: 0
-  passive1: 81
-  passive2: 81
-  passive3: 81
+  skillTokens: 1
+  passive1: 100
+  passive2: 100
+  passive3: 100
   skill_1a: 0
   skill_1b: 0
   skill_2a: 0

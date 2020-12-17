@@ -1,0 +1,88 @@
+locale: en
+hardship: 0.0
+mana: 0
+days-since-hardship-depreciation: 0
+tutorial-index: 2
+tutorial-path: default
+tutorial-progress: 0
+use-announcements: true
+kills: 0
+kill-streak: 0
+deaths: 0
+highest-kill-streak: 0
+points: 0.0
+karma: 0
+classes:
+- 0
+last-karma-depreciation: 0
+skills:
+  exploration:
+    PLAINS: 1
+    FOREST: 1
+    RIVER: 1
+    WOODED_HILLS: 1
+    TAIGA_HILLS: 1
+    TAIGA: 1
+    BEACH: 1
+    DEEP_OCEAN: 1
+    OCEAN: 1
+    DEEP_LUKEWARM_OCEAN: 1
+    LUKEWARM_OCEAN: 1
+    BIRCH_FOREST: 1
+    SWAMP: 1
+    MOUNTAINS: 1
+    BASALT_DELTAS: 1
+    FLOWER_FOREST: 1
+  armor:
+    DIAMOND_HELMET: 23
+    DIAMOND_CHESTPLATE: 13
+    IRON_BOOTS: 6
+    DIAMOND_LEGGINGS: 2
+    IRON_HELMET: 4
+    IRON_CHESTPLATE: 25
+    IRON_LEGGINGS: 25
+    GOLDEN_LEGGINGS: 11
+    DIAMOND_BOOTS: 30
+    LEATHER_HELMET: 11
+  food:
+    BREAD: 3
+    POTATO: 3
+    COOKED_MUTTON: 7
+  crafting:
+    SPRUCE_PLANKS: 5
+    CRAFTING_TABLE: 1
+    SPRUCE_BOAT: 2
+    IRON_BOOTS: 1
+    SHIELD: 1
+    DIAMOND_CHESTPLATE: 1
+    DIAMOND_BOOTS: 1
+  sword:
+    ZOMBIE: 9
+    SKELETON: 4
+    BEE: 1
+    SPIDER: 1
+    CREEPER: 1
+    HUSK: 1
+    PIG: 1
+    PILLAGER: 4
+    ZOMBIE_VILLAGER: 1
+  mining:
+    DIAMOND_ORE: 11
+  axe:
+    ZOMBIE: 1
+  bow:
+    STRIDER: 1
+    DONKEY: 1
+    SKELETON: 4
+    CREEPER: 2
+    ZOMBIE: 9
+    PIG: 1
+    PILLAGER: 1
+    GIANT: 1
+  shield:
+    BLOCKED: 11
+    DAMAGE: 13
+items:
+  default: 1
+  shelter: 1
+  archer: 1

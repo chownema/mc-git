@@ -13,20 +13,20 @@
 verbose: false
 config-version: 20
 settings:
-  suggest-player-names-when-null-tab-completions: true
-  bungee-online-mode: true
-  region-file-cache-size: 256
-  incoming-packet-spam-threshold: 300
   player-auto-save-rate: -1
   max-player-auto-save-per-tick: -1
+  bungee-online-mode: true
   load-permissions-yml-before-plugins: true
-  console-has-all-permissions: false
-  chunk-tasks-per-tick: 1000
-  max-joins-per-tick: 3
-  track-plugin-scoreboards: false
   enable-player-collisions: true
+  suggest-player-names-when-null-tab-completions: true
+  chunk-tasks-per-tick: 1000
   use-alternative-luck-formula: false
+  console-has-all-permissions: false
+  region-file-cache-size: 256
+  incoming-packet-spam-threshold: 300
+  max-joins-per-tick: 3
   save-empty-scoreboard-teams: false
+  track-plugin-scoreboards: false
   unsupported-settings:
     allow-permanent-block-break-exploits: false
     allow-piston-duplication: false
@@ -39,29 +39,21 @@ settings:
       other items
     allow-headless-pistons-readme: This setting controls if players should be able
       to create headless pistons.
-  book-size:
-    page-max: 2560
-    total-multiplier: 0.98
   watchdog:
     early-warning-every: 5000
     early-warning-delay: 10000
   spam-limiter:
     tab-spam-increment: 1
     tab-spam-limit: 500
+  book-size:
+    page-max: 2560
+    total-multiplier: 0.98
   async-chunks:
     threads: -1
   velocity-support:
     enabled: false
     online-mode: false
     secret: ''
-messages:
-  no-permission: '&cI''m sorry, but you do not have permission to perform this command.
-    Please contact the server administrators if you believe that this is in error.'
-  kick:
-    flying-player: Flying is not enabled on this server
-    flying-vehicle: Flying is not enabled on this server
-    authentication-servers-down: ''
-    connection-throttle: Connection throttled! Please wait before reconnecting.
 timings:
   enabled: true
   verbose: true
@@ -73,53 +65,59 @@ timings:
   history-interval: 300
   history-length: 3600
   server-name: Unknown Server
+messages:
+  no-permission: '&cI''m sorry, but you do not have permission to perform this command.
+    Please contact the server administrators if you believe that this is in error.'
+  kick:
+    flying-player: Flying is not enabled on this server
+    flying-vehicle: Flying is not enabled on this server
+    authentication-servers-down: ''
+    connection-throttle: Connection throttled! Please wait before reconnecting.
 world-settings:
   default:
+    fix-climbing-bypassing-cramming-rule: false
+    auto-save-interval: -1
+    light-queue-size: 20
     all-chunks-are-slime-chunks: false
     seed-based-feature-search: true
-    use-faster-eigencraft-redstone: false
     water-over-lava-flow-speed: 5
     grass-spread-tick-rate: 1
     keep-spawn-loaded: true
-    armor-stands-do-collision-entity-lookups: true
+    use-faster-eigencraft-redstone: false
     disable-thunder: false
     skeleton-horse-thunder-spawn-chance: 0.01
     disable-ice-and-snow: false
     keep-spawn-loaded-range: 10
+    armor-stands-do-collision-entity-lookups: true
     nether-ceiling-void-damage-height: 0
     allow-non-player-entities-on-scoreboards: false
     portal-search-radius: 128
     portal-create-radius: 16
     container-update-tick-rate: 1
-    parrots-are-unaffected-by-player-movement: false
-    mob-spawner-tick-rate: 1
-    disable-explosion-knockback: false
-    entities-target-with-follow-range: false
-    prevent-tnt-from-moving-in-water: false
-    zombie-villager-infection-chance: -1.0
-    iron-golems-can-spawn-in-air: false
-    spawner-nerfed-mobs-should-jump: false
-    enable-treasure-maps: true
-    treasure-maps-return-already-discovered: false
     zombies-target-turtle-eggs: true
-    auto-save-interval: -1
+    parrots-are-unaffected-by-player-movement: false
+    disable-explosion-knockback: false
+    mob-spawner-tick-rate: 1
+    prevent-tnt-from-moving-in-water: false
+    iron-golems-can-spawn-in-air: false
+    entities-target-with-follow-range: false
+    non-player-arrow-despawn-rate: -1
+    creative-arrow-despawn-rate: -1
+    zombie-villager-infection-chance: -1.0
+    armor-stands-tick: true
+    experience-merge-max-value: -1
+    prevent-moving-into-unloaded-chunks: false
     filter-nbt-data-from-spawn-eggs-and-related: true
     max-entity-collisions: 8
     disable-creeper-lingering-effect: false
+    enable-treasure-maps: true
+    treasure-maps-return-already-discovered: false
+    spawner-nerfed-mobs-should-jump: false
     duplicate-uuid-resolver: saferegen
     duplicate-uuid-saferegen-delete-range: 32
     phantoms-do-not-spawn-on-creative-players: true
     phantoms-only-attack-insomniacs: true
-    non-player-arrow-despawn-rate: -1
-    creative-arrow-despawn-rate: -1
-    baby-zombie-movement-modifier: 0.5
-    optimize-explosions: false
-    disable-teleportation-suffocation-check: false
-    fixed-chunk-inhabited-time: -1
-    use-vanilla-world-scoreboard-name-coloring: false
     remove-corrupt-tile-entities: false
-    experience-merge-max-value: -1
-    prevent-moving-into-unloaded-chunks: false
     max-auto-save-chunks-per-tick: 24
     count-all-mobs-for-spawning: false
     per-player-mob-spawns: false
@@ -127,11 +125,13 @@ world-settings:
     should-remove-dragon: false
     falling-block-height-nerf: 0
     tnt-entity-height-nerf: 0
-    armor-stands-tick: true
-    light-queue-size: 20
-    squid-spawn-height:
-      maximum: 0.0
+    baby-zombie-movement-modifier: 0.5
+    optimize-explosions: false
+    disable-teleportation-suffocation-check: false
+    fixed-chunk-inhabited-time: -1
+    use-vanilla-world-scoreboard-name-coloring: false
     game-mechanics:
+      fix-curing-zombie-villager-discount-exploit: true
       disable-chest-cat-detection: false
       nerf-pigmen-from-nether-portals: false
       disable-end-credits: false
@@ -151,7 +151,7 @@ world-settings:
           per-player: false
           day: 5
     anti-xray:
-      enabled: false
+      enabled: true
       engine-mode: 1
       max-chunk-section-index: 3
       update-radius: 2
@@ -174,6 +174,8 @@ world-settings:
       - oak_planks
     viewdistances:
       no-tick-view-distance: -1
+    squid-spawn-height:
+      maximum: 0.0
     frosted-ice:
       enabled: true
       delay:
@@ -186,6 +188,8 @@ world-settings:
       max-refills: -1
       refresh-min: 12h
       refresh-max: 2d
+    generator-settings:
+      flat-bedrock: false
     alt-item-despawn-rate:
       enabled: false
       items:
@@ -212,5 +216,3 @@ world-settings:
     despawn-ranges:
       soft: 32
       hard: 128
-    generator-settings:
-      flat-bedrock: false

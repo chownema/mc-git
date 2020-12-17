@@ -1,12 +1,12 @@
 lastAccountName: UnknownLaTrader
 timestamps:
-  login: 1607149796194
-  logout: 1607151446969
-ipAddress: 115.189.95.37
+  login: 1607733205172
+  logout: 1607733303876
+ipAddress: 101.98.102.130
 logoutlocation:
   world: world
-  x: -82.58492412283334
-  y: 63.0
-  z: 684.6494107076823
-  yaw: 137.99445
-  pitch: 56.249954
+  x: -48.69999998807906
+  y: 61.0
+  z: 629.3000000119209
+  yaw: -78.38574
+  pitch: 8.699818

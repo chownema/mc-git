@@ -7,5 +7,5 @@ Server-IP:
 # Should the plugin be doing release or dev builds updating?
 ReleaseBuild: true
 # Make sure the plugin aint spamming update requests
-LastUpdateCheck: 1607397855492
+LastUpdateCheck: 1607763835871
 HittingRateLimit: false

@@ -1,0 +1,298 @@
+
+# Version: 1.4.2
+# Created by: Buguser
+# Created and tested in: MythicMobs-4.11.0-SNAPSHOT, MythicMobsExtension-1.72-SNAPSHOT SNAPSHOT & Minecraft V.1.16.2 ✓
+#
+# Please report bugs in the MythicMobs-Forum via direct message or contact me on Discord: ZeroX#6102
+
+#            +--------------------+
+#            |MOB INFORMATION ORCS|
+#            +--------------------+
+#
+#Orcling:    Weak minion
+#            Has random equipment and increased movement speed
+#
+#OrcKnight:  Normal strong mob
+#            Has random equipment
+#            Has two skills which are triggered randomly when the mob gets damaged.
+#            The Swirl Skill knocks back enemies and does area damage, the HeavyAttack Skill lets the mob speed up and attack the player devastatingly.
+#
+#OrcArcher:  Acts like a vanilla skeleton
+#            Has random equipment
+#            Has a special skill where the mob ignites his arrows.
+#
+#OrcDrummer: Increases the morale of the orcs in the immediate vicinity, making them faster, stronger and more resistant.
+#            The warmage gets magic points faster in cause of his presence.
+#            The drummer plays some strange music only orcs would like.
+#            Is not affected by it's own skills.
+#
+#OrcWarMage: Strong ranged combat mob
+#            Uses two magical skills to defeat his enemies
+#            The skills consume magic points, which are charged in the fight by time and hits, as well as by the skill of the drummer
+#            It's equipment is randomly enchanted with protection 2
+#
+#OrcAxeThrower: Strong ranged combat mob
+#            Throws axes on his enemies
+
+### 1. Orcling
+Orcling:
+  Type: ZOMBIE
+  Display: '&eOrcling'
+  Health: 750
+  Damage: 8
+  Faction: Enemy
+  Options:
+    #AlwaysShowName: true
+    Collidable: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 30
+    MovementSpeed: 0.25
+    Silent: true
+  Drops:
+  #- exp 5 1
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 float
+  - 3 lookatplayers
+  - 4 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Disguise:
+    Type: player
+    Skin: 'Goblin'
+    Player: '&eOrcling'
+  Skills:
+  - skill{s=OrcRandomEquipment_Orcling} @self ~onSpawn
+  - skill{s=Orc_Drummer_Effect} @self ~onSignal:DRUMMER
+
+  - effect:particles{p=crit;amount=6;hS=0.45;vS=1.2;speed=0;y=1} @self ~onTimer:5
+  - sound{s=entity.vindicator.ambient;p=1.2} @self ~onTimer:120 0.7
+  - sound{s=entity.vindicator.hurt;p=1.2} @self ~onDamaged
+  - sound{s=entity.vindicator.death;p=1.2} @self ~onDeath
+
+### 2. Orc Knight
+OrcKnight:
+  Type: ZOMBIE
+  Display: '&eOrc Knight'
+  Health: 1500
+  Damage: 10
+  Faction: Enemy
+  Options:
+    #AlwaysShowName: true
+    Collidable: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 30
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  #- exp 5 1
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 float
+  - 3 lookatplayers
+  - 4 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Disguise:
+    Type: player
+    Skin: 'Goblin'
+    Player: '&eOrc Knight'
+  Skills:
+  - skill{s=Orc_Knight} @self ~onDamaged 0.4
+  - skill{s=Orc_HeavyAttack_Hit} @self ~onAttack 1
+  - skill{s=Orc_Drummer_Effect} @self ~onSignal:DRUMMER
+
+  - setstance{stance=knight} @self ~onSpawn 1
+  - skill{s=OrcRandomEquipment_Knight} @self ~onSpawn
+
+  - sound{s=entity.vindicator.ambient;p=0.8} @self ~onTimer:120 0.7
+  - sound{s=entity.vindicator.hurt;p=0.8} @self ~onDamaged
+  - sound{s=entity.vindicator.death;p=0.8} @self ~onDeath
+
+### 3. Orc Archer
+OrcArcher:
+  Type: SKELETON
+  Display: '&eOrc Archer'
+  Health: 1000
+  Damage: 10
+  Faction: Enemy
+  Options:
+    #AlwaysShowName: true
+    Collidable: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 30
+    Silent: true
+  Drops:
+  #- exp 5 1
+  AIGoalSelectors:
+  - 0 clear
+  - 1 skeletonbowattack
+  - 2 float
+  - 3 lookatplayers
+  - 4 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Disguise:
+    Type: player
+    Skin: 'Goblin'
+    Player: '&eOrc Archer'
+  Skills:
+  - skill{s=Orc_FireBow} @self ~onTimer:180 0.5
+  - skill{s=OrcWeapon_Bow_1} @self ~onSpawn 1
+  - skill{s=Orc_Drummer_Effect} @self ~onSignal:DRUMMER
+
+  - setstance{stance=archer} @self ~onSpawn 1
+  - skill{s=OrcRandomEquipment_Archer} @self ~onSpawn
+
+  - sound{s=entity.vindicator.ambient;p=1} @self ~onTimer:120 0.7
+  - sound{s=entity.vindicator.hurt;p=1} @self ~onDamaged
+  - sound{s=entity.vindicator.death;p=1} @self ~onDeath
+
+### 4. Orc Drummer
+OrcDrummer:
+  Type: ZOMBIE
+  Display: '&eOrc Drummer'
+  Health: 1750
+  Damage: 6
+  Faction: Enemy
+  Options:
+    #AlwaysShowName: true
+    Collidable: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 30
+    MovementSpeed: 0.2
+    Silent: true
+  Modules:
+    ThreatTable: true
+  Drops:
+  #- exp 5 1
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 float
+  - 3 lookatplayers
+  - 4 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Disguise:
+    Type: player
+    Skin: 'Goblin'
+    Player: '&eOrc Drummer'
+  Equipment:
+  - OrcHelmet_Drummer:4
+  - OrcChestplate_Drummer:3
+  - OrcLeggings_Drummer:2
+  - OrcBoots_Drummer:1
+  - OrcWeapon_Drummer_1:0
+  - OrcWeapon_Drummer_2:5
+  Skills:
+  - skill{s=Orc_Drummer} @self ~onTimer:40 1
+  - skill{s=Orc_Drummer_Animation} @self ~onTimer:200 1
+
+  - setstance{stance=drummer} @self ~onSpawn 1
+
+  - sound{s=entity.vindicator.ambient;p=0.6} @self ~onTimer:120 0.7
+  - sound{s=entity.vindicator.hurt;p=0.8} @self ~onDamaged
+  - sound{s=entity.vindicator.death;p=0.8} @self ~onDeath
+
+### 5. Orc War Mage
+OrcWarMage:
+  Type: ZOMBIE
+  Display: '&eOrc War Mage'
+  Health: 1000
+  Damage: 10
+  Faction: Enemy
+  Options:
+    #AlwaysShowName: true
+    Collidable: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 30
+    MovementSpeed: 0.16
+    Silent: true
+  Drops:
+  #- exp 5 1
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 float
+  - 3 lookatplayers
+  - 4 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Disguise:
+    Type: player
+    Skin: 'Goblin'
+    Player: '&eOrc War Mage'
+  Skills:
+  - skill{s=Orc_Magic_Selector} @self ~onTimer:40 1
+  - skill{s=Orc_MagicBolt} @Target ~onSignal:NORMAL
+  - skill{s=Orc_WeakMagicBolt} @Target ~onSignal:WEAK
+
+  - modifymobscore{objective=magic;action=set;value=0} ~onSpawn
+  - modifymobscore{objective=magic;action=add;value=1} ~onTimer:35
+  - modifymobscore{objective=magic;action=add;value=2} ~onSignal:DRUMMER
+  - setstance{stance=warmage} @self ~onSpawn 1
+  - skill{s=OrcRandomEquipment_WarMage} @self ~onSpawn
+
+  - effect:particles{p=crit_magic;amount=6;hS=0.45;vS=1.2;speed=0;y=1} @self ~onTimer:5
+  - sound{s=entity.vindicator.ambient;p=0.6} @self ~onTimer:120 0.7
+  - sound{s=entity.vindicator.hurt;p=0.6} @self ~onDamaged
+  - sound{s=entity.vindicator.death;p=0.6} @self ~onDeath
+
+### 6. Orc Axe Thrower
+OrcAxeThrower:
+  Type: SKELETON
+  Display: '&eAxe Thrower'
+  Health: 1000
+  Damage: 10
+  Faction: Enemy
+  Options:
+    #AlwaysShowName: true
+    Collidable: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 30
+    MovementSpeed: 0.16
+    Silent: true
+  Equipment:
+  - iron_axe:0
+  Drops:
+  #- exp 5 1
+  AIGoalSelectors:
+  - 0 clear
+  - 1 skeletonbowattack
+  - 2 float
+  - 3 lookatplayers
+  - 4 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Modules:
+    ThreatTable: true
+  Disguise:
+    Type: player
+    Skin: 'Goblin'
+    Player: '&eAxe Thrower'
+  Skills:
+  - skill{s=Orc_AxeThrow} @target ~onTimer:70 1
+  - threat{amount=1} @NearestPlayer ~onSpawn #Forces the item-projectile to have a target before the mob gets damaged.
+
+  - setstance{stance=axethrower} @self ~onSpawn 1
+  - skill{s=OrcRandomEquipment_AxeThrower} @self ~onSpawn
+
+  - sound{s=entity.vindicator.ambient;p=0.6} @self ~onTimer:120 0.7
+  - sound{s=entity.vindicator.hurt;p=0.8} @self ~onDamaged
+  - sound{s=entity.vindicator.death;p=0.8} @self ~onDeath

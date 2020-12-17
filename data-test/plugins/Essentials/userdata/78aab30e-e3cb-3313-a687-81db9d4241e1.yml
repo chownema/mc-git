@@ -1,12 +1,20 @@
 lastAccountName: MasterBacon95
 timestamps:
-  login: 1606881138029
-  logout: 1606881263645
-ipAddress: 125.238.249.70
+  login: 1607496449105
+  logout: 1607497663824
+ipAddress: 10.0.2.2
 logoutlocation:
   world: world
-  x: -267.21818370642563
-  y: 55.0
-  z: 1066.300000011921
-  yaw: 18.698107
-  pitch: 45.750114
+  x: -144.44430667064822
+  y: 61.278540879960296
+  z: 2719.032971116886
+  yaw: 307.33115
+  pitch: 8.400231
+lastlocation:
+  world: world
+  x: -279.69999998807907
+  y: 52.0
+  z: 1063.3205540504182
+  yaw: 244.30664
+  pitch: 16.65021
+money: '91.6549999999999975'

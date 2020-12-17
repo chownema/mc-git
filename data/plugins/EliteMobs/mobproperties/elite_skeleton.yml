@@ -4,4 +4,4 @@ name: '&fLvl &2$level &fElite &fSkeleton'
 deathMessages:
 - $player &cbecame $entity's &cpin cushion!
 - $entity &cwanted to see $player's &cbones!
-baseDamage: 5.0
+baseDamage: 2.0

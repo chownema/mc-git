@@ -1,0 +1,377 @@
+
+# Version: 1.4.2
+# Created by: Buguser
+# Created and tested in: MythicMobs-4.11.0-SNAPSHOT, MythicMobsExtension-1.72-SNAPSHOT SNAPSHOT & Minecraft V.1.16.2 ✓
+#
+# Please report bugs in the MythicMobs-Forum via direct message or contact me on Discord: ZeroX#6102
+
+#                   +-----------------------+
+#                   |MOB INFORMATION WRAITHS|
+#                   +-----------------------+
+#
+#                   Wraiths are immune to almost all types of damage except melee damage
+#
+#WraithServant:     Weak minion
+#                   Has random weapons
+#                   Servants can use the TeleportAttack skill when they spawn with a special iron hoe
+#
+#WraithWarrior:     Normal strong mob
+#                   Has random weapons
+#                   Has a teleport skill which teleports the monster to the player to execute a strong melee attack
+#
+#WraithArcher:      Acts like a vanilla skeleton.
+#                   Has a 'random' enchanted bow
+#                   Teleports away if it gets damaged
+#
+#WraithSprinter:    Strong close combatant
+#                   High movement speed
+#                   Has a skill that makes the mob extremely fast and deals a lot of damage to the player if it attacks in time.
+#
+#WraithInterceptor: Very strong magic monster
+#                   Has no equipment
+#                   With his skill, the Interceptor pulls his target towards him and adds area-wide wither damage
+#                   During the skill the monster is hardly vulnerable
+#                   The monster can't run, only teleport itself
+#
+#WraithExploder:    Acts like a creeper.
+
+### 1. Wraith Servant
+WraithServant:
+  Type: STRAY
+  Display: '&eWraith Servant'
+  Health: 1000
+  Damage: 8
+  DamageModifiers:
+  - LAVA 0
+  - FIRE_TICK 1
+  - FIRE 1
+  - HOT_FLOOR 0
+  - CONTACT 0
+  - FALL 0
+  - THORNS 0
+  - WITHER 0
+  - DRAGON_BREATH 0
+  - POISON 0
+  - LIGHTNING 0
+  - ENTITY_EXPLOSION 0
+  - BLOCK_EXPLOSION 0
+  - DROWNING 0
+  - PROJECTILE -1
+  Faction: Enemy
+  Options:
+    #AlwaysShowName: true
+    Collidable: true
+    KnockbackResistance: 1
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 50
+    Silent: true
+  Drops:
+  #- exp 5 1
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 float
+  - 3 lookatplayers
+  - 4 fleesun
+  AITargetSelectors:
+  - 0 clear
+  - 1 threatholder
+  - 2 players
+  - 3 hurtbytarget
+  Skills:
+  - skill{s=Wraith_TeleportAttack} @target ~onTimer:90 0.55
+
+  - skill{s=WraithRandomEquipment_3} @self ~onSpawn
+
+  - effect:particles{p=smoke_large;amount=70;hS=0.4;vS=1.2;speed=0.05} @self ~onSpawn
+  - effect:particles{p=smoke_large;amount=70;hS=0.4;vS=1.2;speed=0.05} @self ~onDeath
+  - effect:particles{p=spell_mob;color=#00ff00;amount=4;hS=0.45;vS=1.2;speed=0;y=1} @self ~onTimer:5
+  - effect:particles{p=crit;amount=6;hS=0.45;vS=1.2;speed=0;y=1} @self ~onTimer:5
+  - sound{s=entity.vex.ambient;p=0.7} @self ~onTimer:120 0.7
+  - sound{s=entity.vex.hurt;p=0.9} @self ~onDamaged
+  - sound{s=entity.vex.death;p=0.9} @self ~onDeath
+
+### 2. Wraith Warrior
+WraithWarrior:
+  Type: STRAY
+  Display: '&eWraith Warrior'
+  Health: 1000
+  Damage: 10
+  DamageModifiers:
+  - LAVA 0
+  - FIRE_TICK 1
+  - FIRE 1
+  - HOT_FLOOR 0
+  - CONTACT 0
+  - FALL 0
+  - THORNS 0
+  - WITHER 0
+  - DRAGON_BREATH 0
+  - POISON 0
+  - LIGHTNING 0
+  - ENTITY_EXPLOSION 0
+  - BLOCK_EXPLOSION 0
+  - DROWNING 0
+  - PROJECTILE -1
+  Faction: Enemy
+  Options:
+    #AlwaysShowName: true
+    Collidable: true
+    KnockbackResistance: 1
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 50
+    Silent: true
+  Drops:
+  #- exp 5 1
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 float
+  - 3 lookatplayers
+  - 4 fleesun
+  AITargetSelectors:
+  - 0 clear
+  - 1 threatholder
+  - 2 players
+  - 3 hurtbytarget
+  Skills:
+  - skill{s=Wraith_TeleportAttack} @target ~onTimer:90 0.65
+
+  - skill{s=WraithRandomEquipment_1} @self ~onSpawn
+  - setstance{stance=wraithwarrior} @self ~onSpawn
+
+  - effect:particles{p=smoke_large;amount=100;hS=0.4;vS=1.2;speed=0.05} @self ~onSpawn
+  - effect:particles{p=smoke_large;amount=100;hS=0.4;vS=1.2;speed=0.05} @self ~onDeath
+  - effect:particles{p=spell_mob;color=#00ff00;amount=7;hS=0.45;vS=1.2;speed=0;y=1} @self ~onTimer:5
+  - sound{s=entity.vex.ambient;p=0.5} @self ~onTimer:120 0.7
+  - sound{s=entity.vex.hurt;p=0.5} @self ~onDamaged
+  - sound{s=entity.vex.death;p=0.5} @self ~onDeath
+
+### 3. Wraith Archer
+WraithArcher:
+  Type: STRAY
+  Display: '&eWraith Archer'
+  Health: 1000
+  Damage: 10
+  DamageModifiers:
+  - LAVA 0
+  - FIRE_TICK 1
+  - FIRE 1
+  - HOT_FLOOR 0
+  - CONTACT 0
+  - FALL 0
+  - THORNS 0
+  - WITHER 0
+  - DRAGON_BREATH 0
+  - POISON 0
+  - LIGHTNING 0
+  - ENTITY_EXPLOSION 0
+  - BLOCK_EXPLOSION 0
+  - DROWNING 0
+  - PROJECTILE -1
+  Faction: Enemy
+  Options:
+    #AlwaysShowName: true
+    Collidable: true
+    KnockbackResistance: 1
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 50
+    Silent: true
+    MovementSpeed: 0.15
+  Drops:
+  #- exp 5 1
+  AITargetSelectors:
+  - 0 clear
+  - 1 threatholder
+  - 2 players
+  - 3 hurtbytarget
+  Skills:
+  - skill{s=Wraith_TeleportDamaged} @self ~onDamaged
+
+  - skill{s=WraithRandomEquipment_2} @self ~onSpawn
+
+  - effect:particles{p=smoke_large;amount=100;hS=0.4;vS=1.2;speed=0.05} @self ~onSpawn
+  - effect:particles{p=smoke_large;amount=100;hS=0.4;vS=1.2;speed=0.05} @self ~onDeath
+  - effect:particles{p=spell_mob;color=#00ff00;amount=7;hS=0.45;vS=1.2;speed=0;y=1} @self ~onTimer:5
+  - sound{s=entity.vex.ambient;p=0.7} @self ~onTimer:120 0.7
+  - sound{s=entity.vex.hurt;p=0.7} @self ~onDamaged
+  - sound{s=entity.vex.death;p=0.7} @self ~onDeath
+
+### 4. Wraith Sprinter
+WraithSprinter:
+  Type: STRAY
+  Display: '&eWraith Sprinter'
+  Health: 1000
+  Damage: 12
+  DamageModifiers:
+  - LAVA 0
+  - FIRE_TICK 1
+  - FIRE 1
+  - HOT_FLOOR 0
+  - CONTACT 0
+  - FALL 0
+  - THORNS 0
+  - WITHER 0
+  - DRAGON_BREATH 0
+  - POISON 0
+  - LIGHTNING 0
+  - ENTITY_EXPLOSION 0
+  - BLOCK_EXPLOSION 0
+  - DROWNING 0
+  - PROJECTILE -1
+  Faction: Enemy
+  Options:
+    #AlwaysShowName: true
+    Collidable: true
+    KnockbackResistance: 1
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 50
+    Silent: true
+    MovementSpeed: 0.32
+  Drops:
+  #- exp 5 1
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 float
+  - 3 lookatplayers
+  - 4 fleesun
+  AITargetSelectors:
+  - 0 clear
+  - 1 threatholder
+  - 2 players
+  - 3 hurtbytarget
+  Skills:
+  - skill{s=Wraith_SprintAttack} @target ~onTimer:90 0.6
+  - skill{s=Wraith_SprintAttack_Hit} @target ~onAttack
+
+  - skill{s=WraithRandomEquipment_1} @self ~onSpawn
+
+  - effect:particles{p=smoke_large;amount=100;hS=0.4;vS=1.2;speed=0.05} @self ~onSpawn
+  - effect:particles{p=smoke_large;amount=100;hS=0.4;vS=1.2;speed=0.05} @self ~onDeath
+  - effect:particles{p=spell_mob;color=#00ff00;amount=6;hS=0.45;vS=1.2;speed=0;y=1} @self ~onTimer:5
+  - effect:particles{p=cloud;amount=1;hS=0.45;vS=1.2;speed=0;y=1} @self ~onTimer:5
+  - sound{s=entity.vex.ambient;p=1} @self ~onTimer:120 0.7
+  - sound{s=entity.vex.hurt;p=1} @self ~onDamaged
+  - sound{s=entity.vex.death;p=1} @self ~onDeath
+
+### 5. Wraith Interceptor
+WraithInterceptor:
+  Type: STRAY
+  Display: '&eWraith Interceptor'
+  Health: 1000
+  Damage: 12
+  DamageModifiers:
+  - LAVA 0
+  - FIRE_TICK 1
+  - FIRE 1
+  - HOT_FLOOR 0
+  - CONTACT 0
+  - FALL 0
+  - THORNS 0
+  - WITHER 0
+  - DRAGON_BREATH 0
+  - POISON 0
+  - LIGHTNING 0
+  - ENTITY_EXPLOSION 0
+  - BLOCK_EXPLOSION 0
+  - DROWNING 0
+  - PROJECTILE -1
+  Faction: Enemy
+  Options:
+    #AlwaysShowName: true
+    Collidable: true
+    KnockbackResistance: 1
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 50
+    Silent: true
+  Drops:
+  #- exp 5 1
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 float
+  - 3 lookatplayers
+  - 4 fleesun
+  AITargetSelectors:
+  - 0 clear
+  - 1 threatholder
+  - 2 players
+  - 3 hurtbytarget
+  Equipment:
+  - air:0
+  - air:5
+  Skills:
+  - skill{s=Wraith_Interceptor} @target ~onTimer:90 0.7
+
+  - potion{t=SLOW;d=2147483647;l=9} @self ~onSpawn
+  - effect:particles{p=smoke_large;amount=100;hS=0.4;vS=1.2;speed=0.05} @self ~onSpawn
+  - effect:particles{p=smoke_large;amount=100;hS=0.4;vS=1.2;speed=0.05} @self ~onDeath
+  - effect:particles{p=spell_mob;color=#00ff00;amount=6;hS=0.45;vS=1.2;speed=0;y=1} @self ~onTimer:5
+  - effect:particles{p=crit_magic;amount=6;hS=0.45;vS=1.2;speed=0;y=1} @self ~onTimer:5
+  - sound{s=entity.vex.ambient;p=0.4} @self ~onTimer:120 0.7
+  - sound{s=entity.vex.hurt;p=0.4} @self ~onDamaged
+  - sound{s=entity.vex.death;p=0.4} @self ~onDeath
+
+### 6. Wraith Exploder
+WraithExploder:
+  Type: STRAY
+  Display: '&eWraith Exploder'
+  Health: 1000
+  Damage: 0
+  DamageModifiers:
+  - LAVA 0
+  - FIRE_TICK 1
+  - FIRE 1
+  - HOT_FLOOR 0
+  - CONTACT 0
+  - FALL 0
+  - THORNS 0
+  - WITHER 0
+  - DRAGON_BREATH 0
+  - POISON 0
+  - LIGHTNING 0
+  - ENTITY_EXPLOSION 0
+  - BLOCK_EXPLOSION 0
+  - DROWNING 0
+  - PROJECTILE -1
+  Equipment:
+  - air:0
+  Faction: Enemy
+  Options:
+    #AlwaysShowName: true
+    Collidable: true
+    KnockbackResistance: 1
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 50
+    Silent: true
+  Drops:
+  #- exp 5 1
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 float
+  - 3 lookatplayers
+  - 4 fleesun
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  Skills:
+  - skill{s=Wraith_Explode} @self ~onTimer:30
+  #- potion{type=INVISIBILITY;duration=20;level=0} @self ~onTimer:15 0.6
+
+  - effect:particles{p=smoke_large;amount=70;hS=0.4;vS=1.2;speed=0.05} @self ~onSpawn
+  - effect:particles{p=smoke_large;amount=70;hS=0.4;vS=1.2;speed=0.05} @self ~onDeath
+  - effect:particles{p=spell_mob;color=#00ff00;amount=5;hS=0.45;vS=1.2;speed=0;y=1} @self ~onTimer:5
+  - effect:particles{p=smoke_large;amount=2;hS=0.45;vS=1.2;speed=0;y=1} @self ~onTimer:5
+  - sound{s=entity.vex.ambient;p=0.5} @self ~onTimer:120 0.7
+  - sound{s=entity.vex.hurt;p=0.6} @self ~onDamaged
+  - sound{s=entity.creeper.hurt;p=0.6;v=0.3} @self ~onDamaged
+  - sound{s=entity.vex.death;p=0.4} @self ~onDeath

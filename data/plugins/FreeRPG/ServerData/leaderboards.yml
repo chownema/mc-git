@@ -2,23 +2,23 @@ swordsmanship:
   '0':
     UUID: 0c7e77a7-5432-300c-9d7c-659d34abf14c
     playerName: mightychoco
-    experience: 1811432
+    experience: 2262799
   '1':
     UUID: 24cb6268-56c1-3c25-9f3d-c43d891c5d00
     playerName: stackdocker2
-    experience: 559666
+    experience: 855094
   '2':
-    UUID: 99c8a206-8cca-34da-95d2-a19788c670d4
-    playerName: Vennilli
-    experience: 463869
-  '3':
     UUID: fb3bd4d8-957b-3491-a1df-5b8cbfd0e3dc
     playerName: ssedoc
-    experience: 345196
+    experience: 503945
+  '3':
+    UUID: 99c8a206-8cca-34da-95d2-a19788c670d4
+    playerName: Vennilli
+    experience: 492539
   '4':
     UUID: 16a03e68-cc10-38ab-8232-3b3dbb0a65ab
     playerName: 2Sp1cy
-    experience: 275345
+    experience: 459331
   '5':
     UUID: 7c69d8b0-f276-3c39-afd5-6e8ad9280fd0
     playerName: kagoostewie
@@ -30,11 +30,11 @@ swordsmanship:
   '7':
     UUID: acdf07c9-67df-34f6-bab1-19022eb6a8f7
     playerName: UnknownLaTrader
-    experience: 43151
+    experience: 73672
   '8':
     UUID: 91453bd3-daa3-3fc8-9fdf-2a43f900f904
     playerName: Max Carnage
-    experience: 35570
+    experience: 43754
   '9':
     UUID: f1b1f4c8-89b9-3b8e-8be0-059c6bacf56b
     playerName: fnaf
@@ -48,6 +48,10 @@ swordsmanship:
     playerName: MemeCraft10098
     experience: 481
   '12':
+    UUID: 1e313b94-bd3c-3e86-b015-4fe8e9902360
+    playerName: stackdocker3
+    experience: 0
+  '13':
     UUID: e63bd011-15e6-3b96-b2dd-d52932442a20
     playerName: kaza_azak
     experience: 0
@@ -57,50 +61,54 @@ repair:
     playerName: mightychoco
     experience: 1230
   '1':
+    UUID: 1e313b94-bd3c-3e86-b015-4fe8e9902360
+    playerName: stackdocker3
+    experience: 0
+  '2':
     UUID: e63bd011-15e6-3b96-b2dd-d52932442a20
     playerName: kaza_azak
     experience: 0
-  '2':
+  '3':
     UUID: 16a03e68-cc10-38ab-8232-3b3dbb0a65ab
     playerName: 2Sp1cy
     experience: 0
-  '3':
+  '4':
     UUID: 7c69d8b0-f276-3c39-afd5-6e8ad9280fd0
     playerName: kagoostewie
     experience: 0
-  '4':
+  '5':
     UUID: fb3bd4d8-957b-3491-a1df-5b8cbfd0e3dc
     playerName: ssedoc
     experience: 0
-  '5':
+  '6':
     UUID: 8d4d494b-0db0-3fa2-acb4-294350017ab8
     playerName: stackdocker1
     experience: 0
-  '6':
+  '7':
     UUID: 24cb6268-56c1-3c25-9f3d-c43d891c5d00
     playerName: stackdocker2
     experience: 0
-  '7':
+  '8':
     UUID: acdf07c9-67df-34f6-bab1-19022eb6a8f7
     playerName: UnknownLaTrader
     experience: 0
-  '8':
+  '9':
     UUID: 78aab30e-e3cb-3313-a687-81db9d4241e1
     playerName: MasterBacon95
     experience: 0
-  '9':
+  '10':
     UUID: 99c8a206-8cca-34da-95d2-a19788c670d4
     playerName: Vennilli
     experience: 0
-  '10':
+  '11':
     UUID: 8e667ef6-0d6e-3aed-add8-1a6f1102a8b1
     playerName: MemeCraft10098
     experience: 0
-  '11':
+  '12':
     UUID: 91453bd3-daa3-3fc8-9fdf-2a43f900f904
     playerName: Max Carnage
     experience: 0
-  '12':
+  '13':
     UUID: f1b1f4c8-89b9-3b8e-8be0-059c6bacf56b
     playerName: fnaf
     experience: 0
@@ -108,47 +116,47 @@ enchanting:
   '0':
     UUID: 0c7e77a7-5432-300c-9d7c-659d34abf14c
     playerName: mightychoco
-    experience: 2258859
+    experience: 3810784
   '1':
     UUID: 24cb6268-56c1-3c25-9f3d-c43d891c5d00
     playerName: stackdocker2
-    experience: 978475
+    experience: 3351425
   '2':
-    UUID: 99c8a206-8cca-34da-95d2-a19788c670d4
-    playerName: Vennilli
-    experience: 969800
-  '3':
     UUID: fb3bd4d8-957b-3491-a1df-5b8cbfd0e3dc
     playerName: ssedoc
-    experience: 842211
+    experience: 2037886
+  '3':
+    UUID: 99c8a206-8cca-34da-95d2-a19788c670d4
+    playerName: Vennilli
+    experience: 1269000
   '4':
     UUID: 16a03e68-cc10-38ab-8232-3b3dbb0a65ab
     playerName: 2Sp1cy
-    experience: 733075
+    experience: 1464575
   '5':
     UUID: 7c69d8b0-f276-3c39-afd5-6e8ad9280fd0
     playerName: kagoostewie
     experience: 478375
   '6':
-    UUID: 91453bd3-daa3-3fc8-9fdf-2a43f900f904
-    playerName: Max Carnage
-    experience: 169375
-  '7':
     UUID: 8e667ef6-0d6e-3aed-add8-1a6f1102a8b1
     playerName: MemeCraft10098
-    experience: 163325
+    experience: 207025
+  '7':
+    UUID: 91453bd3-daa3-3fc8-9fdf-2a43f900f904
+    playerName: Max Carnage
+    experience: 187025
   '8':
+    UUID: acdf07c9-67df-34f6-bab1-19022eb6a8f7
+    playerName: UnknownLaTrader
+    experience: 195800
+  '9':
     UUID: 8d4d494b-0db0-3fa2-acb4-294350017ab8
     playerName: stackdocker1
     experience: 135371
-  '9':
-    UUID: acdf07c9-67df-34f6-bab1-19022eb6a8f7
-    playerName: UnknownLaTrader
-    experience: 133300
   '10':
     UUID: 78aab30e-e3cb-3313-a687-81db9d4241e1
     playerName: MasterBacon95
-    experience: 36450
+    experience: 42350
   '11':
     UUID: e63bd011-15e6-3b96-b2dd-d52932442a20
     playerName: kaza_azak
@@ -157,6 +165,10 @@ enchanting:
     UUID: f1b1f4c8-89b9-3b8e-8be0-059c6bacf56b
     playerName: fnaf
     experience: 3050
+  '13':
+    UUID: 1e313b94-bd3c-3e86-b015-4fe8e9902360
+    playerName: stackdocker3
+    experience: 0
 axeMastery:
   '0':
     UUID: 7c69d8b0-f276-3c39-afd5-6e8ad9280fd0
@@ -165,23 +177,23 @@ axeMastery:
   '1':
     UUID: 99c8a206-8cca-34da-95d2-a19788c670d4
     playerName: Vennilli
-    experience: 231611
+    experience: 235824
   '2':
     UUID: 8e667ef6-0d6e-3aed-add8-1a6f1102a8b1
     playerName: MemeCraft10098
-    experience: 212253
+    experience: 233868
   '3':
     UUID: 16a03e68-cc10-38ab-8232-3b3dbb0a65ab
     playerName: 2Sp1cy
-    experience: 212416
+    experience: 218814
   '4':
     UUID: 24cb6268-56c1-3c25-9f3d-c43d891c5d00
     playerName: stackdocker2
-    experience: 90175
+    experience: 95078
   '5':
     UUID: fb3bd4d8-957b-3491-a1df-5b8cbfd0e3dc
     playerName: ssedoc
-    experience: 28987
+    experience: 31095
   '6':
     UUID: 8d4d494b-0db0-3fa2-acb4-294350017ab8
     playerName: stackdocker1
@@ -189,7 +201,7 @@ axeMastery:
   '7':
     UUID: 78aab30e-e3cb-3313-a687-81db9d4241e1
     playerName: MasterBacon95
-    experience: 18443
+    experience: 21061
   '8':
     UUID: e63bd011-15e6-3b96-b2dd-d52932442a20
     playerName: kaza_azak
@@ -197,16 +209,20 @@ axeMastery:
   '9':
     UUID: 91453bd3-daa3-3fc8-9fdf-2a43f900f904
     playerName: Max Carnage
-    experience: 5845
+    experience: 6547
   '10':
     UUID: 0c7e77a7-5432-300c-9d7c-659d34abf14c
     playerName: mightychoco
-    experience: 5684
+    experience: 6239
   '11':
     UUID: acdf07c9-67df-34f6-bab1-19022eb6a8f7
     playerName: UnknownLaTrader
     experience: 1251
   '12':
+    UUID: 1e313b94-bd3c-3e86-b015-4fe8e9902360
+    playerName: stackdocker3
+    experience: 0
+  '13':
     UUID: f1b1f4c8-89b9-3b8e-8be0-059c6bacf56b
     playerName: fnaf
     experience: 0
@@ -220,75 +236,79 @@ fishing:
     playerName: stackdocker1
     experience: 400
   '2':
+    UUID: 1e313b94-bd3c-3e86-b015-4fe8e9902360
+    playerName: stackdocker3
+    experience: 0
+  '3':
     UUID: e63bd011-15e6-3b96-b2dd-d52932442a20
     playerName: kaza_azak
     experience: 0
-  '3':
+  '4':
     UUID: 7c69d8b0-f276-3c39-afd5-6e8ad9280fd0
     playerName: kagoostewie
     experience: 0
-  '4':
+  '5':
     UUID: fb3bd4d8-957b-3491-a1df-5b8cbfd0e3dc
     playerName: ssedoc
     experience: 0
-  '5':
+  '6':
     UUID: 24cb6268-56c1-3c25-9f3d-c43d891c5d00
     playerName: stackdocker2
     experience: 0
-  '6':
+  '7':
     UUID: 0c7e77a7-5432-300c-9d7c-659d34abf14c
     playerName: mightychoco
     experience: 0
-  '7':
+  '8':
     UUID: acdf07c9-67df-34f6-bab1-19022eb6a8f7
     playerName: UnknownLaTrader
     experience: 0
-  '8':
+  '9':
     UUID: 78aab30e-e3cb-3313-a687-81db9d4241e1
     playerName: MasterBacon95
     experience: 0
-  '9':
+  '10':
     UUID: 99c8a206-8cca-34da-95d2-a19788c670d4
     playerName: Vennilli
     experience: 0
-  '10':
+  '11':
     UUID: 8e667ef6-0d6e-3aed-add8-1a6f1102a8b1
     playerName: MemeCraft10098
     experience: 0
-  '11':
+  '12':
     UUID: 91453bd3-daa3-3fc8-9fdf-2a43f900f904
     playerName: Max Carnage
     experience: 0
-  '12':
+  '13':
     UUID: f1b1f4c8-89b9-3b8e-8be0-059c6bacf56b
     playerName: fnaf
     experience: 0
 global:
   '0':
-    UUID: 0c7e77a7-5432-300c-9d7c-659d34abf14c
-    playerName: mightychoco
-    level: 1981
-    totalExperience: 6661844
-  '1':
-    UUID: fb3bd4d8-957b-3491-a1df-5b8cbfd0e3dc
-    playerName: ssedoc
-    level: 1738
-    totalExperience: 4874161
-  '2':
     UUID: 24cb6268-56c1-3c25-9f3d-c43d891c5d00
     playerName: stackdocker2
-    level: 1348
-    totalExperience: 3524893
+    level: 2831
+    totalExperience: 13874827
+  '1':
+    UUID: 0c7e77a7-5432-300c-9d7c-659d34abf14c
+    playerName: mightychoco
+    level: 2711
+    totalExperience: 11478802
+  '2':
+    UUID: fb3bd4d8-957b-3491-a1df-5b8cbfd0e3dc
+    playerName: ssedoc
+    level: 2536
+    totalExperience: 9222148
   '3':
-    UUID: 99c8a206-8cca-34da-95d2-a19788c670d4
-    playerName: Vennilli
-    level: 1145
-    totalExperience: 2767612
-  '4':
     UUID: 16a03e68-cc10-38ab-8232-3b3dbb0a65ab
     playerName: 2Sp1cy
-    level: 1097
-    totalExperience: 2741653
+    level: 1528
+    totalExperience: 4260045
+  '4':
+    UUID: 99c8a206-8cca-34da-95d2-a19788c670d4
+    playerName: Vennilli
+    level: 1387
+    totalExperience: 3595333
   '5':
     UUID: 7c69d8b0-f276-3c39-afd5-6e8ad9280fd0
     playerName: kagoostewie
@@ -302,23 +322,23 @@ global:
   '7':
     UUID: 8e667ef6-0d6e-3aed-add8-1a6f1102a8b1
     playerName: MemeCraft10098
-    level: 461
-    totalExperience: 973639
+    level: 517
+    totalExperience: 1095062
   '8':
     UUID: 91453bd3-daa3-3fc8-9fdf-2a43f900f904
     playerName: Max Carnage
-    level: 274
-    totalExperience: 547005
+    level: 311
+    totalExperience: 633298
   '9':
     UUID: acdf07c9-67df-34f6-bab1-19022eb6a8f7
     playerName: UnknownLaTrader
-    level: 157
-    totalExperience: 302847
+    level: 300
+    totalExperience: 600939
   '10':
     UUID: 78aab30e-e3cb-3313-a687-81db9d4241e1
     playerName: MasterBacon95
-    level: 149
-    totalExperience: 298079
+    level: 168
+    totalExperience: 337747
   '11':
     UUID: e63bd011-15e6-3b96-b2dd-d52932442a20
     playerName: kaza_azak
@@ -329,19 +349,24 @@ global:
     playerName: fnaf
     level: 46
     totalExperience: 91840
+  '13':
+    UUID: 1e313b94-bd3c-3e86-b015-4fe8e9902360
+    playerName: stackdocker3
+    level: 0
+    totalExperience: 0
 digging:
   '0':
     UUID: fb3bd4d8-957b-3491-a1df-5b8cbfd0e3dc
     playerName: ssedoc
-    experience: 183842
+    experience: 254182
   '1':
     UUID: 0c7e77a7-5432-300c-9d7c-659d34abf14c
     playerName: mightychoco
-    experience: 112346
+    experience: 129094
   '2':
     UUID: 24cb6268-56c1-3c25-9f3d-c43d891c5d00
     playerName: stackdocker2
-    experience: 17680
+    experience: 49560
   '3':
     UUID: 8d4d494b-0db0-3fa2-acb4-294350017ab8
     playerName: stackdocker1
@@ -349,11 +374,11 @@ digging:
   '4':
     UUID: 91453bd3-daa3-3fc8-9fdf-2a43f900f904
     playerName: Max Carnage
-    experience: 6140
+    experience: 6200
   '5':
     UUID: 16a03e68-cc10-38ab-8232-3b3dbb0a65ab
     playerName: 2Sp1cy
-    experience: 4100
+    experience: 6960
   '6':
     UUID: 7c69d8b0-f276-3c39-afd5-6e8ad9280fd0
     playerName: kagoostewie
@@ -361,7 +386,7 @@ digging:
   '7':
     UUID: 99c8a206-8cca-34da-95d2-a19788c670d4
     playerName: Vennilli
-    experience: 700
+    experience: 880
   '8':
     UUID: e63bd011-15e6-3b96-b2dd-d52932442a20
     playerName: kaza_azak
@@ -369,69 +394,77 @@ digging:
   '9':
     UUID: 8e667ef6-0d6e-3aed-add8-1a6f1102a8b1
     playerName: MemeCraft10098
-    experience: 340
+    experience: 360
   '10':
     UUID: acdf07c9-67df-34f6-bab1-19022eb6a8f7
     playerName: UnknownLaTrader
-    experience: 300
+    experience: 120
   '11':
+    UUID: 78aab30e-e3cb-3313-a687-81db9d4241e1
+    playerName: MasterBacon95
+    experience: 26
+  '12':
     UUID: f1b1f4c8-89b9-3b8e-8be0-059c6bacf56b
     playerName: fnaf
     experience: 20
-  '12':
-    UUID: 78aab30e-e3cb-3313-a687-81db9d4241e1
-    playerName: MasterBacon95
-    experience: 4
+  '13':
+    UUID: 1e313b94-bd3c-3e86-b015-4fe8e9902360
+    playerName: stackdocker3
+    experience: 0
 alchemy:
   '0':
     UUID: 99c8a206-8cca-34da-95d2-a19788c670d4
     playerName: Vennilli
     experience: 3000
   '1':
+    UUID: 1e313b94-bd3c-3e86-b015-4fe8e9902360
+    playerName: stackdocker3
+    experience: 0
+  '2':
     UUID: e63bd011-15e6-3b96-b2dd-d52932442a20
     playerName: kaza_azak
     experience: 0
-  '2':
+  '3':
     UUID: 16a03e68-cc10-38ab-8232-3b3dbb0a65ab
     playerName: 2Sp1cy
     experience: 0
-  '3':
+  '4':
     UUID: 7c69d8b0-f276-3c39-afd5-6e8ad9280fd0
     playerName: kagoostewie
     experience: 0
-  '4':
+  '5':
     UUID: fb3bd4d8-957b-3491-a1df-5b8cbfd0e3dc
     playerName: ssedoc
     experience: 0
-  '5':
+  '6':
     UUID: 8d4d494b-0db0-3fa2-acb4-294350017ab8
     playerName: stackdocker1
     experience: 0
-  '6':
+  '7':
     UUID: 24cb6268-56c1-3c25-9f3d-c43d891c5d00
     playerName: stackdocker2
     experience: 0
-  '7':
+  '8':
     UUID: 0c7e77a7-5432-300c-9d7c-659d34abf14c
     playerName: mightychoco
     experience: 0
-  '8':
+  '9':
     UUID: acdf07c9-67df-34f6-bab1-19022eb6a8f7
     playerName: UnknownLaTrader
     experience: 0
-  '9':
+  '10':
     UUID: 78aab30e-e3cb-3313-a687-81db9d4241e1
     playerName: MasterBacon95
     experience: 0
-  '10':
+  '11':
     UUID: 8e667ef6-0d6e-3aed-add8-1a6f1102a8b1
     playerName: MemeCraft10098
     experience: 0
-  '11':
+  '12':
     UUID: 91453bd3-daa3-3fc8-9fdf-2a43f900f904
     playerName: Max Carnage
     experience: 0
-  '12':
+  '13':
     UUID: f1b1f4c8-89b9-3b8e-8be0-059c6bacf56b
     playerName: fnaf
     experience: 0
@@ -439,23 +472,23 @@ mining:
   '0':
     UUID: 24cb6268-56c1-3c25-9f3d-c43d891c5d00
     playerName: stackdocker2
-    experience: 166376
+    experience: 329343
   '1':
+    UUID: 0c7e77a7-5432-300c-9d7c-659d34abf14c
+    playerName: mightychoco
+    experience: 135588
+  '2':
     UUID: 7c69d8b0-f276-3c39-afd5-6e8ad9280fd0
     playerName: kagoostewie
     experience: 105185
-  '2':
-    UUID: 0c7e77a7-5432-300c-9d7c-659d34abf14c
-    playerName: mightychoco
-    experience: 80352
   '3':
-    UUID: fb3bd4d8-957b-3491-a1df-5b8cbfd0e3dc
-    playerName: ssedoc
-    experience: 74921
-  '4':
     UUID: 99c8a206-8cca-34da-95d2-a19788c670d4
     playerName: Vennilli
-    experience: 72021
+    experience: 89891
+  '4':
+    UUID: fb3bd4d8-957b-3491-a1df-5b8cbfd0e3dc
+    playerName: ssedoc
+    experience: 89775
   '5':
     UUID: 8d4d494b-0db0-3fa2-acb4-294350017ab8
     playerName: stackdocker1
@@ -463,7 +496,7 @@ mining:
   '6':
     UUID: 16a03e68-cc10-38ab-8232-3b3dbb0a65ab
     playerName: 2Sp1cy
-    experience: 38130
+    experience: 57399
   '7':
     UUID: 8e667ef6-0d6e-3aed-add8-1a6f1102a8b1
     playerName: MemeCraft10098
@@ -471,7 +504,7 @@ mining:
   '8':
     UUID: 91453bd3-daa3-3fc8-9fdf-2a43f900f904
     playerName: Max Carnage
-    experience: 12043
+    experience: 16228
   '9':
     UUID: acdf07c9-67df-34f6-bab1-19022eb6a8f7
     playerName: UnknownLaTrader
@@ -479,20 +512,56 @@ mining:
   '10':
     UUID: 78aab30e-e3cb-3313-a687-81db9d4241e1
     playerName: MasterBacon95
-    experience: 5273
+    experience: 5323
   '11':
     UUID: e63bd011-15e6-3b96-b2dd-d52932442a20
     playerName: kaza_azak
     experience: 2420
   '12':
+    UUID: 1e313b94-bd3c-3e86-b015-4fe8e9902360
+    playerName: stackdocker3
+    experience: 0
+  '13':
     UUID: f1b1f4c8-89b9-3b8e-8be0-059c6bacf56b
     playerName: fnaf
     experience: 0
-woodcutting: {}
-defense: {}
-farming: {}
-playTime: {}
-agility: {}
-archery: {}
-beastMastery: {}
-smelting: {}
+woodcutting:
+  '0':
+    UUID: 1e313b94-bd3c-3e86-b015-4fe8e9902360
+    playerName: stackdocker3
+    experience: 0
+defense:
+  '0':
+    UUID: 1e313b94-bd3c-3e86-b015-4fe8e9902360
+    playerName: stackdocker3
+    experience: 0
+farming:
+  '0':
+    UUID: 1e313b94-bd3c-3e86-b015-4fe8e9902360
+    playerName: stackdocker3
+    experience: 0
+playTime:
+  '0':
+    UUID: 1e313b94-bd3c-3e86-b015-4fe8e9902360
+    playerName: stackdocker3
+    totalPlayTime: 0
+agility:
+  '0':
+    UUID: 1e313b94-bd3c-3e86-b015-4fe8e9902360
+    playerName: stackdocker3
+    experience: 0
+archery:
+  '0':
+    UUID: 1e313b94-bd3c-3e86-b015-4fe8e9902360
+    playerName: stackdocker3
+    experience: 0
+beastMastery:
+  '0':
+    UUID: 1e313b94-bd3c-3e86-b015-4fe8e9902360
+    playerName: stackdocker3
+    experience: 0
+smelting:
+  '0':
+    UUID: 1e313b94-bd3c-3e86-b015-4fe8e9902360
+    playerName: stackdocker3
+    experience: 0

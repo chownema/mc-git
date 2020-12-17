@@ -17,6 +17,109 @@ last-karma-depreciation: 0
 skills:
   exploration:
     PLAINS: 1
+    FOREST: 1
+    BASALT_DELTAS: 1
+    RIVER: 1
+    TAIGA: 1
+    WOODED_HILLS: 1
+    MOUNTAINS: 1
+    SUNFLOWER_PLAINS: 1
+    BEACH: 1
+    OCEAN: 1
+    DEEP_OCEAN: 1
+    FLOWER_FOREST: 1
+    LUKEWARM_OCEAN: 1
+    WARM_OCEAN: 1
+    MUSHROOM_FIELDS: 1
+    MUSHROOM_FIELD_SHORE: 1
+    TAIGA_HILLS: 1
+  armor:
+    DIAMOND_HELMET: 30
+    DIAMOND_CHESTPLATE: 30
+    DIAMOND_BOOTS: 30
+    DIAMOND_LEGGINGS: 30
+    GOLDEN_BOOTS: 30
+    CHAINMAIL_LEGGINGS: 30
+    LEATHER_LEGGINGS: 2
+    LEATHER_HELMET: 2
+    LEATHER_CHESTPLATE: 2
+    LEATHER_BOOTS: 2
+  shield:
+    DAMAGE: 62
+    BLOCKED: 20
+  sword:
+    ZOMBIE: 9
+    SPIDER: 9
+    PILLAGER: 4
+    SKELETON: 9
+    CREEPER: 9
+    CHICKEN: 2
+    ZOMBIE_VILLAGER: 2
+    HUSK: 2
+    SQUID: 1
+    DROWNED: 3
+    ENDERMAN: 7
+    TRADER_LLAMA: 2
+    SKELETON_HORSE: 1
+    HORSE: 1
+    STRAY: 9
+    SHEEP: 1
+    GIANT: 2
+    WITHER_SKELETON: 1
+  bow:
+    PILLAGER: 1
+    ZOMBIE: 9
+    SPIDER: 9
+    CREEPER: 9
+    SKELETON: 9
+    PIG: 2
+    HORSE: 1
+    WITHER_SKELETON: 2
+    SLIME: 2
+    ZOGLIN: 1
+    ZOMBIE_VILLAGER: 6
+    ZOMBIE_HORSE: 1
+    WITCH: 2
+    GIANT: 6
+    LLAMA: 1
+    MULE: 1
+    PHANTOM: 2
+    PLAYER: 2
+    TRADER_LLAMA: 1
+    COW: 1
+    VEX: 2
+    STRAY: 1
+  crafting:
+    DIAMOND_PICKAXE: 5
+    GOLD_NUGGET: 5
+    GOLD_INGOT: 5
+    DIAMOND: 5
+    LIGHT_WEIGHTED_PRESSURE_PLATE: 1
+    GOLD_BLOCK: 3
+    STICK: 5
+    BOW: 3
+    IRON_INGOT: 5
+    BOOKSHELF: 3
+    BOOK: 1
+    BIRCH_PLANKS: 4
+    CRAFTING_TABLE: 1
+    TORCH: 5
+    OAK_PLANKS: 5
+    COAL: 5
+    CHEST: 2
+    FURNACE: 1
+    IRON_BLOCK: 5
+  mining:
+    GOLD_ORE: 40
+    DIAMOND_ORE: 42
+    COAL_ORE: 60
+    IRON_ORE: 40
+    REDSTONE_ORE: 6
+    GLOWSTONE: 1
+  axe:
+    ZOMBIE: 1
+friends:
+- 78aab30e-e3cb-3313-a687-81db9d4241e1
 items:
   default: 1
   shelter: 1

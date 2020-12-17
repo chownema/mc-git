@@ -1,12 +1,13 @@
 lastAccountName: ssedoc
 timestamps:
-  login: 1606897375771
-  logout: 1606901263708
-ipAddress: 45.112.60.178
+  login: 1607635023235
+  logout: 1607635023147
+ipAddress: 113.197.98.166
 logoutlocation:
   world: world
-  x: -86.97863854159372
+  x: -66.07080360559551
   y: 63.0
-  z: 686.5243488572014
-  yaw: 198.54701
-  pitch: 11.999939
+  z: 689.9192419295601
+  yaw: -181.51283
+  pitch: 16.500175
+money: '79.8966666666666727'

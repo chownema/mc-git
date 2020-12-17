@@ -1,0 +1,115 @@
+locale: en
+hardship: 0.0
+mana: 0
+days-since-hardship-depreciation: 0
+tutorial-index: 0
+tutorial-path: default
+tutorial-progress: 0
+use-announcements: true
+kills: 4
+kill-streak: 2
+deaths: 3
+highest-kill-streak: 2
+points: 2.1000000000000005
+karma: -7
+classes:
+- 0
+last-karma-depreciation: 1607752773874
+skills:
+  exploration:
+    WOODED_HILLS: 1
+    FOREST: 1
+    RIVER: 1
+    SUNFLOWER_PLAINS: 1
+    PLAINS: 1
+    TAIGA: 1
+    BEACH: 1
+    OCEAN: 1
+    DEEP_OCEAN: 1
+    FLOWER_FOREST: 1
+    LUKEWARM_OCEAN: 1
+    WARM_OCEAN: 1
+    MUSHROOM_FIELDS: 1
+    MUSHROOM_FIELD_SHORE: 1
+    BASALT_DELTAS: 1
+  food:
+    CARROT: 7
+    COOKED_MUTTON: 1
+    BAKED_POTATO: 3
+  shield:
+    BLOCKED: 22
+    DAMAGE: 50
+  armor:
+    DIAMOND_HELMET: 30
+    IRON_LEGGINGS: 30
+    CHAINMAIL_BOOTS: 30
+    DIAMOND_CHESTPLATE: 30
+    DIAMOND_BOOTS: 30
+    TURTLE_HELMET: 1
+    GOLDEN_BOOTS: 19
+    LEATHER_HELMET: 5
+    CHAINMAIL_LEGGINGS: 4
+  axe:
+    SKELETON: 4
+    ZOMBIE: 9
+    CHICKEN: 1
+    SHEEP: 1
+    SPIDER: 3
+    GHAST: 1
+    CREEPER: 4
+    BAT: 2
+  sword:
+    SPIDER: 8
+    ZOMBIE: 9
+    PLAYER: 2
+    BAT: 2
+    HUSK: 5
+    SKELETON: 9
+    CREEPER: 4
+    PIG: 3
+    COW: 1
+    VILLAGER: 1
+    HORSE: 1
+    BEE: 2
+    PILLAGER: 4
+    ENDERMITE: 2
+    SHEEP: 6
+    CAVE_SPIDER: 9
+    VEX: 3
+  crafting:
+    CRIMSON_PLANKS: 5
+    IRON_INGOT: 5
+    HEAVY_WEIGHTED_PRESSURE_PLATE: 3
+    OAK_PLANKS: 5
+    STICK: 5
+    TORCH: 4
+    GOLDEN_SHOVEL: 2
+    PISTON: 5
+    OAK_SIGN: 5
+    REDSTONE: 5
+    TRIPWIRE_HOOK: 2
+    STONE_BRICKS: 5
+    STONE_BRICK_WALL: 5
+    STONE_BUTTON: 1
+    FLINT_AND_STEEL: 1
+    IRON_BLOCK: 1
+    ANVIL: 1
+  bow:
+    PLAYER: 7
+    SPIDER: 4
+    SKELETON: 8
+    HORSE: 1
+    CREEPER: 2
+    ZOMBIE: 9
+    TRADER_LLAMA: 2
+    WANDERING_TRADER: 1
+    GIANT: 1
+    BAT: 3
+    PHANTOM: 2
+  mining:
+    COAL_ORE: 25
+    IRON_ORE: 6
+items:
+  default: 1
+  shelter: 1
+  archer: 1

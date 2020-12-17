@@ -71,7 +71,7 @@ swordsmanship:
   EXP_Multiplier: 1.0
   abilityCooldown: 0 #This skill's ability cooldown (in seconds)
 defense:
-  skillAllowed: true #Setting this to false disables all skill features and EXP drops.
+  skillAllowed: false #Setting this to false disables all skill features and EXP drops.
   maxLevel: -1
   EXP_Multiplier: 1.0
   abilityCooldown: 0 #This skill's ability cooldown (in seconds)
@@ -85,7 +85,7 @@ repair:
   maxLevel: -1
   EXP_Multiplier: 1.0
 agility:
-  skillAllowed: true #Setting this to false disables all skill features and EXP drops.
+  skillAllowed: false #Setting this to false disables all skill features and EXP drops.
   maxLevel: -1
   EXP_Multiplier: 1.0
 alchemy:

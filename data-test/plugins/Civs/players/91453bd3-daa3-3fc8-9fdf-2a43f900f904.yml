@@ -1,31 +1,54 @@
 locale: en
-hardship: 0.0
+hardship: 500.0
 mana: 0
-days-since-hardship-depreciation: 0
+days-since-hardship-depreciation: 2
 tutorial-index: 0
 tutorial-path: default
 tutorial-progress: 0
 use-announcements: true
 kills: 0
 kill-streak: 0
-deaths: 0
+deaths: 1
 highest-kill-streak: 0
-points: 0.0
-karma: 0
+points: -1.0
+karma: 1
 classes: []
-last-karma-depreciation: 0
+last-karma-depreciation: 1607673889515
 skills:
   exploration:
     PLAINS: 1
     FOREST: 1
+    WOODED_HILLS: 1
   food:
     CARROT: 7
     POTATO: 7
   sword:
-    ZOMBIE: 1
+    ZOMBIE: 7
     ENDERMAN: 1
+    SKELETON: 3
+    PLAYER: 1
+    SPIDER: 1
   armor:
     LEATHER_LEGGINGS: 15
+    DIAMOND_HELMET: 30
+    IRON_BOOTS: 25
+    DIAMOND_CHESTPLATE: 17
+    IRON_CHESTPLATE: 27
+    GOLDEN_BOOTS: 26
+    CHAINMAIL_LEGGINGS: 26
+  crafting:
+    BIRCH_PLANKS: 5
+    CRAFTING_TABLE: 3
+    STICK: 5
+    STONE_PICKAXE: 2
+    STONE_AXE: 1
+    FURNACE: 1
+    WOODEN_PICKAXE: 1
+    LADDER: 3
+    POLISHED_ANDESITE: 5
+    POLISHED_BASALT: 5
+  mining:
+    IRON_ORE: 8
 items:
   default: 1
   shelter: 1

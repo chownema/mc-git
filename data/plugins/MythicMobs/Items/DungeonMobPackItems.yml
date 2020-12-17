@@ -1,0 +1,419 @@
+
+# Version: 1.4.2
+# Created by: Buguser
+# Created and tested in: MythicMobs-4.11.0-SNAPSHOT, MythicMobsExtension-1.72-SNAPSHOT SNAPSHOT & Minecraft V.1.16.2 ✓
+#
+# Please report bugs in the MythicMobs-Forum via direct message or contact me on Discord: ZeroX#6102
+
+
+#+-------------------------------+#
+#          Orc Equipment          #
+#+-------------------------------+#
+
+
+###Orc Armor Leather 1
+OrcHelmet_Leather_1:
+  Id: leather_helmet
+  Options:
+    Unbreakable: true
+OrcChestplate_Leather_1:
+  Id: leather_chestplate
+  Options:
+    Unbreakable: true
+OrcLeggings_Leather_1:
+  Id: leather_leggings
+  Options:
+    Unbreakable: true
+OrcBoots_Leather_1:
+  Id: leather_boots
+  Options:
+    Unbreakable: true
+
+###Orc Armor Leather 2
+OrcHelmet_Leather_2:
+  Id: leather_helmet
+  Options:
+    Unbreakable: true
+    Color: 70,70,70
+OrcChestplate_Leather_2:
+  Id: leather_chestplate
+  Options:
+    Unbreakable: true
+    Color: 70,70,70
+OrcLeggings_Leather_2:
+  Id: leather_leggings
+  Options:
+    Unbreakable: true
+    Color: 70,70,70
+OrcBoots_Leather_2:
+  Id: leather_boots
+  Options:
+    Unbreakable: true
+    Color: 70,70,70
+
+###Orc Armor Leather 3
+OrcHelmet_Leather_3:
+  Id: leather_helmet
+  Options:
+    Unbreakable: true
+    Color: 45,45,45
+OrcChestplate_Leather_3:
+  Id: leather_chestplate
+  Options:
+    Unbreakable: true
+    Color: 45,45,45
+OrcLeggings_Leather_3:
+  Id: leather_leggings
+  Options:
+    Unbreakable: true
+    Color: 45,45,45
+OrcBoots_Leather_3:
+  Id: leather_boots
+  Options:
+    Unbreakable: true
+    Color: 45,45,45
+
+###Orc Armor Leather 4
+OrcHelmet_Leather_4:
+  Id: leather_helmet
+  Options:
+    Unbreakable: true
+    Color: 60,33,0
+OrcChestplate_Leather_4:
+  Id: leather_chestplate
+  Options:
+    Unbreakable: true
+    Color: 60,33,0
+OrcLeggings_Leather_4:
+  Id: leather_leggings
+  Options:
+    Unbreakable: true
+    Color: 60,33,0
+OrcBoots_Leather_4:
+  Id: leather_boots
+  Options:
+    Unbreakable: true
+    Color: 60,33,0
+
+###Orc Armor Leather 5
+OrcHelmet_Leather_5:
+  Id: leather_helmet
+  Options:
+    Unbreakable: true
+    Color: 123,88,3
+OrcChestplate_Leather_5:
+  Id: leather_chestplate
+  Options:
+    Unbreakable: true
+    Color: 123,88,3
+OrcLeggings_Leather_5:
+  Id: leather_leggings
+  Options:
+    Unbreakable: true
+    Color: 123,88,3
+OrcBoots_Leather_5:
+  Id: leather_boots
+  Options:
+    Unbreakable: true
+    Color: 123,88,3
+
+###Orc Armor Leather 6
+OrcHelmet_Leather_6:
+  Id: leather_helmet
+  Options:
+    Unbreakable: true
+    Color: 95,95,95
+OrcChestplate_Leather_6:
+  Id: leather_chestplate
+  Options:
+    Unbreakable: true
+    Color: 95,95,95
+OrcLeggings_Leather_6:
+  Id: leather_leggings
+  Options:
+    Unbreakable: true
+    Color: 95,95,95
+OrcBoots_Leather_6:
+  Id: leather_boots
+  Options:
+    Unbreakable: true
+    Color: 95,95,95
+###Orc Armor Leather 6_E
+OrcHelmet_Leather_6_E:
+  Id: leather_helmet
+  Options:
+    Unbreakable: true
+    Color: 95,95,95
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:2
+OrcChestplate_Leather_6_E:
+  Id: leather_chestplate
+  Options:
+    Unbreakable: true
+    Color: 95,95,95
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:2
+OrcLeggings_Leather_6_E:
+  Id: leather_leggings
+  Options:
+    Unbreakable: true
+    Color: 95,95,95
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:2
+OrcBoots_Leather_6_E:
+  Id: leather_boots
+  Options:
+    Unbreakable: true
+    Color: 95,95,95
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:2
+
+###Orc Armor Chainmail
+OrcHelmet_Chainmail:
+  Id: chainmail_helmet
+  Options:
+    Unbreakable: true
+OrcChestplate_Chainmail:
+  Id: chainmail_chestplate
+  Options:
+    Unbreakable: true
+OrcLeggings_Chainmail:
+  Id: chainmail_leggings
+  Options:
+    Unbreakable: true
+OrcBoots_Chainmail:
+  Id: chainmail_boots
+  Options:
+    Unbreakable: true
+
+###Orc Armor Iron
+OrcHelmet_Iron:
+  Id: iron_helmet
+  Options:
+    Unbreakable: true
+OrcChestplate_Iron:
+  Id: iron_chestplate
+  Options:
+    Unbreakable: true
+OrcLeggings_Iron:
+  Id: iron_leggings
+  Options:
+    Unbreakable: true
+OrcBoots_Iron:
+  Id: iron_boots
+  Options:
+    Unbreakable: true
+
+###Orc Armor Diamond
+OrcHelmet_Diamond:
+  Id: diamond_helmet
+  Options:
+    Unbreakable: true
+OrcChestplate_Diamond:
+  Id: diamond_chestplate
+  Options:
+    Unbreakable: true
+OrcLeggings_Diamond:
+  Id: diamond_leggings
+  Options:
+    Unbreakable: true
+OrcBoots_Diamond:
+  Id: diamond_boots
+  Options:
+    Unbreakable: true
+
+###Orc Armor Diamond Enchanted
+OrcHelmet_Diamond_E:
+  Id: diamond_helmet
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:2
+OrcChestplate_Diamond_E:
+  Id: diamond_chestplate
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:2
+  - THORNS:1
+OrcLeggings_Diamond_E:
+  Id: diamond_leggings
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:2
+OrcBoots_Diamond_E:
+  Id: diamond_boots
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:2
+
+###Orc Armor Drummer
+OrcHelmet_Drummer:
+  Id: leather_helmet
+  Options:
+    Unbreakable: true
+    Color: 0,0,0
+  #Id: BLACK_BANNER  ###Currently not working as banner.
+  #BannerLayers:
+  #- RED SKULL
+OrcChestplate_Drummer:
+  Id: leather_chestplate
+  Options:
+    Unbreakable: true
+    Color: 0,0,0
+OrcLeggings_Drummer:
+  Id: leather_leggings
+  Options:
+    Unbreakable: true
+    Color: 0,0,0
+OrcBoots_Drummer:
+  Id: leather_boots
+  Options:
+    Unbreakable: true
+    Color: 0,0,0
+
+
+###Orc Weapons
+OrcWeapon_1:
+  Id: iron_axe
+  Options:
+    Unbreakable: true
+OrcWeapon_2:
+  Id: golden_axe
+  Options:
+    Unbreakable: true
+OrcWeapon_3:
+  Id: diamond_axe
+  Options:
+    Unbreakable: true
+OrcWeapon_4:
+  Id: iron_sword
+  Options:
+    Unbreakable: true
+OrcWeapon_5:
+  Id: golden_sword
+  Options:
+    Unbreakable: true
+OrcWeapon_6:
+  Id: diamond_sword
+  Options:
+    Unbreakable: true
+OrcWeapon_Bow_1:
+  Id: bow
+  Options:
+    Unbreakable: true
+OrcWeapon_Bow_2:
+  Id: bow
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - ARROW_FIRE:2
+OrcWeapon_Wand_1:
+  Id: blaze_rod
+  Enchantments:
+  - FIRE_ASPECT:2
+OrcWeapon_Wand_2:
+  Id: stick
+  Enchantments:
+  - KNOCKBACK:1
+OrcWeapon_Lighter:
+  Id: flint_and_steel
+  Options:
+    Unbreakable: true
+OrcWeapon_Shield:
+  Id: shield
+  Options:
+    Unbreakable: true
+    Color: BLACK
+  BannerLayers:
+  - RED SKULL
+OrcWeapon_Drummer_1:
+  Id: note_block
+OrcWeapon_Drummer_2:
+  Id: stick
+
+OrclingWeapon_1:
+  Id: iron_axe
+  Options:
+    Unbreakable: true
+OrclingWeapon_2:
+  Id: stone_axe
+  Options:
+    Unbreakable: true
+OrclingWeapon_3:
+  Id: stone_hoe
+  Options:
+    Unbreakable: true
+OrclingWeapon_4:
+  Id: iron_hoe
+  Options:
+    Unbreakable: true
+OrclingWeapon_5:
+  Id: iron_sword
+  Options:
+    Unbreakable: true
+OrclingWeapon_6:
+  Id: wooden_sword
+  Options:
+    Unbreakable: true
+OrclingWeapon_7:
+  Id: stone_sword
+  Options:
+    Unbreakable: true
+
+#+-------------------------------+#
+#         Wraith Equipment        #
+#+-------------------------------+#
+
+###Wraith Weapons
+WraithWeapon_1:
+  Id: iron_sword
+  Options:
+    Unbreakable: true
+WraithWeapon_2:
+  Id: iron_sword
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - KNOCKBACK:1
+WraithWeapon_3:
+  Id: iron_sword
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - FIRE_ASPECT:2
+WraithWeapon_4:
+  Id: bow
+  Options:
+    Unbreakable: true
+WraithWeapon_5:
+  Id: bow
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - ARROW_FIRE:2
+WraithWeapon_6:
+  Id: bow
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - ARROW_KNOCKBACK:1
+WraithWeapon_7:
+  Id: bow
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - ARROW_FIRE:2
+  - ARROW_KNOCKBACK:1
+WraithWeapon_8:
+  Id: stone_sword
+  Options:
+    Unbreakable: true
+WraithWeapon_9:
+  Id: iron_hoe
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - KNOCKBACK:1

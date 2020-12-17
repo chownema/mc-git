@@ -159,5 +159,7 @@ world-settings:
         flying-monsters-max-per-tick: 8
         flying-monsters-every: 200
         flying-monsters-for: 100
+  worldeditregentempworld:
+    verbose: false
 players:
   disable-saving: false

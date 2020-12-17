@@ -2,144 +2,162 @@ skillData:
   0c7e77a7-5432-300c-9d7c-659d34abf14c:
     name: mightychoco
     skills:
-      FARMING: 2:74.9
+      FARMING: 3:472.14
       SORCERY: '1:0.0'
       FISHING: '1:0.0'
-      AGILITY: 3:261.8
-      ARCHERY: 4:893.7
-      ENDURANCE: 10:4798.0
+      AGILITY: 4:457.0
+      ARCHERY: 6:189.1
+      ENDURANCE: 13:3850.0
       ALCHEMY: '1:0.0'
       FORGING: '1:0.0'
-      DEFENSE: 7:1425.945
+      DEFENSE: 8:2444.273
       HEALING: '1:0.0'
       ENCHANTING: '1:0.0'
-      EXCAVATION: '4:22.25'
-      FORAGING: '1:0.0'
-      FIGHTING: 8:1425.4
-      MINING: 4:163.83
+      EXCAVATION: 4:571.7
+      FORAGING: 1:70.0
+      FIGHTING: 8:3359.8
+      MINING: 4:807.66
   fb3bd4d8-957b-3491-a1df-5b8cbfd0e3dc:
     name: ssedoc
     skills:
-      FARMING: 5:1330.63
+      FARMING: 7:2523.7
       SORCERY: '1:0.0'
       FISHING: '1:0.0'
-      AGILITY: 4:309.2
-      ARCHERY: 4:787.1
-      ENDURANCE: 10:3363.0
+      AGILITY: 5:992.2
+      ARCHERY: 6:653.4
+      ENDURANCE: 12:6989.0
       ALCHEMY: '1:0.0'
       FORGING: '1:0.0'
-      DEFENSE: 8:3202.114
+      DEFENSE: 10:839.211
       HEALING: '1:20.0'
-      ENCHANTING: '1:42.0'
-      EXCAVATION: 6:2311.08
-      FORAGING: 4:937.04
-      FIGHTING: 4:571.0
-      MINING: 5:1184.61
+      ENCHANTING: '1:44.0'
+      EXCAVATION: 7:1861.03
+      FORAGING: 4:949.8
+      FIGHTING: 5:1076.9
+      MINING: 5:1684.89
   16a03e68-cc10-38ab-8232-3b3dbb0a65ab:
     name: 2Sp1cy
     skills:
-      FARMING: '1:34.0'
+      FARMING: '1:39.0'
       SORCERY: '1:0.0'
       FISHING: '5:44.5'
-      AGILITY: 4:102.8
-      ARCHERY: 4:390.8
-      ENDURANCE: 8:3543.0
+      AGILITY: 5:151.1
+      ARCHERY: 5:126.7
+      ENDURANCE: 10:1935.0
       ALCHEMY: '1:0.0'
       FORGING: '1:0.0'
-      DEFENSE: 7:3215.56
+      DEFENSE: 9:1702.448
       HEALING: '1:0.0'
       ENCHANTING: '1:12.0'
-      EXCAVATION: 1:62.9
-      FORAGING: '1:40.4'
-      FIGHTING: 5:404.6
-      MINING: 3:282.58
+      EXCAVATION: '2:41.9'
+      FORAGING: '2:25.2'
+      FIGHTING: 6:173.1
+      MINING: 3:373.11
   99c8a206-8cca-34da-95d2-a19788c670d4:
     name: Vennilli
     skills:
-      FARMING: 3:356.07
+      FARMING: 4:782.05
       SORCERY: '1:0.0'
       FISHING: '1:0.0'
-      AGILITY: 4:71.4
-      ARCHERY: 4:717.5
-      ENDURANCE: 7:2919.0
+      AGILITY: 4:684.1
+      ARCHERY: 5:421.5
+      ENDURANCE: 9:299.0
       ALCHEMY: '1:0.0'
       FORGING: '1:0.0'
-      DEFENSE: 7:871.62
+      DEFENSE: 7:3246.965
       HEALING: '1:0.0'
-      ENCHANTING: '1:8.0'
-      EXCAVATION: '1:4.1'
-      FORAGING: '2:1.6'
-      FIGHTING: 5:283.6
-      MINING: 4:657.16
+      ENCHANTING: '1:22.0'
+      EXCAVATION: '1:9.3'
+      FORAGING: 2:149.2
+      FIGHTING: 5:517.9
+      MINING: 4:692.36
   24cb6268-56c1-3c25-9f3d-c43d891c5d00:
     name: stackdocker2
     skills:
-      FARMING: '4:29.94'
-      SORCERY: '1:0.0'
+      FARMING: '4:32.14'
+      SORCERY: '1:10.0'
       FISHING: '1:0.0'
-      AGILITY: 4:498.4
-      ARCHERY: 3:270.3
-      ENDURANCE: 7:2046.0
+      AGILITY: '6:40.2'
+      ARCHERY: 7:1149.5
+      ENDURANCE: 10:1922.0
       ALCHEMY: '1:0.0'
       FORGING: '1:0.0'
-      DEFENSE: 6:560.275
+      DEFENSE: 8:1329.13
       HEALING: '1:0.0'
-      ENCHANTING: '2:38.0'
-      EXCAVATION: '1:14.9'
-      FORAGING: '1:0.8'
-      FIGHTING: '5:34.5'
-      MINING: 5:257.46
+      ENCHANTING: 2:112.0
+      EXCAVATION: 3:420.28
+      FORAGING: 7:3105.84
+      FIGHTING: 6:711.6
+      MINING: 6:1896.73
   91453bd3-daa3-3fc8-9fdf-2a43f900f904:
     name: Max Carnage
     skills:
       FARMING: '1:0.0'
       SORCERY: '1:0.0'
       FISHING: '1:0.0'
-      AGILITY: 2:194.0
+      AGILITY: 3:223.8
       ARCHERY: '1:7.0'
-      ENDURANCE: 5:1264.0
+      ENDURANCE: 6:2155.0
       ALCHEMY: '1:0.0'
       FORGING: '1:0.0'
-      DEFENSE: 5:285.284
+      DEFENSE: 5:1591.14
       HEALING: '1:0.0'
       ENCHANTING: '1:0.0'
-      EXCAVATION: '2:46.2'
-      FORAGING: 3:76.8
-      FIGHTING: '2:21.0'
-      MINING: '1:2.0'
+      EXCAVATION: '2:48.3'
+      FORAGING: 3:179.32
+      FIGHTING: 2:92.0
+      MINING: '1:38.8'
   8e667ef6-0d6e-3aed-add8-1a6f1102a8b1:
     name: MemeCraft10098
     skills:
       FORGING: '1:0.0'
-      MINING: 1:98.4
-      EXCAVATION: '1:1.3'
-      FIGHTING: 2:75.0
+      MINING: 1:98.6
+      EXCAVATION: '1:4.2'
+      FIGHTING: 2:190.0
       ENCHANTING: '1:0.0'
-      DEFENSE: '5:2.5'
+      DEFENSE: 5:764.25
       FARMING: '1:0.0'
-      AGILITY: '3:52.4'
+      AGILITY: 3:140.4
       ALCHEMY: '1:0.0'
       HEALING: '1:0.0'
-      FORAGING: '1:2.0'
-      ENDURANCE: 4:297.0
+      FORAGING: '1:6.0'
+      ENDURANCE: 4:674.0
       SORCERY: '1:0.0'
-      ARCHERY: 1:65.0
+      ARCHERY: 1:86.0
       FISHING: '1:0.0'
   acdf07c9-67df-34f6-bab1-19022eb6a8f7:
     name: UnknownLaTrader
     skills:
       FORGING: '1:0.0'
       MINING: '2:10.0'
-      EXCAVATION: '1:0.0'
-      FIGHTING: 3:93.3
+      EXCAVATION: '1:5.9'
+      FIGHTING: 3:187.9
       ENCHANTING: '1:0.0'
-      DEFENSE: 4:525.63
+      DEFENSE: 5:78.357
       FARMING: '1:6.1'
-      AGILITY: 2:188.0
+      AGILITY: 3:346.8
       ALCHEMY: '1:0.0'
       HEALING: '1:0.0'
       FORAGING: '1:0.0'
-      ENDURANCE: 5:1530.0
+      ENDURANCE: 7:149.0
       SORCERY: '1:0.0'
-      ARCHERY: '2:25.0'
+      ARCHERY: 2:102.0
       FISHING: '1:0.0'
+  78aab30e-e3cb-3313-a687-81db9d4241e1:
+    name: MasterBacon95
+    skills:
+      ALCHEMY: '1:0.0'
+      MINING: '1:0.0'
+      SORCERY: '1:0.0'
+      HEALING: '1:0.0'
+      FARMING: '1:0.0'
+      FISHING: '1:0.0'
+      EXCAVATION: '1:3.7'
+      DEFENSE: 3:94.56
+      ENCHANTING: '1:0.0'
+      AGILITY: 2:104.0
+      ARCHERY: '1:0.0'
+      FORAGING: '1:28.0'
+      FORGING: '1:0.0'
+      FIGHTING: '1:16.0'
+      ENDURANCE: 4:77.0

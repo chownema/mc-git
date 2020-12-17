@@ -1,5 +1,5 @@
 doNaturalEliteMobSpawning: true
-doSpawnersSpawnEliteMobs: false
+doSpawnersSpawnEliteMobs: true
 eliteMobsSpawnPercentage: 10
 mobTierLevelIncrease: 1.5
 superMobStackRange: 15

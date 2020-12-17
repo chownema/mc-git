@@ -1,0 +1,255 @@
+
+# Version: 1.4.2
+# Created by: Buguser
+# Created and tested in: MythicMobs-4.11.0-SNAPSHOT, MythicMobsExtension-1.72-SNAPSHOT SNAPSHOT & Minecraft V.1.16.2 ✓
+#
+# Please report bugs in the MythicMobs-Forum via direct message or contact me on Discord: ZeroX#6102
+
+
+#+-------------------------------+#
+#        Equipment Selector       #
+#+-------------------------------+#
+
+OrcRandomEquipment_Orcling:
+  Cooldown: 1
+  Skills:
+  - randomskill{skills=OrcArmor_Leather_1,OrcArmor_Leather_2,OrcArmor_Leather_3,OrcArmor_Leather_4,OrcArmor_Leather_5}
+  - randomskill{skills=OrclingWeapon_1,OrclingWeapon_2,OrclingWeapon_3,OrclingWeapon_4,OrclingWeapon_5,OrclingWeapon_5,OrclingWeapon_6,OrclingWeapon_6,OrclingWeapon_7,OrclingWeapon_7}
+
+OrcRandomEquipment_Knight:
+  Conditions:
+  - stance knight
+  Skills:
+  - randomskill{skills=OrcArmor_Chainmail,OrcArmor_Chainmail,OrcArmor_Chainmail,OrcArmor_Chainmail,OrcArmor_Iron,OrcArmor_Iron,OrcArmor_Iron,OrcArmor_Iron,OrcArmor_Iron,OrcArmor_Diamond,OrcArmor_Diamond_E}
+  - randomskill{skills=OrcWeapon_1,OrcWeapon_1,OrcWeapon_2,OrcWeapon_2,OrcWeapon_3,OrcWeapon_4,OrcWeapon_4,OrcWeapon_4,OrcWeapon_4,OrcWeapon_5,OrcWeapon_5,OrcWeapon_6}
+
+OrcRandomEquipment_Archer:
+  Conditions:
+  - stance archer
+  Skills:
+  - randomskill{skills=OrcArmor_Leather_1,OrcArmor_Leather_2,OrcArmor_Leather_3,OrcArmor_Leather_4,OrcArmor_Leather_5,OrcArmor_Chainmail,OrcArmor_Archer}
+
+OrcRandomEquipment_WarMage:
+  Conditions:
+  - stance warmage
+  Skills:
+  - randomskill{skills=OrcHelmet_Leather_6,OrcHelmet_Leather_6,OrcHelmet_Leather_6_E}
+  - randomskill{skills=OrcChestplate_Leather_6,OrcChestplate_Leather_6,OrcChestplate_Leather_6_E}
+  - randomskill{skills=OrcLeggings_Leather_6,OrcLeggings_Leather_6,OrcLeggings_Leather_6_E}
+  - randomskill{skills=OrcBoots_Leather_6,OrcBoots_Leather_6,OrcBoots_Leather_6_E}
+  - randomskill{skills=OrcWeapon_Wand_1,OrcWeapon_Wand_2}
+
+OrcRandomEquipment_AxeThrower:
+  Conditions:
+  - stance axethrower
+  Skills:
+  - randomskill{skills=OrcArmor_Leather_1,OrcArmor_Leather_2,OrcArmor_Leather_3,OrcArmor_Leather_4,OrcArmor_Leather_5}
+
+WraithRandomEquipment_1:
+  Skills:
+  - randomskill{skills=WraithWeapon_1,WraithWeapon_1,WraithWeapon_2,WraithWeapon_2,WraithWeapon_3}
+
+WraithRandomEquipment_2:
+  Skills:
+  - randomskill{skills=WraithWeapon_4,WraithWeapon_4,WraithWeapon_4,WraithWeapon_5,WraithWeapon_5,WraithWeapon_6,WraithWeapon_6,WraithWeapon_7}
+
+WraithRandomEquipment_3:
+  Skills:
+  - randomskill{skills=WraithWeapon_8,WraithWeapon_8,WraithWeapon_8,WraithWeapon_8,WraithWeapon_9}
+
+#+-------------------------------+#
+#         Equipment Skills        #
+#+-------------------------------+#
+
+#+-------------------------------+#
+#          Orc Equipment          #
+#+-------------------------------+#
+
+OrcArmor_Leather_1:
+  Skills:
+  - equip{i=OrcHelmet_Leather_1:4}
+  - equip{i=OrcChestplate_Leather_1:3}
+  - equip{i=OrcLeggings_Leather_1:2}
+  - equip{i=OrcBoots_Leather_1:1}
+OrcArmor_Leather_2:
+  Skills:
+  - equip{i=OrcHelmet_Leather_2:4}
+  - equip{i=OrcChestplate_Leather_2:3}
+  - equip{i=OrcLeggings_Leather_2:2}
+  - equip{i=OrcBoots_Leather_2:1}
+OrcArmor_Leather_3:
+  Skills:
+  - equip{i=OrcHelmet_Leather_3:4}
+  - equip{i=OrcChestplate_Leather_3:3}
+  - equip{i=OrcLeggings_Leather_3:2}
+  - equip{i=OrcBoots_Leather_3:1}
+OrcArmor_Leather_4:
+  Skills:
+  - equip{i=OrcHelmet_Leather_4:4}
+  - equip{i=OrcChestplate_Leather_4:3}
+  - equip{i=OrcLeggings_Leather_4:2}
+  - equip{i=OrcBoots_Leather_4:1}
+OrcArmor_Leather_5:
+  Skills:
+  - equip{i=OrcHelmet_Leather_5:4}
+  - equip{i=OrcChestplate_Leather_5:3}
+  - equip{i=OrcLeggings_Leather_5:2}
+  - equip{i=OrcBoots_Leather_5:1}
+#OrcArmor_Leather_6:
+#  Skills:
+#  - equip{i=OrcHelmet_Leather_6:4}
+#  - equip{i=OrcChestplate_Leather_6:3}
+#  - equip{i=OrcLeggings_Leather_6:2}
+#  - equip{i=OrcBoots_Leather_6:1}
+#OrcArmor_Leather_6_E:
+#  Skills:
+#  - equip{i=OrcHelmet_Leather_6_E:4}
+#  - equip{i=OrcChestplate_Leather_6_E:3}
+#  - equip{i=OrcLeggings_Leather_6_E:2}
+#  - equip{i=OrcBoots_Leather_6_E:1}
+OrcArmor_Chainmail:
+  Skills:
+  - equip{i=OrcHelmet_Chainmail:4}
+  - equip{i=OrcChestplate_Chainmail:3}
+  - equip{i=OrcLeggings_Chainmail:2}
+  - equip{i=OrcBoots_Chainmail:1}
+OrcArmor_Iron:
+  Skills:
+  - equip{i=OrcHelmet_Iron:4}
+  - equip{i=OrcChestplate_Iron:3}
+  - equip{i=OrcLeggings_Iron:2}
+  - equip{i=OrcBoots_Iron:1}
+OrcArmor_Diamond:
+  Skills:
+  - equip{i=OrcHelmet_Diamond:4}
+  - equip{i=OrcChestplate_Diamond:3}
+  - equip{i=OrcLeggings_Diamond:2}
+  - equip{i=OrcBoots_Diamond:1}
+OrcArmor_Diamond_E:
+  Skills:
+  - equip{i=OrcHelmet_Diamond_E:4}
+  - equip{i=OrcChestplate_Diamond_E:3}
+  - equip{i=OrcLeggings_Diamond_E:2}
+  - equip{i=OrcBoots_Diamond_E:1}
+OrcArmor_Archer:
+  Skills:
+  - equip{i=OrcHelmet_Leather_1:4}
+  - equip{i=OrcChestplate_Chainmail:3}
+  - equip{i=OrcLeggings_Chainmail:2}
+  - equip{i=OrcBoots_Chainmail:1}
+
+OrcHelmet_Leather_6:
+  Skills:
+  - equip{i=OrcHelmet_Leather_6:4}
+OrcChestplate_Leather_6:
+  Skills:
+  - equip{i=OrcChestplate_Leather_6:3},
+OrcLeggings_Leather_6:
+  Skills:
+  - equip{i=OrcLeggings_Leather_6:2}
+OrcBoots_Leather_6:
+  Skills:
+  - equip{i=OrcBoots_Leather_6:1}
+OrcHelmet_Leather_6_E:
+  Skills:
+  - equip{i=OrcHelmet_Leather_6_E:4}
+OrcChestplate_Leather_6_E:
+  Skills:
+  - equip{i=OrcChestplate_Leather_6_E:3},
+OrcLeggings_Leather_6_E:
+  Skills:
+  - equip{i=OrcLeggings_Leather_6_E:2}
+OrcBoots_Leather_6_E:
+  Skills:
+  - equip{i=OrcBoots_Leather_6_E:1}
+
+OrcWeapon_1:
+  Skills:
+  - equip{i=OrcWeapon_1:0}
+OrcWeapon_2:
+  Skills:
+  - equip{i=OrcWeapon_2:0}
+OrcWeapon_3:
+  Skills:
+  - equip{i=OrcWeapon_3:0}
+  - equip{i=OrcWeapon_Shield:5}
+OrcWeapon_4:
+  Skills:
+  - equip{i=OrcWeapon_4:0}
+OrcWeapon_5:
+  Skills:
+  - equip{i=OrcWeapon_5:0}
+OrcWeapon_6:
+  Skills:
+  - equip{i=OrcWeapon_6:0}
+  - equip{i=OrcWeapon_Shield:5}
+OrcWeapon_Bow_1:
+  Skills:
+  - equip{i=OrcWeapon_Bow_1:0}
+OrcWeapon_Bow_2:
+  Skills:
+  - equip{i=OrcWeapon_Bow_2:0}
+OrcWeapon_Wand_1:
+  Skills:
+  - equip{i=OrcWeapon_Wand_1:0}
+OrcWeapon_Wand_2:
+  Skills:
+  - equip{i=OrcWeapon_Wand_2:0}
+OrcWeapon_Lighter:
+  Skills:
+  - equip{i=OrcWeapon_Lighter:0}
+
+OrclingWeapon_1:
+  Skills:
+  - equip{i=OrclingWeapon_1:0}
+OrclingWeapon_2:
+  Skills:
+  - equip{i=OrclingWeapon_2:0}
+OrclingWeapon_3:
+  Skills:
+  - equip{i=OrclingWeapon_3:0}
+OrclingWeapon_4:
+  Skills:
+  - equip{i=OrclingWeapon_4:0}
+OrclingWeapon_5:
+  Skills:
+  - equip{i=OrclingWeapon_5:0}
+OrclingWeapon_6:
+  Skills:
+  - equip{i=OrclingWeapon_6:0}
+OrclingWeapon_7:
+  Skills:
+  - equip{i=OrclingWeapon_7:0}
+
+#+-------------------------------+#
+#         Wraith Equipment        #
+#+-------------------------------+#
+
+WraithWeapon_1:
+  Skills:
+  - equip{i=WraithWeapon_1:0}
+WraithWeapon_2:
+  Skills:
+  - equip{i=WraithWeapon_2:0}
+WraithWeapon_3:
+  Skills:
+  - equip{i=WraithWeapon_3:0}
+WraithWeapon_4:
+  Skills:
+  - equip{i=WraithWeapon_4:0}
+WraithWeapon_5:
+  Skills:
+  - equip{i=WraithWeapon_5:0}
+WraithWeapon_6:
+  Skills:
+  - equip{i=WraithWeapon_6:0}
+WraithWeapon_7:
+  Skills:
+  - equip{i=WraithWeapon_7:0}
+WraithWeapon_8:
+  Skills:
+  - equip{i=WraithWeapon_8:0}
+WraithWeapon_9:
+  Skills:
+  - equip{i=WraithWeapon_9:0}
+  - setstance{stance=wraithwarrior} @self

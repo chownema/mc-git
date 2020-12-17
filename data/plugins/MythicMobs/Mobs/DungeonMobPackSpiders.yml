@@ -1,0 +1,505 @@
+
+# Version: 1.4.2
+# Created by: Buguser
+# Created and tested in: MythicMobs-4.11.0-SNAPSHOT, MythicMobsExtension-1.72-SNAPSHOT SNAPSHOT & Minecraft V.1.16.2 ✓
+#
+# Please report bugs in the MythicMobs-Forum via direct message or contact me on Discord: ZeroX#6102
+
+#                +-----------------------+
+#                |MOB INFORMATION SPIDERS|
+#                +-----------------------+
+#
+#Spiderlings:    4 types: - Spiderling Poison
+#                         - Spiderling Wither
+#                         - Spiderling Frost
+#                         - Spiderling Fire
+#                Growing up to big spiders
+#                Grow faster through various actions (damage, kills and time)
+#
+#SpiderPoison:   Poisons enemies by its bites
+#                Spit nets on his opponents
+#
+#SpiderWither:   Wither enemies by its bites
+#                Uses a skill that makes the spider faster and mounts the opponent when dealing damage in time
+#
+#SpiderFrost:    Freezes enemies by its bites
+#                Triggers a dangerous blizzard that deals heavy damage and freezes the player.
+#
+#SpiderFire:     Burns enemies by its bites
+#                Uses a fire-breath skill
+#
+#SpiderEggs:     5 types: - SpiderEggPoison (Spawns Spiderling Poison)
+#                         - SpiderEggWither (Spawns Spiderling Wither)
+#                         - SpiderEggFrost (Spawns Spiderling Frost)
+#                         - SpiderEggFire (Spawns Spiderling Fire)
+#                         - SpiderEggRandom (Spawns Random Spiderlings)
+#                Spawns Spiderlings
+#                There is a maximum of two spiderlings at the same time, if they are killed, more can spawn, if the spiderlings grow up, the score will not be reseted.
+#                The score can also be reseted by hitting the spider egg
+#                The spiders in the area will try to stop the player from destroying the spider egg.
+
+### 1. Spiderling Poison
+SpiderlingPoison:
+  Type: CAVE_SPIDER
+  Display: '&ePoison Spiderling'
+  Health: 25
+  Damage: 4
+  Faction: Enemy
+  Options:
+    #AlwaysShowName: true
+    Collidable: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 30
+  Drops:
+  #- exp 5 1
+  AITargetSelectors:
+  - 0 clear
+  - 1 threatholder
+  - 2 players
+  - 3 hurtbytarget
+  Skills:
+  - skill{s=Spider_Grow} @self ~onTimer:20
+  - skill{s=Spiderling_Score} @self ~onTimer:25
+  - summon{type=SpiderPoison;amount=1;radius=0} @self ~onSignal:GROW
+
+  - effect:particles{p=cloud;amount=12;hS=0.7;vS=0.7;speed=0.02} @self ~onSpawn
+  - modifymobscore{objective=grow;action=add;value=20} ~onKillPlayer
+  - modifymobscore{objective=grow;action=add;value=2} ~onAttack
+  - modifymobscore{objective=grow;action=set;value=0} ~onDropCombat
+  - modifymobscore{objective=grow;action=set;value=0} ~onSpawn
+
+  - effect:particles{p=villager_happy;amount=1;hS=0.6;vS=0.6;speed=0} @self ~onTimer:5
+  - effect:particles{p=crit;amount=6;hS=0.6;vS=0.6;speed=0} @self ~onTimer:5
+
+### 2. Spiderling Wither
+SpiderlingWither:
+  Type: CAVE_SPIDER
+  Display: '&eWither Spiderling'
+  Health: 40
+  Damage: 6
+  Faction: Enemy
+  Options:
+    #AlwaysShowName: true
+    Collidable: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 30
+  Drops:
+  #- exp 5 1
+  AITargetSelectors:
+  - 0 clear
+  - 1 threatholder
+  - 2 players
+  - 3 hurtbytarget
+  Skills:
+  - skill{s=Spider_Grow} @self ~onTimer:20
+  - skill{s=Spiderling_Score} @self ~onTimer:25
+  - summon{type=SpiderWither;amount=1;radius=0} @self ~onSignal:GROW
+
+  - effect:particles{p=cloud;amount=12;hS=0.7;vS=0.7;speed=0.02} @self ~onSpawn
+  - modifymobscore{objective=grow;action=add;value=20} ~onKillPlayer
+  - modifymobscore{objective=grow;action=add;value=2} ~onAttack
+  - modifymobscore{objective=grow;action=set;value=0} ~onDropCombat
+  - modifymobscore{objective=grow;action=set;value=0} ~onSpawn
+
+  - effect:particles{p=spell_mob;color=#000000;amount=1;hS=0.6;vS=0.6;speed=0} @self ~onTimer:5
+  - effect:particles{p=crit;amount=6;hS=0.6;vS=0.6;speed=0} @self ~onTimer:5
+
+### 3. Spiderling Frost
+SpiderlingFrost:
+  Type: CAVE_SPIDER
+  Display: '&eFrost Spiderling'
+  Health: 50
+  Damage: 6
+  Faction: Enemy
+  Options:
+    #AlwaysShowName: true
+    Collidable: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 30
+  Drops:
+  #- exp 5 1
+  AITargetSelectors:
+  - 0 clear
+  - 1 threatholder
+  - 2 players
+  - 3 hurtbytarget
+  Skills:
+  - skill{s=Spider_Grow} @self ~onTimer:20
+  - skill{s=Spiderling_Score} @self ~onTimer:25
+  - summon{type=SpiderFrost;amount=1;radius=0} @self ~onSignal:GROW
+
+  - effect:particles{p=cloud;amount=12;hS=0.7;vS=0.7;speed=0.02} @self ~onSpawn
+  - modifymobscore{objective=grow;action=add;value=20} ~onKillPlayer
+  - modifymobscore{objective=grow;action=add;value=2} ~onAttack
+  - modifymobscore{objective=grow;action=set;value=0} ~onDropCombat
+  - modifymobscore{objective=grow;action=set;value=0} ~onSpawn
+
+  - effect:particles{p=fireworks_spark;amount=1;hS=0.6;vS=0.6;speed=0} @self ~onTimer:5
+  - effect:particles{p=crit;amount=6;hS=0.6;vS=0.6;speed=0} @self ~onTimer:5
+
+### 4. Spiderling Fire
+SpiderlingFire:
+  Type: CAVE_SPIDER
+  Display: '&eFire Spiderling'
+  Health: 45
+  Damage: 6
+  DamageModifiers:
+  - FIRE_TICK -1
+  - FIRE -1
+  - HOT_FLOOR 0
+  Faction: Enemy
+  Options:
+    #AlwaysShowName: true
+    Collidable: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 30
+  Drops:
+  #- exp 5 1
+  AITargetSelectors:
+  - 0 clear
+  - 1 threatholder
+  - 2 players
+  - 3 hurtbytarget
+  Skills:
+  - skill{s=Spider_Grow} @self ~onTimer:20
+  - skill{s=Spiderling_Score} @self ~onTimer:25
+  - extinguish @Self ~onDamaged
+  - summon{type=SpiderFire;amount=1;radius=0} @self ~onSignal:GROW
+
+  - effect:particles{p=cloud;amount=12;hS=0.7;vS=0.7;speed=0.02} @self ~onSpawn
+  - modifymobscore{objective=grow;action=add;value=20} ~onKillPlayer
+  - modifymobscore{objective=grow;action=add;value=2} ~onAttack
+  - modifymobscore{objective=grow;action=set;value=0} ~onDropCombat
+  - modifymobscore{objective=grow;action=set;value=0} ~onSpawn
+
+  - effect:particles{p=flame;amount=2;hS=0.6;vS=0.6;speed=0} @self ~onTimer:5
+  - effect:particles{p=crit;amount=6;hS=0.6;vS=0.6;speed=0} @self ~onTimer:5
+
+### 5. Spider Poison
+SpiderPoison:
+  Type: SPIDER
+  Display: '&ePoison Spider'
+  Health: 60
+  Damage: 8
+  Faction: Enemy
+  Options:
+    #AlwaysShowName: true
+    Collidable: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 30
+  Drops:
+  #- exp 5 1
+  AITargetSelectors:
+  - 0 clear
+  - 1 threatholder
+  - 2 players
+  - 3 hurtbytarget
+  Skills:
+  - skill{s=Spider_WebBoltCast} @target ~onTimer:130 0.8
+  - skill{s=Spider_BitePoison} @Target ~onAttack
+
+  - effect:particles{p=cloud;amount=12;hS=0.7;vS=0.7;speed=0.02} @self ~onSpawn
+  - effect:particles{p=villager_happy;amount=6;hS=0.6;vS=0.6;speed=0} @self ~onTimer:5
+
+### 6. Spider Wither
+SpiderWither:
+  Type: SPIDER
+  Display: '&eWither Spider'
+  Health: 80
+  Damage: 10
+  Faction: Enemy
+  Options:
+    #AlwaysShowName: true
+    Collidable: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 30
+  Drops:
+  #- exp 5 1
+  AITargetSelectors:
+  - 0 clear
+  - 1 threatholder
+  - 2 players
+  - 3 hurtbytarget
+  Skills:
+  - skill{s=Spider_Mount} @target ~onTimer:110 0.6
+  - skill{s=Spider_Mount_Hit} @target ~onAttack
+  - skill{s=Spider_BiteWither} @Target ~onAttack
+
+  - effect:particles{p=cloud;amount=12;hS=0.7;vS=0.7;speed=0.02} @self ~onSpawn
+  - effect:particles{p=spell_mob;color=#000000;amount=6;hS=0.6;vS=0.6;speed=0} @self ~onTimer:5
+
+  - dismount ~onDamaged
+
+### 7. Spider Frost
+SpiderFrost:
+  Type: SPIDER
+  Display: '&eFrost Spider'
+  Health: 120
+  Damage: 10
+  Faction: Enemy
+  Options:
+    #AlwaysShowName: true
+    Collidable: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 30
+  Drops:
+  #- exp 5 1
+  AITargetSelectors:
+  - 0 clear
+  - 1 threatholder
+  - 2 players
+  - 3 hurtbytarget
+  Skills:
+  - skill{s=Spider_FrostAura} @target ~onTimer:130 0.6
+  - skill{s=Spider_BiteFrost} @Target ~onAttack
+
+  - effect:particles{p=cloud;amount=12;hS=0.7;vS=0.7;speed=0.02} @self ~onSpawn
+  - effect:particles{p=fireworks_spark;amount=3;hS=0.6;vS=0.6;speed=0} @self ~onTimer:5
+
+### 8. Spider Fire
+SpiderFire:
+  Type: SPIDER
+  Display: '&eFire Spider'
+  Health: 100
+  Damage: 8
+  DamageModifiers:
+  - FIRE_TICK -1
+  - FIRE -1
+  - HOT_FLOOR 0
+  Faction: Enemy
+  Options:
+    #AlwaysShowName: true
+    Collidable: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 30
+  Drops:
+  #- exp 5 1
+  AITargetSelectors:
+  - 0 clear
+  - 1 threatholder
+  - 2 players
+  - 3 hurtbytarget
+  Skills:
+  - skill{s=Spider_FireBreathCast} @target ~onTimer:100 0.6
+  - skill{s=Spider_BiteFire} @Target ~onAttack
+  - extinguish @Self ~onDamaged
+
+  - sound{s=block.fire.ambient;p=1.2} @self ~onTimer:120 0.7
+  - effect:particles{p=cloud;amount=12;hS=0.7;vS=0.7;speed=0.02} @self ~onSpawn
+  - effect:particles{p=flame;amount=4;hS=0.6;vS=0.6;speed=0.02} @self ~onTimer:5
+
+### 9. Spider Egg Poison
+SpiderEggPoison:
+  Type: CAVE_SPIDER
+  Display: '&ePoison Spider Eggs'
+  Health: 130
+  Faction: Enemy
+  Options:
+    #AlwaysShowName: true
+    Collidable: true
+    KnockbackResistance: 1
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventTeleport: true
+    Silent: true
+    MovementSpeed: 0
+  Drops:
+  #- exp 5 1
+  AITargetSelectors:
+  - 0 clear
+  AIGoalSelectors:
+  - 0 clear
+  #Disguise:            ###Block disguises are not working in 1.13 at the moment, just tell me if you find a solution :)
+    #Type: BLOCK
+    #Block: DRAGON_EGG
+    #BlockData: 0
+    #ShowName: true
+  Skills:
+  - skill{s=Spider_Summon_Poison} @self ~onTimer:120 0.7
+  - rally{types=SpiderlingPoison,SpiderPoison;radius=30} @trigger ~onDamaged
+
+  - skill{s=Spider_Egg_Score} ~onTimer:400
+  - skill{s=Spider_Egg_Score} ~onDamaged 0.2
+
+  - effect:particles{p=villager_happy;amount=2;hS=0.3;vS=0.3;speed=0;y=1} @self ~onTimer:5
+  - effect:particles{p=crit_magic;amount=4;hS=0.5;vS=0.5;speed=0;y=1} @self ~onTimer:5
+  - sound{s=entity.slime.hurt;p=1.3} @self ~onDamaged
+  - sound{s=entity.slime.death;p=1.3} @self ~onDeath
+
+  - potion{t=SLOW;d=2147483647;l=9} @self ~onSpawn
+
+### 10. Spider Egg Wither
+SpiderEggWither:
+  Type: CAVE_SPIDER
+  Display: '&eWither Spider Eggs'
+  Health: 160
+  Faction: Enemy
+  Options:
+    #AlwaysShowName: true
+    Collidable: true
+    KnockbackResistance: 1
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventTeleport: true
+    Silent: true
+    MovementSpeed: 0
+  Drops:
+  #- exp 5 1
+  AITargetSelectors:
+  - 0 clear
+  AIGoalSelectors:
+  - 0 clear
+  #Disguise:            ###Block disguises are not working in 1.13 at the moment, just tell me if you find a solution :)
+    #Type: BLOCK
+    #Block: DRAGON_EGG
+    #BlockData: 0
+    #ShowName: true
+  Skills:
+  - skill{s=Spider_Summon_Wither} @self ~onTimer:120 0.7
+  - rally{types=SpiderlingWither,SpiderWither;radius=30} @trigger ~onDamaged
+
+  - skill{s=Spider_Egg_Score} ~onTimer:400
+  - skill{s=Spider_Egg_Score} ~onDamaged 0.2
+
+  - effect:particles{p=spell_mob;color=#000000;amount=2;hS=0.3;vS=0.3;speed=0;y=1} @self ~onTimer:5
+  - effect:particles{p=crit_magic;amount=4;hS=0.5;vS=0.5;speed=0;y=1} @self ~onTimer:5
+  - sound{s=entity.slime.hurt;p=1.3} @self ~onDamaged
+  - sound{s=entity.slime.death;p=1.3} @self ~onDeath
+
+  - potion{t=SLOW;d=2147483647;l=9} @self ~onSpawn
+
+### 11. Spider Egg Frost
+SpiderEggFrost:
+  Type: CAVE_SPIDER
+  Display: '&eFrost Spider Eggs'
+  Health: 200
+  Faction: Enemy
+  Options:
+    #AlwaysShowName: true
+    Collidable: true
+    KnockbackResistance: 1
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventTeleport: true
+    Silent: true
+    MovementSpeed: 0
+  Drops:
+  #- exp 5 1
+  AITargetSelectors:
+  - 0 clear
+  AIGoalSelectors:
+  - 0 clear
+  #Disguise:            ###Block disguises are not working in 1.13 at the moment, just tell me if you find a solution :)
+    #Type: BLOCK
+    #Block: DRAGON_EGG
+    #BlockData: 0
+    #ShowName: true
+  Skills:
+  - skill{s=Spider_Summon_Frost} @self ~onTimer:120 0.7
+  - rally{types=SpiderlingFrost,SpiderFrost;radius=30} @trigger ~onDamaged
+
+  - skill{s=Spider_Egg_Score} ~onTimer:400
+  - skill{s=Spider_Egg_Score} ~onDamaged 0.2
+
+  - effect:particles{p=fireworks_spark;amount=2;hS=0.3;vS=0.3;speed=0;y=1} @self ~onTimer:5
+  - effect:particles{p=crit_magic;amount=4;hS=0.5;vS=0.5;speed=0;y=1} @self ~onTimer:5
+  - sound{s=entity.slime.hurt;p=1.3} @self ~onDamaged
+  - sound{s=entity.slime.death;p=1.3} @self ~onDeath
+
+  - potion{t=SLOW;d=2147483647;l=9} @self ~onSpawn
+
+### 12. Spider Egg Fire
+SpiderEggFire:
+  Type: CAVE_SPIDER
+  Display: '&eFire Spider Eggs'
+  Health: 180
+  DamageModifiers:
+  - FIRE_TICK -1
+  - FIRE -1
+  - HOT_FLOOR 0
+  Faction: Enemy
+  Options:
+    #AlwaysShowName: true
+    Collidable: true
+    KnockbackResistance: 1
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventTeleport: true
+    Silent: true
+    MovementSpeed: 0
+  Drops:
+  #- exp 5 1
+  AITargetSelectors:
+  - 0 clear
+  AIGoalSelectors:
+  - 0 clear
+  #Disguise:            ###Block disguises are not working in 1.13 at the moment, just tell me if you find a solution :)
+    #Type: BLOCK
+    #Block: DRAGON_EGG
+    #BlockData: 0
+    #ShowName: true
+  Skills:
+  - skill{s=Spider_Summon_Fire} @self ~onTimer:120 0.7
+  - rally{types=SpiderlingFire,SpiderFire;radius=30} @trigger ~onDamaged
+  - extinguish @Self ~onDamaged
+
+  - skill{s=Spider_Egg_Score} ~onTimer:400
+  - skill{s=Spider_Egg_Score} ~onDamaged 0.2
+
+  - effect:particles{p=flame;amount=4;hS=0.3;vS=0.3;speed=0;y=1} @self ~onTimer:5
+  - effect:particles{p=crit_magic;amount=4;hS=0.5;vS=0.5;speed=0;y=1} @self ~onTimer:5
+  - sound{s=entity.slime.hurt;p=1.3} @self ~onDamaged
+  - sound{s=entity.slime.death;p=1.3} @self ~onDeath
+
+  - potion{t=SLOW;d=2147483647;l=9} @self ~onSpawn
+
+### 13. Spider Egg Random
+SpiderEggRandom:
+  Type: CAVE_SPIDER
+  Display: '&eSpider Eggs'
+  Health: 300
+  Faction: Enemy
+  Options:
+    #AlwaysShowName: true
+    Collidable: true
+    KnockbackResistance: 1
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventTeleport: true
+    Silent: true
+    MovementSpeed: 0
+  Drops:
+  #- exp 5 1
+  AITargetSelectors:
+  - 0 clear
+  AIGoalSelectors:
+  - 0 clear
+  #Disguise:            ###Block disguises are not working in 1.13 at the moment, just tell me if you find a solution :)
+    #Type: BLOCK
+    #Block: DRAGON_EGG
+    #BlockData: 0
+    #ShowName: true
+  Skills:
+  - skill{s=Spider_Summon_Random} @self ~onTimer:120 0.7
+  - rally{types=SpiderlingPoison,SpiderPoison,SpiderlingWither,SpiderWither,SpiderlingFrost,SpiderFrost,SpiderlingFire,SpiderFire;radius=30} @trigger ~onDamaged
+
+  - skill{s=Spider_Egg_Score} ~onTimer:400
+  - skill{s=Spider_Egg_Score} ~onDamaged 0.2
+
+  - effect:particles{p=villager_happy;amount=1;hS=0.3;vS=0.3;speed=0;y=1} @self ~onTimer:5
+  - effect:particles{p=spell_mob;color=#000000;amount=1;hS=0.3;vS=0.3;speed=0;y=1} @self ~onTimer:5
+  - effect:particles{p=fireworks_spark;amount=1;hS=0.3;vS=0.3;speed=0;y=1} @self ~onTimer:5
+  - effect:particles{p=flame;amount=1;hS=0.3;vS=0.3;speed=0;y=1} @self ~onTimer:5
+  - effect:particles{p=crit_magic;amount=4;hS=0.5;vS=0.5;speed=0;y=1} @self ~onTimer:5
+  - sound{s=entity.slime.hurt;p=1.3} @self ~onDamaged
+  - sound{s=entity.slime.death;p=1.3} @self ~onDeath
+
+  - potion{t=SLOW;d=2147483647;l=9} @self ~onSpawn

@@ -30,16 +30,18 @@ skills:
     BIRCH_FOREST: 1
     SWAMP: 1
     MOUNTAINS: 1
+    BASALT_DELTAS: 1
+    FLOWER_FOREST: 1
   armor:
-    DIAMOND_HELMET: 2
+    DIAMOND_HELMET: 23
     DIAMOND_CHESTPLATE: 13
     IRON_BOOTS: 6
     DIAMOND_LEGGINGS: 2
     IRON_HELMET: 4
-    IRON_CHESTPLATE: 4
-    IRON_LEGGINGS: 4
+    IRON_CHESTPLATE: 25
+    IRON_LEGGINGS: 25
     GOLDEN_LEGGINGS: 11
-    DIAMOND_BOOTS: 11
+    DIAMOND_BOOTS: 30
     LEATHER_HELMET: 11
   food:
     BREAD: 3
@@ -54,12 +56,30 @@ skills:
     DIAMOND_CHESTPLATE: 1
     DIAMOND_BOOTS: 1
   sword:
-    ZOMBIE: 1
-    SKELETON: 1
+    ZOMBIE: 9
+    SKELETON: 4
+    BEE: 1
+    SPIDER: 1
+    CREEPER: 1
+    HUSK: 1
+    PIG: 1
+    PILLAGER: 4
   mining:
     DIAMOND_ORE: 11
   axe:
     ZOMBIE: 1
+  bow:
+    STRIDER: 1
+    DONKEY: 1
+    SKELETON: 3
+    CREEPER: 2
+    ZOMBIE: 3
+    PIG: 1
+    PILLAGER: 1
+  shield:
+    BLOCKED: 11
+    DAMAGE: 13
 items:
   default: 1
+  shelter: 1
   archer: 1

@@ -1,0 +1,123 @@
+locale: en
+hardship: 49.8
+mana: 0
+days-since-hardship-depreciation: 2
+tutorial-index: 2
+tutorial-path: default
+tutorial-progress: 0
+use-announcements: true
+kills: 2
+kill-streak: 1
+deaths: 2
+highest-kill-streak: 1
+points: 0.40000000000000013
+karma: -1
+classes:
+- 0
+last-karma-depreciation: 1607680422684
+skills:
+  exploration:
+    PLAINS: 1
+    FOREST: 1
+    WOODED_HILLS: 1
+    TAIGA: 1
+    TAIGA_HILLS: 1
+    MOUNTAINS: 1
+    RIVER: 1
+    BEACH: 1
+    LUKEWARM_OCEAN: 1
+    WARM_OCEAN: 1
+    SUNFLOWER_PLAINS: 1
+  sword:
+    CHICKEN: 9
+    ZOMBIE: 9
+    CREEPER: 8
+    SKELETON: 9
+    SHEEP: 9
+    SPIDER: 9
+    BAT: 4
+    WOLF: 1
+    PLAYER: 2
+    POLAR_BEAR: 1
+    PIG: 5
+    WITCH: 1
+    HUSK: 3
+    ZOMBIE_VILLAGER: 2
+    LLAMA: 1
+    ZOMBIFIED_PIGLIN: 1
+    COW: 1
+    ENDERMAN: 1
+  crafting:
+    STICK: 5
+    IRON_SHOVEL: 1
+    DIAMOND_SHOVEL: 3
+    BLAZE_POWDER: 2
+    CRAFTING_TABLE: 2
+    CHEST: 2
+    OAK_PLANKS: 5
+    DIAMOND_PICKAXE: 1
+    DIAMOND_AXE: 1
+    WHITE_BED: 1
+    BUCKET: 1
+    DIAMOND_BLOCK: 1
+    STONECUTTER: 1
+    STONE_BUTTON: 1
+    DIAMOND: 5
+    BOOKSHELF: 4
+    HEAVY_WEIGHTED_PRESSURE_PLATE: 1
+    OAK_STAIRS: 4
+    OAK_SLAB: 5
+    OAK_DOOR: 3
+    IRON_BLOCK: 1
+    GOLD_NUGGET: 5
+    GOLD_INGOT: 5
+    EMERALD_BLOCK: 1
+    BOW: 2
+  armor:
+    NETHERITE_HELMET: 30
+    NETHERITE_CHESTPLATE: 30
+    NETHERITE_BOOTS: 30
+    NETHERITE_LEGGINGS: 30
+    DIAMOND_CHESTPLATE: 21
+    GOLDEN_BOOTS: 8
+    CHAINMAIL_HELMET: 20
+    IRON_BOOTS: 4
+  food:
+    COOKED_MUTTON: 7
+    CARROT: 7
+    COOKED_BEEF: 7
+    COOKED_CHICKEN: 7
+    ROTTEN_FLESH: 4
+    BAKED_POTATO: 7
+    BREAD: 7
+    APPLE: 1
+  shield:
+    DAMAGE: 39
+    BLOCKED: 27
+  axe:
+    SPIDER: 1
+  bow:
+    ZOMBIE: 9
+    CREEPER: 8
+    BLAZE: 1
+    PLAYER: 10
+    SKELETON: 9
+    STRIDER: 1
+    GIANT: 1
+    BEE: 1
+    SPIDER: 1
+    PIG: 1
+    BAT: 1
+    PHANTOM: 1
+  mining:
+    IRON_ORE: 6
+    COAL_ORE: 31
+    GOLD_ORE: 2
+  building:
+    shack: 2
+items:
+  default: 1
+  plot7x7: 1
+  shelter: 1
+  archer: 1
+  plot11x11: 1

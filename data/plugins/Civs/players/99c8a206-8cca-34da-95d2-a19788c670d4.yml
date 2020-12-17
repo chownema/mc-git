@@ -1,0 +1,123 @@
+locale: en
+hardship: -475.0
+mana: 0
+days-since-hardship-depreciation: 4
+tutorial-index: 3
+tutorial-path: builder
+tutorial-progress: 0
+use-announcements: true
+kills: 3
+kill-streak: 0
+deaths: 3
+highest-kill-streak: 2
+points: 1.2999999999999998
+karma: 7
+classes: []
+last-karma-depreciation: 1607752773871
+skills:
+  exploration:
+    WOODED_HILLS: 1
+    FOREST: 1
+    RIVER: 1
+    PLAINS: 1
+    SUNFLOWER_PLAINS: 1
+    BASALT_DELTAS: 1
+    TAIGA: 1
+    BEACH: 1
+    DEEP_OCEAN: 1
+    OCEAN: 1
+  food:
+    COOKED_MUTTON: 6
+    COOKED_BEEF: 7
+    CARROT: 3
+    APPLE: 5
+    BREAD: 5
+    SWEET_BERRIES: 2
+  mining:
+    IRON_ORE: 22
+    COAL_ORE: 60
+  sword:
+    ZOMBIE: 9
+    CREEPER: 1
+    SKELETON: 9
+    CHICKEN: 1
+    COW: 1
+    PIG: 1
+    SPIDER: 5
+    PLAYER: 1
+    PILLAGER: 1
+    HUSK: 2
+    VEX: 3
+    STRAY: 2
+    WITCH: 1
+  armor:
+    TURTLE_HELMET: 27
+    DIAMOND_BOOTS: 7
+    LEATHER_CHESTPLATE: 27
+    DIAMOND_LEGGINGS: 7
+    IRON_LEGGINGS: 20
+    CHAINMAIL_BOOTS: 30
+    LEATHER_LEGGINGS: 20
+    LEATHER_HELMET: 21
+  shield:
+    BLOCKED: 20
+    DAMAGE: 62
+  potion:
+    INVISIBILITY: 3
+  crafting:
+    OAK_PLANKS: 5
+    STICK: 5
+    IRON_PICKAXE: 1
+    TORCH: 4
+    COAL_BLOCK: 3
+    COBBLESTONE_SLAB: 5
+    IRON_BLOCK: 5
+    BIRCH_PLANKS: 5
+    SHIELD: 2
+    CHEST: 5
+    STONE_HOE: 2
+    STONE_SHOVEL: 2
+    GOLD_NUGGET: 5
+    GOLD_INGOT: 5
+    GOLD_BLOCK: 5
+    EMERALD_BLOCK: 3
+    LADDER: 5
+    OAK_SLAB: 5
+    COMPOSTER: 1
+    HOPPER: 1
+    BONE_MEAL: 5
+    WOODEN_AXE: 1
+    CRAFTING_TABLE: 1
+    OAK_DOOR: 3
+    IRON_AXE: 1
+    EMERALD: 5
+    FURNACE: 1
+    DIAMOND_BLOCK: 1
+    IRON_INGOT: 1
+  axe:
+    PLAYER: 1
+    ZOMBIE: 6
+    SKELETON: 3
+    ENDERMITE: 1
+    WITHER_SKELETON: 1
+  bow:
+    SKELETON: 9
+    ZOMBIE: 9
+    PIG: 1
+    CREEPER: 6
+    SPIDER: 6
+    PLAYER: 4
+    GIANT: 2
+    BAT: 3
+    MAGMA_CUBE: 2
+    PHANTOM: 1
+    SHEEP: 3
+    VEX: 2
+  building:
+    coal_shop: 2
+    council_room: 1
+    purifier: 1
+items:
+  default: 1
+  archer: 1
+  plot11x11: 1

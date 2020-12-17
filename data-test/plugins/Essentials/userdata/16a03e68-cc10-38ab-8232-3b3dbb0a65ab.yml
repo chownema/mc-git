@@ -1,12 +1,20 @@
 lastAccountName: 2Sp1cy
 timestamps:
-  login: 1606897442421
-  logout: 1606901601899
-ipAddress: 151.210.138.26
+  login: 1607498741783
+  logout: 1607495857438
+ipAddress: 10.0.2.2
 logoutlocation:
   world: world
-  x: -116.40976797193288
+  x: -65.63638576592177
   y: 63.0
-  z: 732.3530918392088
-  yaw: 266.78748
-  pitch: 16.993069
+  z: 703.2249245510993
+  yaw: 192.56984
+  pitch: 13.203686
+money: '474.0050000000000002'
+lastlocation:
+  world: world
+  x: -288.7849440437007
+  y: 63.0
+  z: 3388.507606262984
+  yaw: 351.97202
+  pitch: 20.56371

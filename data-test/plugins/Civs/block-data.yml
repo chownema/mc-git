@@ -1,8 +1,42 @@
+189b93c1-966e-4ee4-ab26-4d385eb9628d~-121^5~64^5~670^5:
+  mat: CHEST
+  name: Coal Shop
+  lore:
+  - §099c8a206-8cca-34da-95d2-a19788c670d4
+  - §0coal_shop
+  - Sells 144 coal to the server for $432
+  - per day
+189b93c1-966e-4ee4-ab26-4d385eb9628d~-66^5~66^5~670^5:
+  mat: CHEST
+  name: Shack
+  lore:
+  - §00c7e77a7-5432-300c-9d7c-659d34abf14c
+  - §0shack
+  - The most basic house. Earns $96 per
+  - day by selling potatoes.
+189b93c1-966e-4ee4-ab26-4d385eb9628d~-115^5~66^5~681^5:
+  mat: OBSIDIAN
+  name: Council Room
+  lore:
+  - §099c8a206-8cca-34da-95d2-a19788c670d4
+  - §0council_room
+  - The central structure for a town.
+  - Produces 192 power per day. Also acts
+  - as a home port.
 189b93c1-966e-4ee4-ab26-4d385eb9628d~-90^5~72^5~676^5:
   mat: CHEST
   name: Shelter
   lore:
   - §0acdf07c9-67df-34f6-bab1-19022eb6a8f7
+  - §0shelter
+  - A safe place to store your items, and
+  - earn some money from bread, beef,
+  - carrots, or potatoes every 30 minutes.
+189b93c1-966e-4ee4-ab26-4d385eb9628d~-113^5~76^5~672^5:
+  mat: CHEST
+  name: Shelter
+  lore:
+  - §099c8a206-8cca-34da-95d2-a19788c670d4
   - §0shelter
   - A safe place to store your items, and
   - earn some money from bread, beef,

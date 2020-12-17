@@ -1,15 +1,15 @@
 lastAccountName: stackdocker2
 timestamps:
-  login: 1607059068801
-  logout: 1607061384248
-ipAddress: 192.168.50.49
+  login: 1607675828553
+  logout: 1607675957332
+ipAddress: 192.168.50.1
 logoutlocation:
   world: world
-  x: -202.04902251253534
-  y: 77.0
-  z: 649.7481908822435
-  yaw: 4.654639
-  pitch: 9.049616
+  x: -11.846917268995858
+  y: 63.687774607182
+  z: 690.5640246179079
+  yaw: -69.2305
+  pitch: 30.449804
 lastlocation:
   world: world
   x: 186.60255749311483
@@ -17,3 +17,5 @@ lastlocation:
   z: -508.14982540330664
   yaw: -230.60751
   pitch: 32.749935
+money: '28321.89520000000006408'
+afk: false

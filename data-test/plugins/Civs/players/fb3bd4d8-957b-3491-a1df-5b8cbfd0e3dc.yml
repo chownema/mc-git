@@ -6,30 +6,40 @@ tutorial-index: 0
 tutorial-path: default
 tutorial-progress: 0
 use-announcements: true
-kills: 1
-kill-streak: 0
-deaths: 1
+kills: 3
+kill-streak: 1
+deaths: 3
 highest-kill-streak: 1
-points: 0.10000000000000009
-karma: 28
-classes:
-- 0
-last-karma-depreciation: 1606705173008
+points: 0.7000000000000002
+karma: 1
+classes: []
+last-karma-depreciation: 1607550822444
 skills:
   exploration:
     PLAINS: 1
     RIVER: 1
     FOREST: 1
     WOODED_HILLS: 1
+    BEACH: 1
+    TAIGA: 1
+    OCEAN: 1
+    DEEP_OCEAN: 1
+    FLOWER_FOREST: 1
+    LUKEWARM_OCEAN: 1
+    WARM_OCEAN: 1
+    MUSHROOM_FIELDS: 1
+    MUSHROOM_FIELD_SHORE: 1
+    SUNFLOWER_PLAINS: 1
+    BASALT_DELTAS: 1
   food:
     BAKED_POTATO: 7
     BREAD: 7
     CARROT: 7
   crafting:
-    BIRCH_PLANKS: 4
-    CRAFTING_TABLE: 2
+    BIRCH_PLANKS: 5
+    CRAFTING_TABLE: 3
     STICK: 5
-    SPRUCE_PLANKS: 4
+    SPRUCE_PLANKS: 5
     WOODEN_PICKAXE: 1
     STONE_PICKAXE: 3
     STONE_SWORD: 2
@@ -38,9 +48,27 @@ skills:
     COAL: 5
     TORCH: 5
     OAK_DOOR: 3
-    BREAD: 4
-    CHEST: 1
-    STONE_HOE: 1
+    BREAD: 5
+    CHEST: 2
+    STONE_HOE: 3
+    POLISHED_BLACKSTONE: 4
+    POLISHED_BLACKSTONE_SLAB: 5
+    CHISELED_POLISHED_BLACKSTONE: 1
+    IRON_SHOVEL: 3
+    HEAVY_WEIGHTED_PRESSURE_PLATE: 2
+    OAK_FENCE_GATE: 5
+    DIAMOND_SHOVEL: 4
+    IRON_DOOR: 5
+    OAK_PLANKS: 5
+    DIAMOND_PICKAXE: 1
+    COBBLESTONE_SLAB: 5
+    IRON_PICKAXE: 1
+    BUCKET: 5
+    POLISHED_BASALT: 5
+    SMOOTH_STONE_SLAB: 5
+    POLISHED_ANDESITE_STAIRS: 4
+    DIORITE_STAIRS: 5
+    IRON_HOE: 2
   armor:
     IRON_BOOTS: 24
     CHAINMAIL_HELMET: 30
@@ -53,24 +81,51 @@ skills:
     GOLDEN_CHESTPLATE: 2
     LEATHER_BOOTS: 2
   sword:
-    ZOMBIE: 7
-    SKELETON: 3
-    CREEPER: 1
+    ZOMBIE: 9
+    SKELETON: 9
+    CREEPER: 4
+    GHAST: 1
+    SPIDER: 9
+    PILLAGER: 5
+    CHICKEN: 1
+    HUSK: 3
+    PLAYER: 1
+    SHEEP: 1
+    COW: 3
+    MUSHROOM_COW: 1
+    BAT: 1
+    STRAY: 1
+    PIG: 4
+    MAGMA_CUBE: 9
   axe:
     ZOMBIE: 3
     SKELETON: 1
     PLAYER: 1
   bow:
-    ZOMBIE: 2
-    SKELETON: 1
-    CREEPER: 7
+    ZOMBIE: 9
+    SKELETON: 9
+    CREEPER: 9
     BAT: 2
     STRIDER: 1
-    PLAYER: 2
+    PLAYER: 4
     CHICKEN: 1
-    LLAMA: 1
+    LLAMA: 2
+    HUSK: 9
+    SHEEP: 2
+    SPIDER: 6
+    IRON_GOLEM: 2
+    VILLAGER: 1
+    GIANT: 1
+    ZOMBIE_VILLAGER: 2
+    BEE: 4
+    DONKEY: 1
   shield:
     DAMAGE: 6
+  mining:
+    GLOWSTONE: 6
+    DIAMOND_ORE: 2
+    IRON_ORE: 7
+    COAL_ORE: 5
 items:
   default: 1
   shelter: 1

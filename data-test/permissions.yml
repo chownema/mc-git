@@ -1,0 +1,35 @@
+server.basics:
+    description: Basic permissions for My Cool Server.
+    default: true
+    children:
+       elitemobs.user: true
+       elitemobs.currency.user: true
+       elitemobs.shop: true
+       elitemobs.shop.command: true
+       elitemobs.guild: true
+       elitemobs.guild.command: true
+       elitemobs.customshop: true
+       elitemobs.currency.pay: true
+       elitemobs.currency.add: true
+       elitemobs.currency.subtract: true
+       elitemobs.currency.set: true
+       elitemobs.currency.check: true
+       elitemobs.currency.wallet: true
+       elitemobs.currency.cointop: true
+       elitemobs.guild.menu: true
+       backpack.use: true
+       backpack.fullpickup: true
+       backpack.size.6: true
+       backpack.noCooldown: true
+       doublejump.jump: true
+       GSit.*: true
+       veinminer.veinmine.Pickaxe: true
+       civs.shop: true
+       civs.join: true
+       civs.admin: true
+       craftbook.mech.gate.use: true
+       craftbook.mech.gate: true
+       craftbook.mech.dgate: true
+       craftbook.mech.gate.use: true
+       craftbook.mech.gate.restock: true
+       craftbook.mech.gate.infinite: true

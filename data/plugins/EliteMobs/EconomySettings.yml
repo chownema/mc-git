@@ -1,7 +1,7 @@
 enableEconomy: true
-itemResaleValue: 5.0
+itemResaleValue: 10.0
 currencyName: Elite Coins
-useVault - not recommended: false
+useVault - not recommended: true
 enableCurrencyShower: true
 currencyShowerTierMultiplier: 1.0
 chatCurrencyShowerMessage: '&7[EM] You''ve picked up &a$amount $currency_name!'
