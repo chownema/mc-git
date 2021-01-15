@@ -1,0 +1,11 @@
+================== Links ==================
+Sources, Bug Tracker & Suggestions: https://github.com/nulli0n/
+More Resources: https://spigotmc.org/resources/authors/nightexpress.81588/
+Donations: https://www.paypal.me/nightexpress
+===========================================
+
+- Reviews section is NOT moderated. It's useless to post there.
+- Discussion thread is moderated, you can post there.
+- Messages like "I can't do <thing>, pls help", "<plugin>/<thing> does not works" are ignored.
+- For Premium resources, support is for buyers only.
+- No support for old Spigot or Plugin versions.

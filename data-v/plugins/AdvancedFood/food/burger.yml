@@ -1,0 +1,65 @@
+cooldown: 10
+item:
+  material: PLAYER_HEAD
+  amount: 1
+  skull-hash: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjZkM2E3ZTA3ZjVkYWRkNDdiYWRiMTM4MmE1YjE2Mjc4MThlZTE2YTE5YTdjMGJmMjc2OGFlNjI2MjczN2I2In19fQ==\
+  durability: 0
+  name: '&6&lBurger on a Plate'
+  lore:
+  - '&7This burger looks appetizing.'
+  - '&7'
+  - '&6&lEffects:'
+  - '&e▸ &6Health: &e+5&7.'
+  - '&e▸ &6Hunger: &e+5&7.'
+  - '&e▸ &6Strength I: &e30 sec&7.'
+  enchanted: false
+  item-flags: []
+  unbreakable: false
+actions:
+  default:
+    conditions:
+      list: []
+    action-executors:
+    - '[HEALTH] ~amount: 5; ~target: self;'
+    - '[HUNGER] ~amount: 5; ~target: self;'
+    - '[SATURATION] ~amount: 5; ~target: self;'
+    - '[POTION] ~name: INCREASE_DAMAGE; ~amount: 1; ~duration: 300; ~target: self;'
+    - '[PARTICLE_SIMPLE] ~name: ITEM_CRACK:BREAD; ~offset: 0.3,0.3,0.3; ~speed: 0.1;
+      ~amount: 30; ~target: self;'
+    - '[SOUND] ~name: ENTITY_GENERIC_EAT; ~target: self;'
+    target-selectors:
+    - '[SELF] ~name: self;'
+craft:
+  workbench:
+    enabled: true
+    recipe:
+      shaped: true
+      result: 2g0004000j9cg01arb9dpim6sj1cpq3ks3cc5smasivd1im2p01002k6rrldpq022g00dq62poa00950tb2dhkm6gjlddlmit2mc5m7apbj1001kob4epgmsor5chj6urr479gm8tj6dtnm8nr9ehimqno00ph7asj7clp002g0199mmtbcdh7nerj5e85002ige9nn0pbiehkmaso900478pboehqn4pbj180000011000alj1dhqma05lclskkc2qb1k30p2o99m66ua96piniiikaco6ojq9d9o3eibeapsm4gq96p4mqq1gch442dicf4sj0miod0o68m2adhhnidbkc5bjar2p6d56gmjea5qm4ram61636kjccl454cb3dlancjjab9lkqci56dd58g9jb9l5cqqpat96mji4chklilqid56l8j9k9lmkacapd92j4jbaccq4ql38dhd58h9ib5a4adapahi6kja799mkqqj3697kehjc9pl4icidd9hnkjhi94p4irhh75j52f9tbg000200094m801470q34pb3ccq6abb261j3cb9k6com6bb26sqmcb9k6or64p1p6cp64e1gc800k007chkn6s3cc5sgi0049hnn4p88000001g05dti4t35f1q24eh2oajjel38d5pi0ojle9jmash0dhnmuqrj41gn0s35ehknkqbecsn24v801pti4t35f1q24eh2oajje8jt00cnm8jkcls788hq4b1aedm2ktm4apj6clhn8spq49ug09br49q6au3k48t25gl7cr1bm828clgmot3878gc59pm5cqu57d4oajjebh2fk02aup2ehingt1278hc59r6oati0i3ldpjmashq431aedhb6nh9h5e2ksris8jt00l7m8jkcls788hq4b1aepm2ncg56t3icln6et38414jk862ksr36c10edim7gl76sn24v880024sobdck024up2ehingt1278hc59pmoajmogjle9jmash0dtn20o90a1m62t3549ug0000
+      ingredients:
+        A: k00010004qb4006mqqbeclhn4ob6egt62qbi0400agrfeln78080
+        B: 1800020009km800fdlkmspb3e9gmct1qc9p6aob40400agrfeln78080
+        C: k00010004qb4006mqqbeclhn4ob6egt62qbi0400agrfeln78080
+        D: a0000g002d5i0043dd5n6aoric5j78ej3c5p74rrk0400agrfeln78080
+        E: a0000g002d5i005bdd5n6aoric5j78ej3dtnmmpb4bth6apb60400agrfeln78080
+        F: 2g0004000j9cg01crb9dpim6sj1cpq3koj1ddim8nrgdtq62t3f0400agrfeln78080
+        G: k00010004qb4006mqqbeclhn4ob6egt62qbi0400agrfeln78080
+        H: 1800020009km800fdlkmspb3e9gmct1qc9p6aob40400agrfeln78080
+        I: k00010004qb4006mqqbeclhn4ob6egt62qbi0400agrfeln78080
+  furnace:
+    enabled: true
+    recipe:
+      input: 1800020009km800fdlkmspb3e9gmct1qc9p6aob40400agrfeln78080
+      result: 2g0004000j9cg01arb9dpim6sj1cpq3ks3cc5smasivd1im2p01002k6rrldpq022g00dq62poa00950tb2dhkm6gjlddlmit2mc5m7apbj1001kob4epgmsor5chj6urr479gm8tj6dtnm8nr9ehimqno00ph7asj7clp002g0199mmtbcdh7nerj5e85002ige9nn0pbiehkmaso900478pboehqn4pbj180000011000alj1dhqma05lclskkc2qb1k30p2o99m66ua96piniiikaco6ojq9d9o3eibeapsm4gq96p4mqq1gch442dicf4sj0miod0o68m2adhhnidbkc5bjar2p6d56gmjea5qm4ram61636kjccl454cb3dlancjjab9lkqci56dd58g9jb9l5cqqpat96mji4chklilqid56l8j9k9lmkacapd92j4jbaccq4ql38dhd58h9ib5a4adapahi6kja799mkqqj3697kehjc9pl4icidd9hnkjhi94p4irhh75j52f9tbg000200094m801470q34pb3ccq6abb261j3cb9k6com6bb26sqmcb9k6or64p1p6cp64e1gc800k007chkn6s3cc5sgi0049hnn4p88000001g05dti4t35f1q24eh2oajjel38d5pi0ojle9jmash0dhnmuqrj41gn0s35ehknkqbecsn24v801pti4t35f1q24eh2oajje8jt00cnm8jkcls788hq4b1aedm2ktm4apj6clhn8spq49ug09br49q6au3k48t25gl7cr1bm828clgmot3878gc59pm5cqu57d4oajjebh2fk02aup2ehingt1278hc59r6oati0i3ldpjmashq431aedhb6nh9h5e2ksris8jt00l7m8jkcls788hq4b1aepm2ncg56t3icln6et38414jk862ksr36c10edim7gl76sn24v880024sobdck024up2ehingt1278hc59pmoajmogjle9jmash0dtn20o90a1m62t3549ug0000
+      exp: 1.0
+      time: 3.0
+drops:
+  world-blacklist:
+  - world_name
+  - world_name2
+  spawn-reason-blacklist:
+  - SPAWNER
+  source-entity:
+    ZOMBIE:
+      chance: 5.0
+    SkeletonKing:
+      chance: 4.0

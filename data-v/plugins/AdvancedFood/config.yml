@@ -1,0 +1,8 @@
+core:
+  command-aliases: 'advancedfood,food'
+  lang: en
+  prefix: 'AdvancedFood'
+
+general:
+  allow-eat-if-full-hp: false
+  allow-eat-if-full-hunger: false

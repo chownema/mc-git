@@ -1,0 +1,61 @@
+Command:
+  Give:
+    Desc: Gives specified food to player.
+    Usage: <player> <food> [amount]
+    Done: Given &fx%amount% %item% &7to &a%player%&7.
+Food:
+  Error:
+    Invalid: Invalid food!
+  Craft:
+    Error:
+      NoPerm: '&cYou''re not allowed to craft this!'
+  Consume:
+    Error:
+      NoPerm: '&cYou''re not allowed to consume this!'
+      Cooldown: '&cYou must wait &e%time% &cto consume it again.'
+      FullHealth: '&cYou can not consume it because your &ehealth &clevel is full'
+      FullHunger: '&cYou can not consume it because your &efood &clevel is full'
+Editor:
+  Tip:
+    Commands:
+    - '&7'
+    - '&b&lCommand Tips:'
+    - '&7'
+    - '&2• &a[CONSOLE] <command> &2- Execute from Console.'
+    - '&2• &a[OP] <command> &2- Execute as an Operator.'
+    - '&2• &a<command> &2- Execute from a Player.'
+    - '&2• &a%player% &2- Player name placeholder.'
+    - '&7'
+    Particles:
+    - '&7'
+    - '&b&lParticles Syntax:'
+    - '&7'
+    - '&2• &a<Particle> <X-Offset> <Y-Offset> <Z-Offset> <Speed> <Amount>'
+    - '&2• &aFLAME 0.2 0.2 0.2 0.1 50'
+    - '&2• &aITEM_CRACK:APPLE 0.3 0.15 0.3 0.07 40'
+    - '&b&lParticle names: &dhttps://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html'
+    - '&7'
+    Potions:
+    - '&7'
+    - '&b&lPotion Effect Syntax:'
+    - '&7'
+    - '&2• &a<Effect>:<Level>:<Duration>'
+    - '&2• &aJUMP:1:30'
+    - '&2• &aSPEED:2:45'
+    - '&b&lEffect names: &dhttps://hub.spigotmc.org/javadocs/spigot/org/bukkit/potion/PotionEffectType.html'
+    - '&7'
+    Food:
+      Id: '&7Enter a food ID...'
+      Cooldown: '&7Enter a cooldown... &c(in seconds)'
+      Command: '&7Enter a command...'
+      Health: '&7Enter a health amount...'
+      Saturation: '&7Enter a saturation amount...'
+      Particle: '&7Enter a particle effect...'
+      Potion: '&7Enter a potion effect...'
+      Sound: '&7Enter a sound name...'
+    Furnace:
+      Exp: '&7Enter an exp amount...'
+      Time: '&7Enter a cook time... &c(in seconds)'
+  Error:
+    Food:
+      Exist: '&7Food with such id already exists!'

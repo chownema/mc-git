@@ -1,0 +1,135 @@
+title: 'Food Editor'
+size: 54
+object-slots: 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26
+
+content:
+
+  return:
+    material: BARRIER
+    name: '&cReturn'
+    slots: '49'
+    type: RETURN
+
+editor:
+  item:
+    material: APPLE
+    name: '&eFood Item'
+    lore:
+    - '&bCurrent: &f%item%'
+    - '&7'
+    - '&7This item represents the food.'
+    - '&aAny custom item is supported.'
+    - '&7'
+    - '&6Drag & Drop: &eReplace'
+    - '&6Middle-Click: &eGet Item'
+    slots: 4
+    type: FOOD_CHANGE_ITEM
+
+  actions:
+    material: COMMAND_BLOCK
+    name: '&eFood Actions'
+    lore:
+    - '&bPlease visit &anexwiki.info &bfor'
+    - '&bavailable list of custom actions'
+    - '&band descriptions.'
+    - '&7'
+    - '&7Custom Actions gives you a lot more'
+    - '&7possibilities in food creation:'
+    - '&7you can &dexecute commands&7, &dplay sounds'
+    - '&7and &deffects&7, modify &dplayer health &7and &dhunger'
+    - '&7and a lot more!'
+    - '&7'
+    - '&6Left-Click: &eEdit'
+    slots: 31
+    type: FOOD_ACTIONS
+
+  cooldown:
+    material: CLOCK
+    name: '&eConsume Cooldown'
+    lore:
+    - '&bCurrent: &a%cd-raw% sec.'
+    - '&bFormatted: &a%cd-format%'
+    - '&7'
+    - '&7Defines the duration before'
+    - '&7player can consume this food again.'
+    - '&7'
+    - '&6Left-Click: &eChange'
+    - '&6Right-Click: &eDisable'
+    slots: 13
+    type: FOOD_CHANGE_COOLDOWN
+
+  craft-state:
+    material: LIME_DYE
+    name: '&eToggle Crafting'
+    lore:
+    - '&bEnabled: &a%craft-enabled%'
+    - '&7'
+    - '&7Enables/Disables an ability to'
+    - '&7to craft this food on a &eWorkbench&7.'
+    - '&7'
+    - '&cMake sure you have defined a recipe'
+    - '&cto be able to enable this.'
+    - '&7'
+    - '&6Left-Click: &eToggle'
+    animation:
+      auto-play: false
+      start-frame: 0
+    animation-frames:
+      '0':
+        material: GRAY_DYE
+        name: '%GLOBAL%'
+        lore:
+        - '%GLOBAL%'
+      '1':
+        material: LIME_DYE
+        name: '%GLOBAL%'
+        lore:
+        - '%GLOBAL%'
+    slots: 1
+    type: FOOD_TOGGLE_CRAFT
+  
+  craft-recipe:
+    material: CRAFTING_TABLE
+    name: '&eCraft Recipe'
+    lore:
+    - '&7Click to define &eWorkbench &7recipe.'
+    slots: 10
+    type: FOOD_CHANGE_CRAFT
+
+  furnace-state:
+    material: LIME_DYE
+    name: '&eToggle Cooking'
+    lore:
+    - '&bEnabled: &a%furnace-enabled%'
+    - '&7'
+    - '&7Enables/Disables an ability to'
+    - '&7to cook this food in a &eFurnace&7.'
+    - '&7'
+    - '&cMake sure you have defined a recipe'
+    - '&cto be able to enable this.'
+    - '&7'
+    - '&6Left-Click: &eToggle'
+    animation:
+      auto-play: false
+      start-frame: 0
+    animation-frames:
+      '0':
+        material: GRAY_DYE
+        name: '%GLOBAL%'
+        lore:
+        - '%GLOBAL%'
+      '1':
+        material: LIME_DYE
+        name: '%GLOBAL%'
+        lore:
+        - '%GLOBAL%'
+    slots: 7
+    type: FOOD_TOGGLE_FURNACE
+  
+  furnace-recipe:
+    material: FURNACE
+    name: '&eFurnace Recipe'
+    lore:
+    - '&7Click to define &eFurnace &7recipe.'
+    slots: 16
+    type: FOOD_CHANGE_FURNACE

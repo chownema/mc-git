@@ -1,7 +1,7 @@
 [PREINITIALIZATION][SERVER][INFO] Current loaders after merging: [[preinit]]
 [PREINITIALIZATION][SERVER][INFO] Loading scripts for loader with names [preinit]
 [PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Shiv.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][SERVER][INFO] Completed script loading in: 2ms
+[PREINITIALIZATION][SERVER][INFO] Completed script loading in: 4ms
 [INITIALIZATION][SERVER][INFO] CraftTweaker: Building registry
 [INITIALIZATION][SERVER][INFO] CraftTweaker: Successfully built item registry
 [INITIALIZATION][SERVER][INFO] Current loaders after merging: [[preinit], [recipeevent | crafttweaker]]
@@ -13,7 +13,7 @@
 [INITIALIZATION][SERVER][INFO] Adding brewing recipe for <bountifulbaubles:potionrecall>, Registry size now: 48
 [INITIALIZATION][SERVER][INFO] Adding brewing recipe for <bountifulbaubles:potionwormhole>, Registry size now: 49
 [INITIALIZATION][SERVER][INFO] Script ending!
-[INITIALIZATION][SERVER][INFO] Completed script loading in: 294ms
+[INITIALIZATION][SERVER][INFO] Completed script loading in: 330ms
 [POSTINITIALIZATION][SERVER][INFO] Removing recipes for various outputs
 [POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "bountifulbaubles:spectralsilt_flaregun"
 [POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "bountifulbaubles:flare_red"

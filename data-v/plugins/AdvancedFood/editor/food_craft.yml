@@ -1,0 +1,32 @@
+title: 'Food Craft Editor'
+size: 45
+object-slots: 10,11,12,19,20,21,28,29,30
+content:
+  filler_1:
+    material: BLACK_STAINED_GLASS_PANE
+    name: '&7'
+    slots: '0,1,2,3,4,5,6,7,8,9,18,27,36,37,38,39,40,41,42,43,44,17,26,35,13,22,31,40,15,24,33,42'
+    type: NONE
+  filler_2:
+    material: GRAY_STAINED_GLASS_PANE
+    name: '&7'
+    slots: '14,25,32'
+    type: NONE
+  return:
+    material: REDSTONE
+    name: '&cReturn'
+    lore:
+    - '&bCancel changes and return.'
+    slots: '16'
+    type: RETURN
+editor:
+  save:
+    material: EMERALD
+    name: '&aSave Changes'
+    lore:
+    - '&bSave changes and re-register'
+    - '&bthe &aRecipe&b.'
+    slots: '34'
+    type: FOOD_SAVE
+
+

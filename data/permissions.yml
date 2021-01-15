@@ -85,8 +85,8 @@ server.basics:
        craftbook.mech.door.restock: true
        craftbook.mech.door.infinite: true
        craftbook.mech.drops: true
-       craftbook.mech.elevator: true
-       craftbook.mech.elevator.use: true
+       craftbook.mech.elevator: false
+       craftbook.mech.elevator.use: false
        craftbook.mech.footprints.use: true
        craftbook.mech.footprints.see: true
        craftbook.mech.headdrops.kill: true

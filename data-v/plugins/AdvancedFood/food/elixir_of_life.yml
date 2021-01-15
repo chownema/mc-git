@@ -1,0 +1,44 @@
+cooldown: 30
+item:
+  material: POTION
+  amount: 1
+  durability: 0
+  name: '&c&lElixir of Life'
+  lore:
+  - '&dThis elixir will give you the second breath!'
+  - ''
+  - '&c&lEffects:'
+  - '&4▸ &cHealth: &4+15%'
+  - '&4▸ &cRegeneration I: &420 sec.'
+  color: 250,20,20
+  enchanted: true
+  item-flags:
+  - '*'
+  unbreakable: false
+actions:
+  default:
+    conditions:
+      list: []
+      actions-on-fail: 'null'
+    action-executors:
+    - '[HEALTH] ~amount: 15%; ~target: self;'
+    - '[POTION] ~name: REGENERATION; ~amount: 1; ~duration: 600; ~target: self;'
+    - '[PARTICLE_SIMPLE] ~name: HEART; ~offset: 0.3,0.5,0.3; ~speed: 0.1; ~amount:
+      5; ~target: self;'
+    target-selectors:
+    - '[SELF] ~name: self;'
+craft:
+  workbench:
+    enabled: false
+  furnace:
+    enabled: false
+drops:
+  world-blacklist:
+  - '*'
+  spawn-reason-blacklist:
+  - SPAWNER
+  source-entity:
+    ZOMBIE:
+      chance: 5.0
+    SkeletonKing:
+      chance: 4.0

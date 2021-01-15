@@ -1,0 +1,49 @@
+title: 'Food Furnace Editor'
+size: 45
+object-slots: 10
+content:
+  filler_1:
+    material: BLACK_STAINED_GLASS_PANE
+    name: '&7'
+    slots: '0,1,2,3,4,5,6,7,8,18,19,20,21,22,23,24,25,26,36,37,38,39,40,41,42,43,44,9,27,11,13,17,35'
+    type: NONE
+  filler_2:
+    material: GRAY_STAINED_GLASS_PANE
+    name: '&7'
+    slots: '15,28,29,31,33,34'
+    type: NONE
+  return:
+    material: REDSTONE
+    name: '&cReturn'
+    lore:
+    - '&bCancel changes and return.'
+    slots: '14'
+    type: RETURN
+editor:
+  save:
+    material: EMERALD
+    name: '&aSave Changes'
+    lore:
+    - '&bSave changes and re-register'
+    - '&bthe &aRecipe&b.'
+    slots: 16
+    type: FOOD_SAVE
+  cook-exp:
+    material: EXPERIENCE_BOTTLE
+    name: '&aCook Exp'
+    lore:
+    - '&bCurrent: &a%cook-exp%'
+    - ''
+    - '&6Left-Click: &eChange'
+    slots: 30
+    type: FOOD_CHANGE_FURNACE_EXP
+  cook-time:
+    material: CLOCK
+    name: '&aCook Time'
+    lore:
+    - '&bCurrent: &a%cook-time%'
+    - ''
+    - '&6Left-Click: &eChange'
+    slots: 32
+    type: FOOD_CHANGE_FURNACE_TIME
+

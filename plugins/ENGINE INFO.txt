@@ -1,0 +1,12 @@
+================== NexEngine ==================
+A new, better and optimized version of the Core plugin.
+This Engine is required for the plugin to run.
+Don't forget to check engine settings in /plugins/NexEngine/ folder.
+
+Please, ALWAYS replace the engine .jar from every plugin update.
+Remove 'FogusCore.jar' from your /plugins/ folder if you have it - it's an outdated version of this engine.
+Also, rename 'FogusCore' folder to 'NexEngine' to keep the core settings.
+
+Source: https://github.com/nulli0n/NexEngine
+Feel free to use it in your projects.
+===============================================

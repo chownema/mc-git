@@ -1,0 +1,71 @@
+cooldown: 120
+item:
+  material: PLAYER_HEAD
+  amount: 1
+  skull-hash: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmVkYTVlZjUzNTg2ZmZlYmIyNTQ5ZDZkY2QwMDJmMjYwMTQ1MzZmMmUwNDMwYjZiODcwMjdlNzQ0MTZmNWViYSJ9fX0=
+  durability: 0
+  name: '&a&lEnergizer'
+  lore:
+  - '&bThis drink can highly boost you,'
+  - '&bbut be careful:'
+  - '&cDrinking it with bad health may kill you!'
+  - '&7'
+  - '&d&lEffects:'
+  - '&5▸ &dSaturation: &5+20&7.'
+  - '&5▸ &dSpeed II: &52 min&7.'
+  - ''
+  - '&c&lPost-Effects:'
+  - '&4▸ &cSaturation: &4-10&7.'
+  - '&4▸ &cSlowness: &420 sec&7.'
+  enchanted: false
+  item-flags: []
+  unbreakable: false
+actions:
+  good:
+    conditions:
+      list:
+      - '[ENTITY_HEALTH] ~amount: >30%; ~target: self;'
+      actions-on-fail: bad
+    action-executors:
+    - '[SATURATION] ~amount: 20; ~target: self;'
+    - '[POTION] ~name: SPEED; ~amount: 2; ~duration: 2400; ~target: self;'
+    - '[PARTICLE_SIMPLE] ~name: VILLAGER_HAPPY; ~offset: 0.3,0.5,0.3; ~speed: 0.1;
+      ~amount: 20; ~target: self;'
+    - '[MESSAGE] ~message: &aI feel better now!; ~target: self;'
+    - '[POTION] ~name: SLOW; ~amount: 1; ~duration: 400; ~target: self; ~delay: 2400;'
+    - '[SATURATION] ~amount: -10; ~target: self; ~delay: 2400;'
+    - '[MESSAGE] ~message: &6Energy drink effect is ended...; ~delay: 2400; ~target:
+      self;'
+    - '[SOUND] ~name: ENTITY_GENERIC_DRINK; ~target: self;'
+    target-selectors:
+    - '[SELF] ~name: self;'
+  bad:
+    conditions:
+      list: []
+      actions-on-fail: 'null'
+    action-executors:
+    - '[DAMAGE] ~amount: 2; ~target: self;'
+    - '[SATURATION] ~amount: -5; ~target: self;'
+    - '[POTION] ~name: SLOW; ~amount: 1; ~duration: 200; ~target: self;'
+    - '[PARTICLE_SIMPLE] ~name: WITHER; ~offset: 0.3,0.5,0.3; ~speed: 0.1; ~amount:
+      15; ~target: self;'
+    - '[SOUND] ~name: ENTITY_WITHER_AMBIENT; ~target: self;'
+    - '[MESSAGE] ~message: &cOh, it seems this drink had has a bad effect on you!;
+      ~target: self;'
+    target-selectors:
+    - '[SELF] ~name: self;'
+craft:
+  workbench:
+    enabled: false
+  furnace:
+    enabled: false
+drops:
+  world-blacklist:
+  - '*'
+  spawn-reason-blacklist:
+  - SPAWNER
+  source-entity:
+    ZOMBIE:
+      chance: 5.0
+    SkeletonKing:
+      chance: 4.0

@@ -23,4 +23,7 @@
 -33 64 54 -24 70 62 NetherShrine.tml
 -27 30 -74 -17 41 -64 DoomHouse.tml
 -25 37 334 -16 43 342 NetherShrine.tml
+19 30 -189 29 45 -179 DoomTower.tml
 119 53 47 124 64 56 VanillaVillageChurch-r.tml
+129 10 -181 139 17 -170 WoodHouse3_Ruined.tml
+160 54 -96 168 61 -88 LargeNetherHouse.tml

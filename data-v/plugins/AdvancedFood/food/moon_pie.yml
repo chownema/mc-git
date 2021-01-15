@@ -1,0 +1,64 @@
+cooldown: 20
+item:
+  material: PUMPKIN_PIE
+  amount: 1
+  durability: 0
+  name: '&e&lMoon Pie'
+  lore:
+  - '&6This pie has a &ehidden power&6!'
+  - '&6Try to eat it at the &emidnight'
+  - '&6to obtain all it''s powers!'
+  - ''
+  - '&e&lEffects:'
+  - '&2▸ &aHealth: &2+2'
+  - '&2▸ &aHunger: &2+4'
+  - '&2▸ &aSaturation: &2+4'
+  enchanted: false
+  item-flags: []
+  unbreakable: false
+actions:
+  power:
+    conditions:
+      list:
+      - '[WORLD_TIME] ~amount: >18000; ~target: self;'
+      - '[WORLD_TIME] ~amount: <23000; ~target: self;'
+      actions-on-fail: normal
+    action-executors:
+    - '[HEALTH] ~amount: 4; ~target: self;'
+    - '[HUNGER] ~amount: 8; ~target: self;'
+    - '[SATURATION] ~amount: 8; ~target: self;'
+    - '[POTION] ~name: JUMP; ~amount: 2; ~duration: 600; ~target: self;'
+    - '[PARTICLE_SIMPLE] ~name: ITEM_CRACK:BREAD; ~offset: 0.3,0.3,0.3; ~speed: 0.1;
+      ~amount: 30; ~target: self;'
+    - '[SOUND] ~name: ENTITY_GENERIC_EAT; ~target: self;'
+    - '[MESSAGE] ~message: &aYou just got a secret &eMoon Pie &aPower!; ~target: self;'
+    target-selectors:
+    - '[SELF] ~name: self;'
+  normal:
+    conditions:
+      list: []
+      actions-on-fail: 'null'
+    action-executors:
+    - '[HEALTH] ~amount: 2; ~target: self;'
+    - '[HUNGER] ~amount: 4; ~target: self;'
+    - '[SATURATION] ~amount: 4; ~target: self;'
+    - '[PARTICLE_SIMPLE] ~name: ITEM_CRACK:BREAD; ~offset: 0.3,0.3,0.3; ~speed: 0.1;
+      ~amount: 30; ~target: self;'
+    - '[SOUND] ~name: ENTITY_GENERIC_EAT; ~target: self;'
+    target-selectors:
+    - '[SELF] ~name: self;'
+craft:
+  workbench:
+    enabled: false
+  furnace:
+    enabled: false
+drops:
+  world-blacklist:
+  - '*'
+  spawn-reason-blacklist:
+  - SPAWNER
+  source-entity:
+    ZOMBIE:
+      chance: 5.0
+    SkeletonKing:
+      chance: 4.0
